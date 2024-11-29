@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario SignIn</h1>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+    <h2>
+        <ul>
+            {% for category, message in messages %}
+                <li class="{{ category }}">{{ message }}</li>
+            {% endfor %}
+        </ul>
+    </h2>
+    {% endif %}
+    {% endwith %}
+    <form method="POST">
+        {{form.hidden_tag()}}
+        <div>
+            {{form.username.label}}
+            {{form.username(class="form-control")}}
+            {% for error in form.username.errors %} <!-- Mostrar errores -->
+                <small style="color: red;">{{ error }}</small>
+            {% endfor %}
+        </div>
+        <div>
+            {{form.pwd.label}}
+            {{form.pwd(class="form-control")}}
+            {% for error in form.pwd.errors %} <!-- Mostrar errores -->
+                <small style="color: red;">{{ error }}</small>
+            {% endfor %}
+        </div>
+        <div>
+            {{ form.submit(class="btn btn-primary") }}
+        </div>
+    </form>
+</body>
+</html>

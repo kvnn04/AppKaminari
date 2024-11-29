@@ -1,0 +1,6 @@
+Titulo y marca: Kaminari
+
+Quiero hacer un e-commers solo de remeras de estilo anime o relacionado al titulo o marca Kaminari(dios del rayo)
+
+mi idea es tener la pagina principal y que aparezcan las remeras, si vos le haces click a la que queres te muestre a una decripcion o info de la remera, 
+tambien quiero que tenga un carrito. solo eso (por ahora)

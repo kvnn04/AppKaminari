@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------------------
+Fecha 23/10/2024 14:28
+
+Queres que las personas puedan iniciar sesion?
+    -si
+
+Queres que todo se guarde en una base de datos, productos, personas, ventas realzadas, carritos comprados, etc?
+    -si
+    
+Queres una intefaz llamativa tenga un UI/UX involucrado? esto llevara mas tiempo y mas presupuesto para contrataar a un especialista.
+    -no por ahora, quiero que salga al mercado lo mas rapido posible
+
+Necesitas ayuda o asesoria con la parte de marketing, ya sea la parte de la marca o como hacer llegar a la multitud nuevo emprendiminto?
+    -Puede ser, ya tengo la marca como quiero que se llame mi emprendiminto, creo que si para la parte de hacer un buen logo
+
+Perfecto, con estos datos ya puedo empezar a hacer cosas. Cualquier consulta o duda comunicamelo a mi mail, asi yo mismo hare lo mismo si tengo
+preguntas sobre el proyecto, queiro que mantengamos una comunicacion bidireccional.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------

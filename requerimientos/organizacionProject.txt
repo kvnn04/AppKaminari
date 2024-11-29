@@ -1,0 +1,34 @@
+
+Crear proyecto Kaminari 
+
+Primero:
+    -De que se va a tratar? Hecho -> esta en ideaProyecto.txt
+    -Que funcionalidad va a tener? Hecho -> esta en requerimientos.txt
+    -Primero va los requerimientos? -> no, va la idea general del proyecto para despues el tecnico haga los requerimientos en base a la idea general del cliente
+
+
+
+Segundo:
+    -por donde empiezo?
+        -DB
+        -BackEnd
+        -FrontEnd
+        -DiagramasUML # hecho
+        -APIRest
+        -Patrones de diseño( no me se ninguno hasta ahora)
+
+-> Respuesta a el Segundo punto de mi organizacionProyecto.txt:
+    -Orden de como va ser el flujo que va a llevar el proyecto de cliente para el desarrollo del producto.
+        -DiagramasUML
+            -Caso de uso -> ¿Cuáles serán las funcionalidades principales? Hecho
+            -Componentes -> Componentes de mi proyecto # hecho
+            -Clases -> Estructura de mi Logica # hecho
+            -Secuencia -> manejo de consultas http # hecho
+            -Base de datos -> modelado de una buena base de datos # hecho
+
+        -Crear DB # hecho
+        -APIRest a la DB hecho
+        -Logica BackEnd 
+        -Diseñar FrontEnd
+        -Desarrollar FrontEnd
+        -Explorar y aprender patrones de diseño
