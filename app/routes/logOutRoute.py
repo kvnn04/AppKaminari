@@ -10,3 +10,8 @@ logOut: Blueprint = Blueprint(name='logOut', import_name=__name__)
 def logout():
     session.pop('informationUsuario', None)  # Elimina la clave específica
     return redirect(url_for('home'))
+
+
+
+'sdfgsdfgsdfgds'
+'afdasfdasdfsd'
