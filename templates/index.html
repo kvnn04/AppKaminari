@@ -17,10 +17,44 @@ Inicio - Mi Aplicación
 {% endif %}
 {% endwith %}
 
+
 {% if allproduct %}
-    {% for producto in allproduct %}
-        <a href="{{ url_for('producto.productoPage', id=producto['id'])}}">{{producto}}</a><br>
-    {% endfor %}
+        <section id="card_productos" class="container">
+            <div class="row mt-3">
+                {% for producto in allproduct %}
+                <div class="col-md-3 d-flex mb-2">
+                    <a href="{{ url_for('producto.productoPage', id=producto['id'])}}" class="card" style="width: 18rem;">
+                        <img src="https://via.placeholder.com/400x400" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-text">${{producto['precio']}}</h4>
+                            <p class="card-text">{{producto['descripcion']}}</p>
+                            <p class="card-text">{{producto['nombre']}}</p>
+                        </div>
+                    </a>
+                </div>
+                {% endfor %}
+                <div class="col-md-3 d-flex mb-2">
+                    <a href="#" class="card" style="width: 18rem;">
+                        <img src="https://via.placeholder.com/400x400" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-text">sdafasd</h4>
+                            <p class="card-text">dsfsd</p>
+                            <p class="card-text">sdfad</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 d-flex mb-2">
+                    <a href="#" class="card" style="width: 18rem;">
+                        <img src="https://via.placeholder.com/400x400" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-text">sdafasd</h4>
+                            <p class="card-text">dsfsd</p>
+                            <p class="card-text">sdfad</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
 {% endif %}
 
 
