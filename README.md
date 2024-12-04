@@ -13,6 +13,7 @@ dia: 4/12/2024
         -Filtro por talle en la vista productos
         -Proteccion contra CSRF
         -Creo que es bueno una cantidad reducida de peticiones a mi api
+        -Agregue una rama develop a mi git, esto me ayuda a siempre tener un codigo funcional en la parte main y poder desarrollar tranquilo en la rama develop
 
         Puntos malos: 
             -Estructura de proyecto esta mal para mi, creeo
