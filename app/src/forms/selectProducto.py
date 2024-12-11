@@ -6,7 +6,7 @@ from wtforms.validators import DataRequired
 
 class ProductFormColor(FlaskForm):
     color = SelectField('Color', validators=[DataRequired(message="Por favor, selecciona un color.")])
-    submit = SubmitField('Seleccionar Color')
+    submit = SubmitField('Comprar')
 
     def __init__(self, colorChoices: List[tuple], *args, **kwargs):
         super().__init__(*args, **kwargs)
@@ -24,7 +24,7 @@ class ProductFormTalle(FlaskForm):
 class FilterTalleByColor(FlaskForm):
     talle = SelectField('Talle', validators=[DataRequired(message="Por favor, selecciona un talle.")])
     color = SelectField('Color')
-    submit = SubmitField('Comprar')
+    enviar = SubmitField('Comprar')
 
     def __init__(self, talleChoices: List[tuple], colorChoices: List[tuple], *args, **kwargs):
         super().__init__(*args, **kwargs)

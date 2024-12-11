@@ -6,14 +6,7 @@ Producto Page
 
 {% block content %}
 
-
-
-
 {% if producto %}
-
-
-
-
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-8 d-flex flex-column">
@@ -48,6 +41,9 @@ Producto Page
               <section class="container-fluid mt-3">
                 <h2>Descripcion</h2>
                 <p>{{producto['descripcion']}}</p>
+                <p>
+                  {{producto}}
+              </p>
               </section>
         </div>
 
@@ -65,67 +61,83 @@ Producto Page
                         <h2>-25%</h2>
                     </div>
                 </div>
+
+                <!-- <div class="mb-3">
+                    <label class="form-label">Talle</label>
+                    <select class="form-select" id="talle-select">
+                        {% if talleActual %}
+                            <option value="" disabled>{{talleActual['talleActual']}}</option>
+
+                        {% for variante in talleActual['opcionesTalle'] %}
+                            <option value="{{ url_for('producto.productoPage', id=producto['id'], talleParams=variante) }}">
+                                {{ variante }}
+                            </option>
+                        {% endfor %}
+                        {% else %}
+                            <option value="" selected disabled>Selecciona un talle</option>
+                        {% endif %}
+                    </select>
+                </div> -->
+
+                <!-- Example single danger button -->
+                <label class="form-label">Talle</label>
+                <div class="btn-group d-grid gap-2">
+                    {% if talleActual %}
+                    <button type="button" class="btn btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        {{talleActual['talleActual']}}
+                    </button>
+                    <ul class="dropdown-menu">
+
+                        {% for variante in talleActual['opcionesTalle'] %}
+                            <li><a class="dropdown-item" href="{{ url_for('producto.productoPage', id=producto['id'], talleParams=variante) }}">{{variante}}</a></li>
+                        {% endfor %}
+                        {% else %}
+                            <li><a class="dropdown-item" href="#">Selecciona un talle</a></li>
+
+                        {% endif %}
+                    </ul>
+                </div>
+                <!-- Example single danger button -->
+                <label class="form-label">Color</label>
+                <div class="btn-group d-grid gap-2">
+                    {% if talleActual %}
+                    <button type="button" class="btn btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        {{colorParams}}
+                    </button>
+                    <ul class="dropdown-menu">
+
+                        {% for variante in talleActual['coloresTalleActual'] %}
+                            <li><a class="dropdown-item" href="{{ url_for('producto.productoPage', id=producto['id'], talleParams=talleActual['talleActual'], colorParams=variante[0] ) }}">{{variante[0]}}</a></li>
+                        {% endfor %}
+                        
+                    </ul>
+                </div>
+                <div>
+                    <p>
+                        stockDisponible: {{talleActual['stockFromTalleActual']}} 
+                    </p>
+                </div>
+                {% else %}
+                    <li><a class="dropdown-item" href="#">Selecciona un talle</a></li>
+
+                {% endif %}
+
+
+
                 
-                <!-- Formulario para seleccionar el talle -->
-                {% if form %}
-                <form method="POST" action="">
-                    {{ form.hidden_tag() }}
-            
-                    <!-- Campo para seleccionar Talle -->
-                    <div class="mb-3">
-                        <label for="talle" class="form-label">Talle</label>
-                        <select id="talle" class="form-select" required name="talle">
-                            {%if talleActual %} <option value="{{talleactual}}" selected>{{talleActual}}</option>
-                            {%else%} <option value="" selected disabled> Selecciona un Talle </option>
-                            {%endif%}
-                            {% for talle in form.talle.choices %}
-                                <option value="{{ talle[0] }}">{{ talle[1] }}</option>
-                            {% endfor %}
-                        </select>
-                    </div>
-            
-                    <!-- Campo para seleccionar Color -->
-                    <div class="mb-3">
-                        <label for="color" class="form-label">Color</label>
-                        <select id="color" class="form-select" name="color">
-                            <!-- <option value="" selected>Selecciona un Color</option> -->
-                            <option value="{{form.color.choices[0][0]}}" selected>{{form.color.choices[0][1]}}</option>
-                            {% for color in form.color.choices %}
-                                <option value="{{ color[0] }}">{{ color[1] }}</option>
-                            {% endfor %}
-                        </select>
-                    </div>
-                    
-                    <!-- Botón de envío -->
-                    <div class="d-grid gap-2">
-                        <button type="submit" class="btn btn-primary">Consultar Stock</button>
-                    </div>
-                </form>
-                {%else%}
-                <div>
-                    <h4>No hay variantes de este producto</h4>
-                </div>
-            {% endif %}
-            
-
-                <div>
-                    {% if stock %}
-                        <h5>Stock: {{stock}}</h5>
-                    {% endif %}
-                </div>
-
                 <div class="d-grid gap-2 mt-2">
-                    <button class="btn btn-outline-primary" type="button">Agregar a carrito</button>
+                    <a href="{{ url_for('carrito.agregarProductoACarrito', id=producto['id'], nombre=producto['nombre'],color=colorParams ,talle=talleActual['talleActual'], precio=producto['precio'])}}" class="btn btn-outline-primary">
+                        Agregar a carrito
+                    </a>
                 </div>
                 
+
+
             </section>
         </div>
     </div>
 </div>
 
-<p>
-    {{producto}}
-</p>
 {% endif %}
 
 {% endblock %}

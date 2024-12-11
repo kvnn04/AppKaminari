@@ -170,7 +170,7 @@
 2024-11-25 20:44:15,528 - INFO -  * Debugger PIN: 135-384-108
 2024-11-25 20:44:29,334 - INFO - 127.0.0.1 - - [25/Nov/2024 20:44:29] "GET / HTTP/1.1" 200 -
 2024-11-25 20:44:30,223 - INFO - 127.0.0.1 - - [25/Nov/2024 20:44:30] "GET / HTTP/1.1" 200 -
-2024-11-25 20:44:55,144 - ERROR - Excepción capturada: {}
+2024-11-25 20:44:55,144 - ERROR - Excepciï¿½n capturada: {}
 NoneType: None
 2024-11-25 20:44:55,191 - INFO - 127.0.0.1 - - [25/Nov/2024 20:44:55] "GET /signIn/ HTTP/1.1" 200 -
 2024-11-25 20:46:36,236 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\iniciarSesionRoute.py', reloading
@@ -626,9 +626,9 @@ NoneType: None
 2024-11-26 12:54:31,262 - WARNING -  * Debugger is active!
 2024-11-26 12:54:31,269 - INFO -  * Debugger PIN: 135-384-108
 2024-11-26 12:54:31,703 - INFO - 127.0.0.1 - - [26/Nov/2024 12:54:31] "GET /signIn/ HTTP/1.1" 200 -
-2024-11-26 12:54:42,485 - ERROR - Excepción capturada: "Credenciales inválidas"
+2024-11-26 12:54:42,485 - ERROR - Excepciï¿½n capturada: "Credenciales invï¿½lidas"
 NoneType: None
-2024-11-26 12:54:42,501 - ERROR - Excepción capturada: Error al iniciar sesion
+2024-11-26 12:54:42,501 - ERROR - Excepciï¿½n capturada: Error al iniciar sesion
 NoneType: None
 2024-11-26 12:54:42,503 - INFO - 127.0.0.1 - - [26/Nov/2024 12:54:42] "POST /signIn/ HTTP/1.1" 200 -
 2024-11-26 12:54:52,327 - INFO - 127.0.0.1 - - [26/Nov/2024 12:54:52] "[32mPOST /signIn/ HTTP/1.1[0m" 302 -
@@ -637,9 +637,9 @@ NoneType: None
 2024-11-26 12:55:36,812 - INFO -  * Restarting with stat
 2024-11-26 12:55:39,503 - WARNING -  * Debugger is active!
 2024-11-26 12:55:39,510 - INFO -  * Debugger PIN: 135-384-108
-2024-11-26 12:56:25,609 - ERROR - Excepción capturada: "Credenciales inválidas"
+2024-11-26 12:56:25,609 - ERROR - Excepciï¿½n capturada: "Credenciales invï¿½lidas"
 NoneType: None
-2024-11-26 12:56:25,614 - ERROR - Excepción capturada: Error al iniciar sesion
+2024-11-26 12:56:25,614 - ERROR - Excepciï¿½n capturada: Error al iniciar sesion
 NoneType: None
 2024-11-26 12:56:25,652 - INFO - 127.0.0.1 - - [26/Nov/2024 12:56:25] "POST /signIn/ HTTP/1.1" 200 -
 2024-11-26 12:56:33,555 - INFO - 127.0.0.1 - - [26/Nov/2024 12:56:33] "GET /signIn/ HTTP/1.1" 200 -
@@ -661,9 +661,9 @@ NoneType: None
 2024-11-26 13:11:46,500 - WARNING -  * Debugger is active!
 2024-11-26 13:11:46,506 - INFO -  * Debugger PIN: 135-384-108
 2024-11-26 13:11:51,627 - INFO - 127.0.0.1 - - [26/Nov/2024 13:11:51] "GET /signIn/ HTTP/1.1" 200 -
-2024-11-26 13:12:16,155 - ERROR - Excepción capturada: "Credenciales inválidas"
+2024-11-26 13:12:16,155 - ERROR - Excepciï¿½n capturada: "Credenciales invï¿½lidas"
 NoneType: None
-2024-11-26 13:12:16,157 - ERROR - Excepción capturada: Error al iniciar sesion
+2024-11-26 13:12:16,157 - ERROR - Excepciï¿½n capturada: Error al iniciar sesion
 NoneType: None
 2024-11-26 13:12:16,187 - INFO - 127.0.0.1 - - [26/Nov/2024 13:12:16] "[35m[1mPOST /signIn/ HTTP/1.1[0m" 500 -
 2024-11-26 13:12:16,369 - INFO - 127.0.0.1 - - [26/Nov/2024 13:12:16] "[36mGET /signIn/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
@@ -675,16 +675,16 @@ NoneType: None
 2024-11-26 13:12:39,796 - WARNING -  * Debugger is active!
 2024-11-26 13:12:39,803 - INFO -  * Debugger PIN: 135-384-108
 2024-11-26 13:12:46,949 - INFO - 127.0.0.1 - - [26/Nov/2024 13:12:46] "GET /signIn/ HTTP/1.1" 200 -
-2024-11-26 13:12:52,830 - ERROR - Excepción capturada: "Credenciales inválidas"
+2024-11-26 13:12:52,830 - ERROR - Excepciï¿½n capturada: "Credenciales invï¿½lidas"
 NoneType: None
-2024-11-26 13:12:52,831 - ERROR - Excepción capturada: Error al iniciar sesion
+2024-11-26 13:12:52,831 - ERROR - Excepciï¿½n capturada: Error al iniciar sesion
 NoneType: None
 2024-11-26 13:12:52,834 - INFO - 127.0.0.1 - - [26/Nov/2024 13:12:52] "[32mPOST /signIn/ HTTP/1.1[0m" 302 -
 2024-11-26 13:12:52,850 - INFO - 127.0.0.1 - - [26/Nov/2024 13:12:52] "GET /signIn/ HTTP/1.1" 200 -
 2024-11-26 13:12:57,131 - INFO - 127.0.0.1 - - [26/Nov/2024 13:12:57] "GET /signIn/ HTTP/1.1" 200 -
-2024-11-26 13:13:18,826 - ERROR - Excepción capturada: "Credenciales inválidas"
+2024-11-26 13:13:18,826 - ERROR - Excepciï¿½n capturada: "Credenciales invï¿½lidas"
 NoneType: None
-2024-11-26 13:13:18,828 - ERROR - Excepción capturada: Error al iniciar sesion
+2024-11-26 13:13:18,828 - ERROR - Excepciï¿½n capturada: Error al iniciar sesion
 NoneType: None
 2024-11-26 13:13:18,830 - INFO - 127.0.0.1 - - [26/Nov/2024 13:13:18] "[32mPOST /signIn/ HTTP/1.1[0m" 302 -
 2024-11-26 13:13:18,841 - INFO - 127.0.0.1 - - [26/Nov/2024 13:13:18] "GET /signIn/ HTTP/1.1" 200 -
@@ -869,7 +869,7 @@ NoneType: None
 2024-11-26 15:36:45,673 - INFO -  * Restarting with stat
 2024-11-26 15:36:47,608 - WARNING -  * Debugger is active!
 2024-11-26 15:36:47,614 - INFO -  * Debugger PIN: 135-384-108
-2024-11-26 15:36:50,407 - ERROR - Excepción capturada: error en la peticion {'detail': 'Not Found'}
+2024-11-26 15:36:50,407 - ERROR - Excepciï¿½n capturada: error en la peticion {'detail': 'Not Found'}
 NoneType: None
 2024-11-26 15:36:50,410 - INFO - 127.0.0.1 - - [26/Nov/2024 15:36:50] "[32mPOST /register/ HTTP/1.1[0m" 302 -
 2024-11-26 15:36:50,477 - INFO - 127.0.0.1 - - [26/Nov/2024 15:36:50] "GET /register/ HTTP/1.1" 200 -
@@ -878,7 +878,7 @@ NoneType: None
 2024-11-26 15:38:12,510 - WARNING -  * Debugger is active!
 2024-11-26 15:38:12,518 - INFO -  * Debugger PIN: 135-384-108
 2024-11-26 15:38:47,380 - INFO - 127.0.0.1 - - [26/Nov/2024 15:38:47] "GET /register/ HTTP/1.1" 200 -
-2024-11-26 15:39:13,687 - ERROR - Excepción capturada: error en la peticion {'detail': 'Not Found'}
+2024-11-26 15:39:13,687 - ERROR - Excepciï¿½n capturada: error en la peticion {'detail': 'Not Found'}
 NoneType: None
 2024-11-26 15:39:13,690 - INFO - 127.0.0.1 - - [26/Nov/2024 15:39:13] "[32mPOST /register/ HTTP/1.1[0m" 302 -
 2024-11-26 15:39:13,706 - INFO - 127.0.0.1 - - [26/Nov/2024 15:39:13] "GET /register/ HTTP/1.1" 200 -
@@ -887,7 +887,7 @@ NoneType: None
 2024-11-26 15:39:41,169 - WARNING -  * Debugger is active!
 2024-11-26 15:39:41,175 - INFO -  * Debugger PIN: 135-384-108
 2024-11-26 15:40:39,410 - INFO - 127.0.0.1 - - [26/Nov/2024 15:40:39] "GET /register/ HTTP/1.1" 200 -
-2024-11-26 15:41:15,285 - ERROR - Excepción capturada: error en la peticion {'detail': 'Not Found'}
+2024-11-26 15:41:15,285 - ERROR - Excepciï¿½n capturada: error en la peticion {'detail': 'Not Found'}
 NoneType: None
 2024-11-26 15:41:15,287 - INFO - 127.0.0.1 - - [26/Nov/2024 15:41:15] "[32mPOST /register/ HTTP/1.1[0m" 302 -
 2024-11-26 15:41:15,306 - INFO - 127.0.0.1 - - [26/Nov/2024 15:41:15] "GET /register/ HTTP/1.1" 200 -
@@ -896,7 +896,7 @@ NoneType: None
 2024-11-26 15:47:02,083 - WARNING -  * Debugger is active!
 2024-11-26 15:47:02,089 - INFO -  * Debugger PIN: 135-384-108
 2024-11-26 15:47:10,323 - INFO - 127.0.0.1 - - [26/Nov/2024 15:47:10] "GET /register/ HTTP/1.1" 200 -
-2024-11-26 15:47:49,561 - ERROR - Excepción capturada: error en la peticion {'detail': 'Not Found'}
+2024-11-26 15:47:49,561 - ERROR - Excepciï¿½n capturada: error en la peticion {'detail': 'Not Found'}
 NoneType: None
 2024-11-26 15:47:49,565 - INFO - 127.0.0.1 - - [26/Nov/2024 15:47:49] "[32mPOST /register/ HTTP/1.1[0m" 302 -
 2024-11-26 15:47:49,581 - INFO - 127.0.0.1 - - [26/Nov/2024 15:47:49] "GET /register/ HTTP/1.1" 200 -
@@ -905,7 +905,7 @@ NoneType: None
 2024-11-26 15:49:50,743 - WARNING -  * Debugger is active!
 2024-11-26 15:49:50,749 - INFO -  * Debugger PIN: 135-384-108
 2024-11-26 15:49:59,607 - INFO - 127.0.0.1 - - [26/Nov/2024 15:49:59] "GET /register/ HTTP/1.1" 200 -
-2024-11-26 15:50:23,978 - ERROR - Excepción capturada: error en la peticion {'detail': 'Not Found'}
+2024-11-26 15:50:23,978 - ERROR - Excepciï¿½n capturada: error en la peticion {'detail': 'Not Found'}
 NoneType: None
 2024-11-26 15:50:23,980 - INFO - 127.0.0.1 - - [26/Nov/2024 15:50:23] "[32mPOST /register/ HTTP/1.1[0m" 302 -
 2024-11-26 15:50:23,992 - INFO - 127.0.0.1 - - [26/Nov/2024 15:50:23] "GET /register/ HTTP/1.1" 200 -
@@ -918,12 +918,12 @@ NoneType: None
 2024-11-26 15:54:36,947 - WARNING -  * Debugger is active!
 2024-11-26 15:54:36,963 - INFO -  * Debugger PIN: 135-384-108
 2024-11-26 15:56:06,958 - INFO - 127.0.0.1 - - [26/Nov/2024 15:56:06] "GET /register/ HTTP/1.1" 200 -
-2024-11-26 15:56:17,204 - ERROR - Excepción capturada: error en la peticion {"detail":"Not Found"}
+2024-11-26 15:56:17,204 - ERROR - Excepciï¿½n capturada: error en la peticion {"detail":"Not Found"}
 NoneType: None
 2024-11-26 15:56:17,206 - INFO - 127.0.0.1 - - [26/Nov/2024 15:56:17] "[32mPOST /register/ HTTP/1.1[0m" 302 -
 2024-11-26 15:56:17,229 - INFO - 127.0.0.1 - - [26/Nov/2024 15:56:17] "GET /register/ HTTP/1.1" 200 -
 2024-11-26 15:56:54,534 - INFO - 127.0.0.1 - - [26/Nov/2024 15:56:54] "GET /register/ HTTP/1.1" 200 -
-2024-11-26 15:57:15,343 - ERROR - Excepción capturada: error en la peticion {"detail":"Not Found"}
+2024-11-26 15:57:15,343 - ERROR - Excepciï¿½n capturada: error en la peticion {"detail":"Not Found"}
 NoneType: None
 2024-11-26 15:57:15,345 - INFO - 127.0.0.1 - - [26/Nov/2024 15:57:15] "[32mPOST /register/ HTTP/1.1[0m" 302 -
 2024-11-26 15:57:15,358 - INFO - 127.0.0.1 - - [26/Nov/2024 15:57:15] "GET /register/ HTTP/1.1" 200 -
@@ -932,12 +932,12 @@ NoneType: None
 2024-11-26 15:58:46,292 - WARNING -  * Debugger is active!
 2024-11-26 15:58:46,298 - INFO -  * Debugger PIN: 135-384-108
 2024-11-26 15:59:16,507 - INFO - 127.0.0.1 - - [26/Nov/2024 15:59:16] "GET /register/ HTTP/1.1" 200 -
-2024-11-26 15:59:41,659 - ERROR - Excepción capturada: error en la peticion {"detail":"Not Found"}
+2024-11-26 15:59:41,659 - ERROR - Excepciï¿½n capturada: error en la peticion {"detail":"Not Found"}
 NoneType: None
 2024-11-26 15:59:41,662 - INFO - 127.0.0.1 - - [26/Nov/2024 15:59:41] "[32mPOST /register/ HTTP/1.1[0m" 302 -
 2024-11-26 15:59:41,673 - INFO - 127.0.0.1 - - [26/Nov/2024 15:59:41] "GET /register/ HTTP/1.1" 200 -
 2024-11-26 15:59:56,269 - INFO - 127.0.0.1 - - [26/Nov/2024 15:59:56] "GET /register/ HTTP/1.1" 200 -
-2024-11-26 16:00:26,509 - ERROR - Excepción capturada: error en la peticion {"detail":"Not Found"}
+2024-11-26 16:00:26,509 - ERROR - Excepciï¿½n capturada: error en la peticion {"detail":"Not Found"}
 NoneType: None
 2024-11-26 16:00:26,512 - INFO - 127.0.0.1 - - [26/Nov/2024 16:00:26] "[32mPOST /register/ HTTP/1.1[0m" 302 -
 2024-11-26 16:00:26,529 - INFO - 127.0.0.1 - - [26/Nov/2024 16:00:26] "GET /register/ HTTP/1.1" 200 -
@@ -946,7 +946,7 @@ NoneType: None
 2024-11-26 16:05:03,775 - WARNING -  * Debugger is active!
 2024-11-26 16:05:03,781 - INFO -  * Debugger PIN: 135-384-108
 2024-11-26 16:05:11,994 - INFO - 127.0.0.1 - - [26/Nov/2024 16:05:11] "GET /register/ HTTP/1.1" 200 -
-2024-11-26 16:05:46,654 - ERROR - Excepción capturada: Error en la petición: {"detail":"Not Found"}
+2024-11-26 16:05:46,654 - ERROR - Excepciï¿½n capturada: Error en la peticiï¿½n: {"detail":"Not Found"}
 NoneType: None
 2024-11-26 16:05:46,657 - INFO - 127.0.0.1 - - [26/Nov/2024 16:05:46] "[32mPOST /register/ HTTP/1.1[0m" 302 -
 2024-11-26 16:05:46,674 - INFO - 127.0.0.1 - - [26/Nov/2024 16:05:46] "GET /register/ HTTP/1.1" 200 -
@@ -977,7 +977,7 @@ NoneType: None
 2024-11-27 12:20:47,658 - INFO -  * Debugger PIN: 135-384-108
 2024-11-27 12:29:26,759 - INFO - 127.0.0.1 - - [27/Nov/2024 12:29:26] "GET /register/ HTTP/1.1" 200 -
 2024-11-27 12:33:11,467 - INFO - 127.0.0.1 - - [27/Nov/2024 12:33:11] "GET /register/ HTTP/1.1" 200 -
-2024-11-27 12:33:43,752 - ERROR - Excepción capturada: Error en la petición: {"detail":"Error al registrar usuario. Implementación no completada."}
+2024-11-27 12:33:43,752 - ERROR - Excepciï¿½n capturada: Error en la peticiï¿½n: {"detail":"Error al registrar usuario. Implementaciï¿½n no completada."}
 NoneType: None
 2024-11-27 12:33:43,756 - INFO - 127.0.0.1 - - [27/Nov/2024 12:33:43] "[32mPOST /register/ HTTP/1.1[0m" 302 -
 2024-11-27 12:33:43,777 - INFO - 127.0.0.1 - - [27/Nov/2024 12:33:43] "GET /register/ HTTP/1.1" 200 -
@@ -997,7 +997,7 @@ NoneType: None
 2024-11-27 12:41:35,166 - INFO -  * Debugger PIN: 135-384-108
 2024-11-27 12:41:35,243 - INFO - 127.0.0.1 - - [27/Nov/2024 12:41:35] "GET /register/ HTTP/1.1" 200 -
 2024-11-27 12:44:21,256 - INFO - 127.0.0.1 - - [27/Nov/2024 12:44:21] "GET /register/ HTTP/1.1" 200 -
-2024-11-27 12:44:54,191 - ERROR - Excepción capturada: Error en la petición: {"detail":"Error al registrar usuario. Implementación no completada."}
+2024-11-27 12:44:54,191 - ERROR - Excepciï¿½n capturada: Error en la peticiï¿½n: {"detail":"Error al registrar usuario. Implementaciï¿½n no completada."}
 NoneType: None
 2024-11-27 12:44:54,193 - INFO - 127.0.0.1 - - [27/Nov/2024 12:44:54] "[32mPOST /register/ HTTP/1.1[0m" 302 -
 2024-11-27 12:44:54,213 - INFO - 127.0.0.1 - - [27/Nov/2024 12:44:54] "GET /register/ HTTP/1.1" 200 -
@@ -1034,7 +1034,7 @@ NoneType: None
 2024-11-27 13:34:14,035 - INFO - 127.0.0.1 - - [27/Nov/2024 13:34:14] "[32mPOST /register/ HTTP/1.1[0m" 302 -
 2024-11-27 13:34:14,055 - INFO - 127.0.0.1 - - [27/Nov/2024 13:34:14] "GET /signIn/ HTTP/1.1" 200 -
 2024-11-27 13:35:28,620 - INFO - 127.0.0.1 - - [27/Nov/2024 13:35:28] "GET /register/ HTTP/1.1" 200 -
-2024-11-27 13:36:00,602 - ERROR - Excepción capturada: Error en la petición: {"detail":"Error al registrar usuario. Implementación no completada."}
+2024-11-27 13:36:00,602 - ERROR - Excepciï¿½n capturada: Error en la peticiï¿½n: {"detail":"Error al registrar usuario. Implementaciï¿½n no completada."}
 NoneType: None
 2024-11-27 13:36:00,605 - INFO - 127.0.0.1 - - [27/Nov/2024 13:36:00] "[32mPOST /register/ HTTP/1.1[0m" 302 -
 2024-11-27 13:36:00,614 - INFO - 127.0.0.1 - - [27/Nov/2024 13:36:00] "GET /register/ HTTP/1.1" 200 -
@@ -1132,7 +1132,7 @@ NoneType: None
 2024-11-27 15:22:36,578 - INFO -  * Restarting with stat
 2024-11-27 15:22:39,523 - WARNING -  * Debugger is active!
 2024-11-27 15:22:39,532 - INFO -  * Debugger PIN: 135-384-108
-2024-11-27 15:22:41,580 - ERROR - Excepción capturada: Error en la petición: "No existe el producto con ese id"
+2024-11-27 15:22:41,580 - ERROR - Excepciï¿½n capturada: Error en la peticiï¿½n: "No existe el producto con ese id"
 NoneType: None
 2024-11-27 15:22:41,582 - INFO - 127.0.0.1 - - [27/Nov/2024 15:22:41] "[32mGET /producto/2 HTTP/1.1[0m" 302 -
 2024-11-27 15:22:41,633 - INFO - 127.0.0.1 - - [27/Nov/2024 15:22:41] "GET / HTTP/1.1" 200 -
@@ -1142,7 +1142,7 @@ NoneType: None
 2024-11-27 15:36:03,079 - WARNING -  * Debugger is active!
 2024-11-27 15:36:03,086 - INFO -  * Debugger PIN: 135-384-108
 2024-11-27 15:36:12,503 - INFO - 127.0.0.1 - - [27/Nov/2024 15:36:12] "GET /producto/6 HTTP/1.1" 200 -
-2024-11-27 15:53:50,005 - ERROR - Excepción capturada: Error en la petición: "No existe el producto con ese id"
+2024-11-27 15:53:50,005 - ERROR - Excepciï¿½n capturada: Error en la peticiï¿½n: "No existe el producto con ese id"
 NoneType: None
 2024-11-27 15:53:50,007 - INFO - 127.0.0.1 - - [27/Nov/2024 15:53:50] "[32mGET /producto/7 HTTP/1.1[0m" 302 -
 2024-11-27 15:53:50,055 - INFO - 127.0.0.1 - - [27/Nov/2024 15:53:50] "GET / HTTP/1.1" 200 -
@@ -1169,7 +1169,7 @@ NoneType: None
 2024-11-27 16:15:07,590 - INFO -  * Debugger PIN: 135-384-108
 2024-11-28 14:39:15,484 - INFO - 127.0.0.1 - - [28/Nov/2024 14:39:15] "GET /producto/1 HTTP/1.1" 200 -
 2024-11-28 14:40:24,865 - INFO - 127.0.0.1 - - [28/Nov/2024 14:40:24] "GET /producto/1 HTTP/1.1" 200 -
-2024-11-28 14:41:27,470 - ERROR - Excepción capturada: Error en la petición: "No existe el producto con ese id"
+2024-11-28 14:41:27,470 - ERROR - Excepciï¿½n capturada: Error en la peticiï¿½n: "No existe el producto con ese id"
 NoneType: None
 2024-11-28 14:41:27,473 - INFO - 127.0.0.1 - - [28/Nov/2024 14:41:27] "[32mGET /producto/3 HTTP/1.1[0m" 302 -
 2024-11-28 14:41:27,573 - INFO - 127.0.0.1 - - [28/Nov/2024 14:41:27] "GET / HTTP/1.1" 200 -
@@ -1285,7 +1285,7 @@ NoneType: None
 2024-11-28 16:27:01,403 - INFO - 127.0.0.1 - - [28/Nov/2024 16:27:01] "[32mPOST /register/ HTTP/1.1[0m" 302 -
 2024-11-28 16:27:01,415 - INFO - 127.0.0.1 - - [28/Nov/2024 16:27:01] "GET /signIn/ HTTP/1.1" 200 -
 2024-11-28 16:29:07,004 - INFO - 127.0.0.1 - - [28/Nov/2024 16:29:07] "GET /register/ HTTP/1.1" 200 -
-2024-11-28 16:29:25,940 - ERROR - Excepción capturada: Error en la petición: {"detail":"Error al registrar usuario. Implementación no completada."}
+2024-11-28 16:29:25,940 - ERROR - Excepciï¿½n capturada: Error en la peticiï¿½n: {"detail":"Error al registrar usuario. Implementaciï¿½n no completada."}
 NoneType: None
 2024-11-28 16:29:25,945 - INFO - 127.0.0.1 - - [28/Nov/2024 16:29:25] "[32mPOST /register/ HTTP/1.1[0m" 302 -
 2024-11-28 16:29:25,978 - INFO - 127.0.0.1 - - [28/Nov/2024 16:29:25] "GET /register/ HTTP/1.1" 200 -
@@ -1313,7 +1313,7 @@ NoneType: None
 2024-11-29 12:19:32,107 - WARNING -  * Debugger is active!
 2024-11-29 12:19:32,116 - INFO -  * Debugger PIN: 135-384-108
 2024-11-29 12:19:32,206 - INFO - 127.0.0.1 - - [29/Nov/2024 12:19:32] "GET /register/ HTTP/1.1" 200 -
-2024-11-29 12:19:57,983 - ERROR - Excepción capturada: string indices must be integers, not 'str'
+2024-11-29 12:19:57,983 - ERROR - Excepciï¿½n capturada: string indices must be integers, not 'str'
 Traceback (most recent call last):
   File "c:\Users\Kevin\Desktop\Kaminari\app\routes\registerRoute.py", line 36, in register
     error = respuesta['message']['detail']
@@ -1337,7 +1337,7 @@ TypeError: string indices must be integers, not 'str'
 2024-11-29 12:22:33,357 - WARNING -  * Debugger is active!
 2024-11-29 12:22:33,363 - INFO -  * Debugger PIN: 135-384-108
 2024-11-29 12:22:33,437 - INFO - 127.0.0.1 - - [29/Nov/2024 12:22:33] "GET /register/ HTTP/1.1" 200 -
-2024-11-29 12:22:51,940 - ERROR - Excepción capturada: 'str' object has no attribute 'get'
+2024-11-29 12:22:51,940 - ERROR - Excepciï¿½n capturada: 'str' object has no attribute 'get'
 Traceback (most recent call last):
   File "c:\Users\Kevin\Desktop\Kaminari\app\src\token\peticionesProtegidas.py", line 49, in postRequest
     print(error_message.get('detail'))
@@ -1350,7 +1350,7 @@ AttributeError: 'str' object has no attribute 'get'
 2024-11-29 12:23:38,662 - WARNING -  * Debugger is active!
 2024-11-29 12:23:38,668 - INFO -  * Debugger PIN: 135-384-108
 2024-11-29 12:23:38,749 - INFO - 127.0.0.1 - - [29/Nov/2024 12:23:38] "GET /register/ HTTP/1.1" 200 -
-2024-11-29 12:23:58,726 - ERROR - Excepción capturada: string indices must be integers, not 'str'
+2024-11-29 12:23:58,726 - ERROR - Excepciï¿½n capturada: string indices must be integers, not 'str'
 Traceback (most recent call last):
   File "c:\Users\Kevin\Desktop\Kaminari\app\src\token\peticionesProtegidas.py", line 49, in postRequest
     print(error_message['detail'])
@@ -1413,9 +1413,9 @@ TypeError: string indices must be integers, not 'str'
 2024-11-29 13:20:55,098 - INFO - 127.0.0.1 - - [29/Nov/2024 13:20:55] "POST /register/ HTTP/1.1" 200 -
 2024-11-29 13:21:26,792 - INFO - 127.0.0.1 - - [29/Nov/2024 13:21:26] "[32mPOST /register/ HTTP/1.1[0m" 302 -
 2024-11-29 13:21:26,865 - INFO - 127.0.0.1 - - [29/Nov/2024 13:21:26] "GET /signIn/ HTTP/1.1" 200 -
-2024-11-29 13:21:49,110 - ERROR - Excepción capturada: "Credenciales inválidas"
+2024-11-29 13:21:49,110 - ERROR - Excepciï¿½n capturada: "Credenciales invï¿½lidas"
 NoneType: None
-2024-11-29 13:21:49,111 - ERROR - Excepción capturada: Error al iniciar sesion
+2024-11-29 13:21:49,111 - ERROR - Excepciï¿½n capturada: Error al iniciar sesion
 NoneType: None
 2024-11-29 13:21:49,115 - INFO - 127.0.0.1 - - [29/Nov/2024 13:21:49] "[32mPOST /signIn/ HTTP/1.1[0m" 302 -
 2024-11-29 13:21:49,137 - INFO - 127.0.0.1 - - [29/Nov/2024 13:21:49] "GET /signIn/ HTTP/1.1" 200 -
@@ -2778,7 +2778,7 @@ NoneType: None
 2024-12-03 15:44:35,956 - INFO - 127.0.0.1 - - [03/Dec/2024 15:44:35] "GET /producto/1 HTTP/1.1" 200 -
 2024-12-03 15:44:40,403 - INFO - 127.0.0.1 - - [03/Dec/2024 15:44:40] "GET /producto/5 HTTP/1.1" 200 -
 2024-12-03 15:44:47,811 - INFO - 127.0.0.1 - - [03/Dec/2024 15:44:47] "GET /producto/6 HTTP/1.1" 200 -
-2024-12-03 15:44:51,683 - ERROR - Excepción capturada: Error en la petición: "No existe el producto con ese id"
+2024-12-03 15:44:51,683 - ERROR - Excepciï¿½n capturada: Error en la peticiï¿½n: "No existe el producto con ese id"
 NoneType: None
 2024-12-03 15:44:51,699 - INFO - 127.0.0.1 - - [03/Dec/2024 15:44:51] "[32mGET /producto/8 HTTP/1.1[0m" 302 -
 2024-12-03 15:44:51,778 - INFO - 127.0.0.1 - - [03/Dec/2024 15:44:51] "GET / HTTP/1.1" 200 -
@@ -3296,3 +3296,1119 @@ NoneType: None
 2024-12-04 16:41:55,246 - INFO - 127.0.0.1 - - [04/Dec/2024 16:41:55] "GET / HTTP/1.1" 200 -
 2024-12-04 16:41:56,676 - INFO - 127.0.0.1 - - [04/Dec/2024 16:41:56] "[32mGET /producto/5 HTTP/1.1[0m" 302 -
 2024-12-04 16:41:56,707 - INFO - 127.0.0.1 - - [04/Dec/2024 16:41:56] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 12:21:05,960 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-05 12:21:05,962 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-05 12:21:05,967 - INFO -  * Restarting with stat
+2024-12-05 12:21:08,425 - WARNING -  * Debugger is active!
+2024-12-05 12:21:08,438 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 12:21:11,953 - INFO - 127.0.0.1 - - [05/Dec/2024 12:21:11] "GET / HTTP/1.1" 200 -
+2024-12-05 12:21:17,455 - INFO - 127.0.0.1 - - [05/Dec/2024 12:21:17] "GET /producto/6 HTTP/1.1" 200 -
+2024-12-05 12:21:26,496 - INFO - 127.0.0.1 - - [05/Dec/2024 12:21:26] "[32mGET /producto/1 HTTP/1.1[0m" 302 -
+2024-12-05 12:21:26,551 - INFO - 127.0.0.1 - - [05/Dec/2024 12:21:26] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 12:21:39,639 - INFO - 127.0.0.1 - - [05/Dec/2024 12:21:39] "[32mPOST /producto/1/s HTTP/1.1[0m" 302 -
+2024-12-05 12:21:39,687 - INFO - 127.0.0.1 - - [05/Dec/2024 12:21:39] "GET /producto/1/m HTTP/1.1" 200 -
+2024-12-05 12:21:43,886 - INFO - 127.0.0.1 - - [05/Dec/2024 12:21:43] "[32mPOST /producto/1/m HTTP/1.1[0m" 302 -
+2024-12-05 12:21:43,920 - INFO - 127.0.0.1 - - [05/Dec/2024 12:21:43] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 12:22:07,478 - INFO - 127.0.0.1 - - [05/Dec/2024 12:22:07] "[32mPOST /producto/1/s HTTP/1.1[0m" 302 -
+2024-12-05 12:22:07,530 - INFO - 127.0.0.1 - - [05/Dec/2024 12:22:07] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 12:23:14,003 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\productoRoute.py', reloading
+2024-12-05 12:23:14,094 - INFO -  * Restarting with stat
+2024-12-05 12:23:17,071 - WARNING -  * Debugger is active!
+2024-12-05 12:23:17,083 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 12:23:36,874 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\productoRoute.py', reloading
+2024-12-05 12:23:36,975 - INFO -  * Restarting with stat
+2024-12-05 12:23:38,853 - WARNING -  * Debugger is active!
+2024-12-05 12:23:38,853 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 12:23:44,435 - INFO - 127.0.0.1 - - [05/Dec/2024 12:23:44] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 12:23:48,819 - INFO - 127.0.0.1 - - [05/Dec/2024 12:23:48] "[32mPOST /producto/1/s HTTP/1.1[0m" 302 -
+2024-12-05 12:23:48,863 - INFO - 127.0.0.1 - - [05/Dec/2024 12:23:48] "GET /producto/1/m HTTP/1.1" 200 -
+2024-12-05 12:24:10,576 - INFO - 127.0.0.1 - - [05/Dec/2024 12:24:10] "[32mPOST /producto/1/m HTTP/1.1[0m" 302 -
+2024-12-05 12:24:10,611 - INFO - 127.0.0.1 - - [05/Dec/2024 12:24:10] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 12:24:22,243 - INFO - 127.0.0.1 - - [05/Dec/2024 12:24:22] "[32mPOST /producto/1/s HTTP/1.1[0m" 302 -
+2024-12-05 12:24:22,280 - INFO - 127.0.0.1 - - [05/Dec/2024 12:24:22] "GET / HTTP/1.1" 200 -
+2024-12-05 12:31:20,576 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\productoRoute.py', reloading
+2024-12-05 12:31:20,878 - INFO -  * Restarting with stat
+2024-12-05 12:31:23,592 - WARNING -  * Debugger is active!
+2024-12-05 12:31:23,600 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 12:32:11,759 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\productoRoute.py', reloading
+2024-12-05 12:32:12,217 - INFO -  * Restarting with stat
+2024-12-05 12:32:14,197 - WARNING -  * Debugger is active!
+2024-12-05 12:32:14,204 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 12:32:52,494 - INFO - 127.0.0.1 - - [05/Dec/2024 12:32:52] "[32mGET /producto/1 HTTP/1.1[0m" 302 -
+2024-12-05 12:32:52,587 - INFO - 127.0.0.1 - - [05/Dec/2024 12:32:52] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 12:32:57,123 - INFO - 127.0.0.1 - - [05/Dec/2024 12:32:57] "[32mPOST /producto/1/s HTTP/1.1[0m" 302 -
+2024-12-05 12:32:57,161 - INFO - 127.0.0.1 - - [05/Dec/2024 12:32:57] "GET /producto/1/m HTTP/1.1" 200 -
+2024-12-05 12:36:07,391 - INFO - 127.0.0.1 - - [05/Dec/2024 12:36:07] "[35m[1mGET /producto/1/m HTTP/1.1[0m" 500 -
+2024-12-05 12:36:07,626 - INFO - 127.0.0.1 - - [05/Dec/2024 12:36:07] "[36mGET /producto/1/m?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-05 12:36:07,658 - INFO - 127.0.0.1 - - [05/Dec/2024 12:36:07] "[36mGET /producto/1/m?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-05 12:36:07,761 - INFO - 127.0.0.1 - - [05/Dec/2024 12:36:07] "GET /producto/1/m?__debugger__=yes&cmd=resource&f=console.png&s=yK42YvW6h3yaUAhbVozk HTTP/1.1" 200 -
+2024-12-05 12:36:07,857 - INFO - 127.0.0.1 - - [05/Dec/2024 12:36:07] "[36mGET /producto/1/m?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-05 12:36:40,644 - INFO - 127.0.0.1 - - [05/Dec/2024 12:36:40] "GET /producto/1/m HTTP/1.1" 200 -
+2024-12-05 12:36:58,196 - INFO - 127.0.0.1 - - [05/Dec/2024 12:36:58] "[32mPOST /producto/1/m HTTP/1.1[0m" 302 -
+2024-12-05 12:36:58,255 - INFO - 127.0.0.1 - - [05/Dec/2024 12:36:58] "GET /producto/1/m HTTP/1.1" 200 -
+2024-12-05 12:39:43,944 - INFO - 127.0.0.1 - - [05/Dec/2024 12:39:43] "GET / HTTP/1.1" 200 -
+2024-12-05 12:39:48,543 - INFO - 127.0.0.1 - - [05/Dec/2024 12:39:48] "GET /signIn/ HTTP/1.1" 200 -
+2024-12-05 12:39:59,196 - INFO - 127.0.0.1 - - [05/Dec/2024 12:39:59] "[32mPOST /signIn/ HTTP/1.1[0m" 302 -
+2024-12-05 12:39:59,223 - INFO - 127.0.0.1 - - [05/Dec/2024 12:39:59] "GET / HTTP/1.1" 200 -
+2024-12-05 12:40:01,605 - INFO - 127.0.0.1 - - [05/Dec/2024 12:40:01] "[32mGET /producto/1 HTTP/1.1[0m" 302 -
+2024-12-05 12:40:01,676 - INFO - 127.0.0.1 - - [05/Dec/2024 12:40:01] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 12:40:59,432 - INFO - 127.0.0.1 - - [05/Dec/2024 12:40:59] "GET / HTTP/1.1" 200 -
+2024-12-05 12:42:01,747 - INFO - 127.0.0.1 - - [05/Dec/2024 12:42:01] "GET / HTTP/1.1" 200 -
+2024-12-05 12:42:17,149 - INFO - 127.0.0.1 - - [05/Dec/2024 12:42:17] "[32mGET /producto/5 HTTP/1.1[0m" 302 -
+2024-12-05 12:42:17,243 - INFO - 127.0.0.1 - - [05/Dec/2024 12:42:17] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 12:43:22,985 - INFO - 127.0.0.1 - - [05/Dec/2024 12:43:22] "GET / HTTP/1.1" 200 -
+2024-12-05 12:43:34,222 - INFO - 127.0.0.1 - - [05/Dec/2024 12:43:34] "GET / HTTP/1.1" 200 -
+2024-12-05 12:46:15,600 - INFO - 127.0.0.1 - - [05/Dec/2024 12:46:15] "GET / HTTP/1.1" 200 -
+2024-12-05 12:46:26,490 - INFO - 127.0.0.1 - - [05/Dec/2024 12:46:26] "GET / HTTP/1.1" 200 -
+2024-12-05 12:46:45,909 - INFO - 127.0.0.1 - - [05/Dec/2024 12:46:45] "GET / HTTP/1.1" 200 -
+2024-12-05 12:46:50,454 - INFO - 127.0.0.1 - - [05/Dec/2024 12:46:50] "[32mGET /logOut/logout HTTP/1.1[0m" 302 -
+2024-12-05 12:46:50,481 - INFO - 127.0.0.1 - - [05/Dec/2024 12:46:50] "GET / HTTP/1.1" 200 -
+2024-12-05 12:49:04,035 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\productoRoute.py', reloading
+2024-12-05 12:49:04,532 - INFO -  * Restarting with stat
+2024-12-05 12:49:07,270 - WARNING -  * Debugger is active!
+2024-12-05 12:49:07,277 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 12:55:04,432 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\productoRoute.py', reloading
+2024-12-05 12:55:04,542 - INFO -  * Restarting with stat
+2024-12-05 12:55:06,450 - WARNING -  * Debugger is active!
+2024-12-05 12:55:06,465 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 12:55:16,237 - INFO - 127.0.0.1 - - [05/Dec/2024 12:55:16] "[32mGET /producto/1 HTTP/1.1[0m" 302 -
+2024-12-05 12:55:16,334 - INFO - 127.0.0.1 - - [05/Dec/2024 12:55:16] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:01:43,764 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\productoRoute.py', reloading
+2024-12-05 13:01:43,873 - INFO -  * Restarting with stat
+2024-12-05 13:01:46,455 - WARNING -  * Debugger is active!
+2024-12-05 13:01:46,460 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 13:01:50,418 - INFO - 127.0.0.1 - - [05/Dec/2024 13:01:50] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:01:52,275 - INFO - 127.0.0.1 - - [05/Dec/2024 13:01:52] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-05 13:01:52,497 - INFO - 127.0.0.1 - - [05/Dec/2024 13:01:52] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-05 13:01:52,518 - INFO - 127.0.0.1 - - [05/Dec/2024 13:01:52] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-05 13:01:52,584 - INFO - 127.0.0.1 - - [05/Dec/2024 13:01:52] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=PzdyZYxHWiuddAvJGurI HTTP/1.1" 200 -
+2024-12-05 13:01:52,718 - INFO - 127.0.0.1 - - [05/Dec/2024 13:01:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-05 13:02:11,695 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\productoRoute.py', reloading
+2024-12-05 13:02:11,806 - INFO -  * Restarting with stat
+2024-12-05 13:02:14,070 - WARNING -  * Debugger is active!
+2024-12-05 13:02:14,080 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 13:02:14,183 - INFO - 127.0.0.1 - - [05/Dec/2024 13:02:14] "GET / HTTP/1.1" 200 -
+2024-12-05 13:03:26,133 - INFO - 127.0.0.1 - - [05/Dec/2024 13:03:26] "[32mGET /producto/5 HTTP/1.1[0m" 302 -
+2024-12-05 13:03:26,189 - INFO - 127.0.0.1 - - [05/Dec/2024 13:03:26] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:04:02,619 - INFO - 127.0.0.1 - - [05/Dec/2024 13:04:02] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:06:48,434 - INFO - 127.0.0.1 - - [05/Dec/2024 13:06:48] "[32mPOST /producto/5/l HTTP/1.1[0m" 302 -
+2024-12-05 13:06:48,477 - INFO - 127.0.0.1 - - [05/Dec/2024 13:06:48] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:07:32,556 - INFO - 127.0.0.1 - - [05/Dec/2024 13:07:32] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:07:36,836 - INFO - 127.0.0.1 - - [05/Dec/2024 13:07:36] "[32mPOST /producto/5/l HTTP/1.1[0m" 302 -
+2024-12-05 13:07:36,868 - INFO - 127.0.0.1 - - [05/Dec/2024 13:07:36] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:08:06,416 - INFO - 127.0.0.1 - - [05/Dec/2024 13:08:06] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:08:30,825 - INFO - 127.0.0.1 - - [05/Dec/2024 13:08:30] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:08:33,492 - INFO - 127.0.0.1 - - [05/Dec/2024 13:08:33] "POST /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:08:35,007 - INFO - 127.0.0.1 - - [05/Dec/2024 13:08:35] "POST /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:08:35,651 - INFO - 127.0.0.1 - - [05/Dec/2024 13:08:35] "POST /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:08:36,007 - INFO - 127.0.0.1 - - [05/Dec/2024 13:08:36] "POST /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:08:36,345 - INFO - 127.0.0.1 - - [05/Dec/2024 13:08:36] "POST /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:08:41,704 - INFO - 127.0.0.1 - - [05/Dec/2024 13:08:41] "[32mPOST /producto/5/l HTTP/1.1[0m" 302 -
+2024-12-05 13:08:41,739 - INFO - 127.0.0.1 - - [05/Dec/2024 13:08:41] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:08:52,113 - INFO - 127.0.0.1 - - [05/Dec/2024 13:08:52] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:08:53,792 - INFO - 127.0.0.1 - - [05/Dec/2024 13:08:53] "POST /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:08:56,797 - INFO - 127.0.0.1 - - [05/Dec/2024 13:08:56] "POST /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:09:02,664 - INFO - 127.0.0.1 - - [05/Dec/2024 13:09:02] "POST /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:09:23,455 - INFO - 127.0.0.1 - - [05/Dec/2024 13:09:23] "POST /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:10:20,934 - INFO - 127.0.0.1 - - [05/Dec/2024 13:10:20] "POST /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:10:24,825 - INFO - 127.0.0.1 - - [05/Dec/2024 13:10:24] "[32mPOST /producto/5/l HTTP/1.1[0m" 302 -
+2024-12-05 13:10:24,858 - INFO - 127.0.0.1 - - [05/Dec/2024 13:10:24] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:10:39,691 - INFO - 127.0.0.1 - - [05/Dec/2024 13:10:39] "GET / HTTP/1.1" 200 -
+2024-12-05 13:10:40,764 - INFO - 127.0.0.1 - - [05/Dec/2024 13:10:40] "[32mGET /producto/1 HTTP/1.1[0m" 302 -
+2024-12-05 13:10:40,790 - INFO - 127.0.0.1 - - [05/Dec/2024 13:10:40] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:10:49,684 - INFO - 127.0.0.1 - - [05/Dec/2024 13:10:49] "[32mPOST /producto/1/s HTTP/1.1[0m" 302 -
+2024-12-05 13:10:49,736 - INFO - 127.0.0.1 - - [05/Dec/2024 13:10:49] "GET /producto/1/m HTTP/1.1" 200 -
+2024-12-05 13:11:53,143 - INFO - 127.0.0.1 - - [05/Dec/2024 13:11:53] "[32mPOST /producto/1/m HTTP/1.1[0m" 302 -
+2024-12-05 13:11:53,177 - INFO - 127.0.0.1 - - [05/Dec/2024 13:11:53] "GET /producto/1/m HTTP/1.1" 200 -
+2024-12-05 13:12:59,825 - INFO - 127.0.0.1 - - [05/Dec/2024 13:12:59] "GET /producto/1/m HTTP/1.1" 200 -
+2024-12-05 13:13:02,429 - INFO - 127.0.0.1 - - [05/Dec/2024 13:13:02] "GET / HTTP/1.1" 200 -
+2024-12-05 13:13:03,437 - INFO - 127.0.0.1 - - [05/Dec/2024 13:13:03] "[32mGET /producto/5 HTTP/1.1[0m" 302 -
+2024-12-05 13:13:03,507 - INFO - 127.0.0.1 - - [05/Dec/2024 13:13:03] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:13:46,927 - INFO - 127.0.0.1 - - [05/Dec/2024 13:13:46] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:13:53,314 - INFO - 127.0.0.1 - - [05/Dec/2024 13:13:53] "[32mPOST /producto/5/l HTTP/1.1[0m" 302 -
+2024-12-05 13:13:53,365 - INFO - 127.0.0.1 - - [05/Dec/2024 13:13:53] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:14:15,283 - INFO - 127.0.0.1 - - [05/Dec/2024 13:14:15] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:16:12,847 - INFO - 127.0.0.1 - - [05/Dec/2024 13:16:12] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:16:39,228 - INFO - 127.0.0.1 - - [05/Dec/2024 13:16:39] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:16:51,314 - INFO - 127.0.0.1 - - [05/Dec/2024 13:16:51] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:16:53,975 - INFO - 127.0.0.1 - - [05/Dec/2024 13:16:53] "POST /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:16:58,405 - INFO - 127.0.0.1 - - [05/Dec/2024 13:16:58] "POST /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:17:11,686 - INFO - 127.0.0.1 - - [05/Dec/2024 13:17:11] "POST /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:17:12,001 - INFO - 127.0.0.1 - - [05/Dec/2024 13:17:12] "POST /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:17:21,195 - INFO - 127.0.0.1 - - [05/Dec/2024 13:17:21] "[32mPOST /producto/5/l HTTP/1.1[0m" 302 -
+2024-12-05 13:17:21,237 - INFO - 127.0.0.1 - - [05/Dec/2024 13:17:21] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:17:45,614 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\src\\forms\\selectProducto.py', reloading
+2024-12-05 13:17:45,750 - INFO -  * Restarting with stat
+2024-12-05 13:17:48,169 - WARNING -  * Debugger is active!
+2024-12-05 13:17:48,176 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 13:17:48,401 - INFO - 127.0.0.1 - - [05/Dec/2024 13:17:48] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:17:54,523 - INFO - 127.0.0.1 - - [05/Dec/2024 13:17:54] "POST /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:17:57,862 - INFO - 127.0.0.1 - - [05/Dec/2024 13:17:57] "POST /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:18:05,668 - INFO - 127.0.0.1 - - [05/Dec/2024 13:18:05] "POST /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:18:05,998 - INFO - 127.0.0.1 - - [05/Dec/2024 13:18:05] "POST /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:18:06,358 - INFO - 127.0.0.1 - - [05/Dec/2024 13:18:06] "POST /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:18:06,706 - INFO - 127.0.0.1 - - [05/Dec/2024 13:18:06] "POST /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:18:07,035 - INFO - 127.0.0.1 - - [05/Dec/2024 13:18:07] "POST /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:18:07,393 - INFO - 127.0.0.1 - - [05/Dec/2024 13:18:07] "POST /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:18:41,106 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\src\\forms\\selectProducto.py', reloading
+2024-12-05 13:18:41,212 - INFO -  * Restarting with stat
+2024-12-05 13:18:44,492 - WARNING -  * Debugger is active!
+2024-12-05 13:18:44,499 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 13:19:01,358 - INFO - 127.0.0.1 - - [05/Dec/2024 13:19:01] "POST /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:22:57,701 - INFO - 127.0.0.1 - - [05/Dec/2024 13:22:57] "POST /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:23:09,210 - INFO - 127.0.0.1 - - [05/Dec/2024 13:23:09] "[32mPOST /producto/5/l HTTP/1.1[0m" 302 -
+2024-12-05 13:23:09,252 - INFO - 127.0.0.1 - - [05/Dec/2024 13:23:09] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:25:20,886 - INFO - 127.0.0.1 - - [05/Dec/2024 13:25:20] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 13:25:22,956 - INFO - 127.0.0.1 - - [05/Dec/2024 13:25:22] "GET / HTTP/1.1" 200 -
+2024-12-05 13:25:23,915 - INFO - 127.0.0.1 - - [05/Dec/2024 13:25:23] "[32mGET /producto/1 HTTP/1.1[0m" 302 -
+2024-12-05 13:25:23,960 - INFO - 127.0.0.1 - - [05/Dec/2024 13:25:23] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:28:18,731 - INFO - 127.0.0.1 - - [05/Dec/2024 13:28:18] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:28:18,805 - INFO - 127.0.0.1 - - [05/Dec/2024 13:28:18] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2024-12-05 13:29:13,934 - INFO - 127.0.0.1 - - [05/Dec/2024 13:29:13] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:29:14,144 - INFO - 127.0.0.1 - - [05/Dec/2024 13:29:14] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2024-12-05 13:29:18,858 - INFO - 127.0.0.1 - - [05/Dec/2024 13:29:18] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:29:18,939 - INFO - 127.0.0.1 - - [05/Dec/2024 13:29:18] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:29:39,576 - INFO - 127.0.0.1 - - [05/Dec/2024 13:29:39] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:29:39,643 - INFO - 127.0.0.1 - - [05/Dec/2024 13:29:39] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:30:29,692 - INFO - 127.0.0.1 - - [05/Dec/2024 13:30:29] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:30:29,775 - INFO - 127.0.0.1 - - [05/Dec/2024 13:30:29] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:33:40,073 - INFO - 127.0.0.1 - - [05/Dec/2024 13:33:40] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:33:40,191 - INFO - 127.0.0.1 - - [05/Dec/2024 13:33:40] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2024-12-05 13:33:40,804 - INFO - 127.0.0.1 - - [05/Dec/2024 13:33:40] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:33:40,873 - INFO - 127.0.0.1 - - [05/Dec/2024 13:33:40] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:33:41,047 - INFO - 127.0.0.1 - - [05/Dec/2024 13:33:41] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:33:41,097 - INFO - 127.0.0.1 - - [05/Dec/2024 13:33:41] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:33:41,271 - INFO - 127.0.0.1 - - [05/Dec/2024 13:33:41] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:33:41,341 - INFO - 127.0.0.1 - - [05/Dec/2024 13:33:41] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:33:41,435 - INFO - 127.0.0.1 - - [05/Dec/2024 13:33:41] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:33:41,502 - INFO - 127.0.0.1 - - [05/Dec/2024 13:33:41] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:33:41,638 - INFO - 127.0.0.1 - - [05/Dec/2024 13:33:41] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:33:41,705 - INFO - 127.0.0.1 - - [05/Dec/2024 13:33:41] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:34:36,195 - INFO - 127.0.0.1 - - [05/Dec/2024 13:34:36] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:34:36,293 - INFO - 127.0.0.1 - - [05/Dec/2024 13:34:36] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2024-12-05 13:34:36,800 - INFO - 127.0.0.1 - - [05/Dec/2024 13:34:36] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:34:36,861 - INFO - 127.0.0.1 - - [05/Dec/2024 13:34:36] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:34:37,004 - INFO - 127.0.0.1 - - [05/Dec/2024 13:34:37] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:34:37,077 - INFO - 127.0.0.1 - - [05/Dec/2024 13:34:37] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:34:37,178 - INFO - 127.0.0.1 - - [05/Dec/2024 13:34:37] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:34:37,260 - INFO - 127.0.0.1 - - [05/Dec/2024 13:34:37] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:34:37,362 - INFO - 127.0.0.1 - - [05/Dec/2024 13:34:37] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:34:37,433 - INFO - 127.0.0.1 - - [05/Dec/2024 13:34:37] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:34:37,539 - INFO - 127.0.0.1 - - [05/Dec/2024 13:34:37] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:34:37,585 - INFO - 127.0.0.1 - - [05/Dec/2024 13:34:37] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:34:37,723 - INFO - 127.0.0.1 - - [05/Dec/2024 13:34:37] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:34:37,790 - INFO - 127.0.0.1 - - [05/Dec/2024 13:34:37] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:34:56,464 - INFO - 127.0.0.1 - - [05/Dec/2024 13:34:56] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:34:56,561 - INFO - 127.0.0.1 - - [05/Dec/2024 13:34:56] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2024-12-05 13:35:01,853 - INFO - 127.0.0.1 - - [05/Dec/2024 13:35:01] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:35:01,917 - INFO - 127.0.0.1 - - [05/Dec/2024 13:35:01] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:36:10,183 - INFO - 127.0.0.1 - - [05/Dec/2024 13:36:10] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:36:10,302 - INFO - 127.0.0.1 - - [05/Dec/2024 13:36:10] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2024-12-05 13:36:43,896 - INFO - 127.0.0.1 - - [05/Dec/2024 13:36:43] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:36:44,101 - INFO - 127.0.0.1 - - [05/Dec/2024 13:36:44] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2024-12-05 13:36:55,967 - INFO - 127.0.0.1 - - [05/Dec/2024 13:36:55] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:36:56,066 - INFO - 127.0.0.1 - - [05/Dec/2024 13:36:56] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2024-12-05 13:38:27,918 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\src\\forms\\selectProducto.py', reloading
+2024-12-05 13:38:28,254 - INFO -  * Restarting with stat
+2024-12-05 13:38:31,525 - WARNING -  * Debugger is active!
+2024-12-05 13:38:31,545 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 13:38:38,439 - INFO - 127.0.0.1 - - [05/Dec/2024 13:38:38] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:38:38,658 - INFO - 127.0.0.1 - - [05/Dec/2024 13:38:38] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:40:48,855 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\src\\forms\\selectProducto.py', reloading
+2024-12-05 13:40:48,973 - INFO -  * Restarting with stat
+2024-12-05 13:40:51,292 - WARNING -  * Debugger is active!
+2024-12-05 13:40:51,303 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 13:40:53,563 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\src\\forms\\selectProducto.py', reloading
+2024-12-05 13:40:53,698 - INFO -  * Restarting with stat
+2024-12-05 13:40:55,695 - WARNING -  * Debugger is active!
+2024-12-05 13:40:55,703 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 13:41:08,174 - INFO - 127.0.0.1 - - [05/Dec/2024 13:41:08] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:41:08,369 - INFO - 127.0.0.1 - - [05/Dec/2024 13:41:08] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:41:12,935 - INFO - 127.0.0.1 - - [05/Dec/2024 13:41:12] "[32mPOST /producto/1/s HTTP/1.1[0m" 302 -
+2024-12-05 13:41:12,965 - INFO - 127.0.0.1 - - [05/Dec/2024 13:41:12] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:41:13,139 - INFO - 127.0.0.1 - - [05/Dec/2024 13:41:13] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:43:22,240 - INFO - 127.0.0.1 - - [05/Dec/2024 13:43:22] "[32mPOST /producto/1/s HTTP/1.1[0m" 302 -
+2024-12-05 13:43:22,280 - INFO - 127.0.0.1 - - [05/Dec/2024 13:43:22] "GET /producto/1/m HTTP/1.1" 200 -
+2024-12-05 13:43:22,369 - INFO - 127.0.0.1 - - [05/Dec/2024 13:43:22] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:43:25,552 - INFO - 127.0.0.1 - - [05/Dec/2024 13:43:25] "POST /producto/1/m HTTP/1.1" 200 -
+2024-12-05 13:43:25,645 - INFO - 127.0.0.1 - - [05/Dec/2024 13:43:25] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:43:43,094 - INFO - 127.0.0.1 - - [05/Dec/2024 13:43:43] "POST /producto/1/m HTTP/1.1" 200 -
+2024-12-05 13:43:43,200 - INFO - 127.0.0.1 - - [05/Dec/2024 13:43:43] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2024-12-05 13:43:46,540 - INFO - 127.0.0.1 - - [05/Dec/2024 13:43:46] "[32mPOST /producto/1/m HTTP/1.1[0m" 302 -
+2024-12-05 13:43:46,564 - INFO - 127.0.0.1 - - [05/Dec/2024 13:43:46] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:43:46,645 - INFO - 127.0.0.1 - - [05/Dec/2024 13:43:46] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:43:58,123 - INFO - 127.0.0.1 - - [05/Dec/2024 13:43:58] "POST /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:43:58,224 - INFO - 127.0.0.1 - - [05/Dec/2024 13:43:58] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:44:16,531 - INFO - 127.0.0.1 - - [05/Dec/2024 13:44:16] "[32mPOST /producto/1/s HTTP/1.1[0m" 302 -
+2024-12-05 13:44:16,568 - INFO - 127.0.0.1 - - [05/Dec/2024 13:44:16] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:44:16,643 - INFO - 127.0.0.1 - - [05/Dec/2024 13:44:16] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:44:19,815 - INFO - 127.0.0.1 - - [05/Dec/2024 13:44:19] "[32mPOST /producto/1/s HTTP/1.1[0m" 302 -
+2024-12-05 13:44:19,845 - INFO - 127.0.0.1 - - [05/Dec/2024 13:44:19] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:44:19,953 - INFO - 127.0.0.1 - - [05/Dec/2024 13:44:19] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:44:21,366 - INFO - 127.0.0.1 - - [05/Dec/2024 13:44:21] "POST /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:44:21,437 - INFO - 127.0.0.1 - - [05/Dec/2024 13:44:21] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:45:29,624 - INFO - 127.0.0.1 - - [05/Dec/2024 13:45:29] "POST /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:45:29,705 - INFO - 127.0.0.1 - - [05/Dec/2024 13:45:29] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:45:32,804 - INFO - 127.0.0.1 - - [05/Dec/2024 13:45:32] "[32mPOST /producto/1/s HTTP/1.1[0m" 302 -
+2024-12-05 13:45:32,831 - INFO - 127.0.0.1 - - [05/Dec/2024 13:45:32] "GET /producto/1/m HTTP/1.1" 200 -
+2024-12-05 13:45:32,928 - INFO - 127.0.0.1 - - [05/Dec/2024 13:45:32] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:45:38,963 - INFO - 127.0.0.1 - - [05/Dec/2024 13:45:38] "POST /producto/1/m HTTP/1.1" 200 -
+2024-12-05 13:45:39,036 - INFO - 127.0.0.1 - - [05/Dec/2024 13:45:39] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:51:39,518 - INFO - 127.0.0.1 - - [05/Dec/2024 13:51:39] "POST /producto/1/m HTTP/1.1" 200 -
+2024-12-05 13:51:39,594 - INFO - 127.0.0.1 - - [05/Dec/2024 13:51:39] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:52:11,900 - INFO - 127.0.0.1 - - [05/Dec/2024 13:52:11] "POST /producto/1/m HTTP/1.1" 200 -
+2024-12-05 13:52:11,971 - INFO - 127.0.0.1 - - [05/Dec/2024 13:52:11] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:52:42,873 - INFO - 127.0.0.1 - - [05/Dec/2024 13:52:42] "POST /producto/1/m HTTP/1.1" 200 -
+2024-12-05 13:52:42,944 - INFO - 127.0.0.1 - - [05/Dec/2024 13:52:42] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:52:46,049 - INFO - 127.0.0.1 - - [05/Dec/2024 13:52:46] "[32mPOST /producto/1/m HTTP/1.1[0m" 302 -
+2024-12-05 13:52:46,077 - INFO - 127.0.0.1 - - [05/Dec/2024 13:52:46] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:52:46,185 - INFO - 127.0.0.1 - - [05/Dec/2024 13:52:46] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:52:52,194 - INFO - 127.0.0.1 - - [05/Dec/2024 13:52:52] "[32mPOST /producto/1/s HTTP/1.1[0m" 302 -
+2024-12-05 13:52:52,218 - INFO - 127.0.0.1 - - [05/Dec/2024 13:52:52] "GET /producto/1/m HTTP/1.1" 200 -
+2024-12-05 13:52:52,305 - INFO - 127.0.0.1 - - [05/Dec/2024 13:52:52] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:53:09,574 - INFO - 127.0.0.1 - - [05/Dec/2024 13:53:09] "GET /producto/1/m HTTP/1.1" 200 -
+2024-12-05 13:53:09,740 - INFO - 127.0.0.1 - - [05/Dec/2024 13:53:09] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2024-12-05 13:54:12,053 - INFO - 127.0.0.1 - - [05/Dec/2024 13:54:12] "GET /producto/1/m HTTP/1.1" 200 -
+2024-12-05 13:54:12,131 - INFO - 127.0.0.1 - - [05/Dec/2024 13:54:12] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:54:19,405 - INFO - 127.0.0.1 - - [05/Dec/2024 13:54:19] "GET /producto/1/m HTTP/1.1" 200 -
+2024-12-05 13:54:19,462 - INFO - 127.0.0.1 - - [05/Dec/2024 13:54:19] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:54:45,625 - INFO - 127.0.0.1 - - [05/Dec/2024 13:54:45] "GET /producto/1/m HTTP/1.1" 200 -
+2024-12-05 13:54:45,681 - INFO - 127.0.0.1 - - [05/Dec/2024 13:54:45] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:56:12,528 - INFO - 127.0.0.1 - - [05/Dec/2024 13:56:12] "GET /producto/1/m HTTP/1.1" 200 -
+2024-12-05 13:56:12,588 - INFO - 127.0.0.1 - - [05/Dec/2024 13:56:12] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 13:57:08,028 - INFO - 127.0.0.1 - - [05/Dec/2024 13:57:08] "GET /producto/1/m HTTP/1.1" 200 -
+2024-12-05 13:57:08,206 - INFO - 127.0.0.1 - - [05/Dec/2024 13:57:08] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2024-12-05 13:58:46,385 - INFO - 127.0.0.1 - - [05/Dec/2024 13:58:46] "GET /producto/1/m HTTP/1.1" 200 -
+2024-12-05 13:58:46,530 - INFO - 127.0.0.1 - - [05/Dec/2024 13:58:46] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2024-12-05 13:58:50,578 - INFO - 127.0.0.1 - - [05/Dec/2024 13:58:50] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 13:58:50,723 - INFO - 127.0.0.1 - - [05/Dec/2024 13:58:50] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:00:53,648 - INFO - 127.0.0.1 - - [05/Dec/2024 14:00:53] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 14:00:53,728 - INFO - 127.0.0.1 - - [05/Dec/2024 14:00:53] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:01:01,102 - INFO - 127.0.0.1 - - [05/Dec/2024 14:01:01] "GET /producto/1/m HTTP/1.1" 200 -
+2024-12-05 14:01:01,185 - INFO - 127.0.0.1 - - [05/Dec/2024 14:01:01] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:02:09,970 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\productoRoute.py', reloading
+2024-12-05 14:02:10,132 - INFO -  * Restarting with stat
+2024-12-05 14:02:12,510 - WARNING -  * Debugger is active!
+2024-12-05 14:02:12,518 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 14:02:34,497 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\productoRoute.py', reloading
+2024-12-05 14:02:34,585 - INFO -  * Restarting with stat
+2024-12-05 14:02:36,483 - WARNING -  * Debugger is active!
+2024-12-05 14:02:36,496 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 14:04:15,672 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\productoRoute.py', reloading
+2024-12-05 14:04:15,760 - INFO -  * Restarting with stat
+2024-12-05 14:04:18,122 - WARNING -  * Debugger is active!
+2024-12-05 14:04:18,128 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 14:04:57,097 - INFO - 127.0.0.1 - - [05/Dec/2024 14:04:57] "[35m[1mGET /producto/1/m HTTP/1.1[0m" 500 -
+2024-12-05 14:04:57,346 - INFO - 127.0.0.1 - - [05/Dec/2024 14:04:57] "[36mGET /producto/1/m?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-05 14:04:57,348 - INFO - 127.0.0.1 - - [05/Dec/2024 14:04:57] "[36mGET /producto/1/m?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-05 14:04:57,775 - INFO - 127.0.0.1 - - [05/Dec/2024 14:04:57] "GET /producto/1/m?__debugger__=yes&cmd=resource&f=console.png&s=KSIxzDEGnRcRUazBFeJV HTTP/1.1" 200 -
+2024-12-05 14:04:57,867 - INFO - 127.0.0.1 - - [05/Dec/2024 14:04:57] "[36mGET /producto/1/m?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-05 14:05:25,313 - INFO - 127.0.0.1 - - [05/Dec/2024 14:05:25] "[35m[1mGET /producto/1/m HTTP/1.1[0m" 500 -
+2024-12-05 14:05:25,375 - INFO - 127.0.0.1 - - [05/Dec/2024 14:05:25] "[36mGET /producto/1/m?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-05 14:05:25,378 - INFO - 127.0.0.1 - - [05/Dec/2024 14:05:25] "[36mGET /producto/1/m?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-05 14:05:25,414 - INFO - 127.0.0.1 - - [05/Dec/2024 14:05:25] "[36mGET /producto/1/m?__debugger__=yes&cmd=resource&f=console.png&s=KSIxzDEGnRcRUazBFeJV HTTP/1.1[0m" 304 -
+2024-12-05 14:05:25,519 - INFO - 127.0.0.1 - - [05/Dec/2024 14:05:25] "[36mGET /producto/1/m?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-05 14:05:39,185 - INFO - 127.0.0.1 - - [05/Dec/2024 14:05:39] "GET /producto/1/m HTTP/1.1" 200 -
+2024-12-05 14:05:39,265 - INFO - 127.0.0.1 - - [05/Dec/2024 14:05:39] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:05:55,776 - INFO - 127.0.0.1 - - [05/Dec/2024 14:05:55] "GET /producto/1/m HTTP/1.1" 200 -
+2024-12-05 14:05:55,860 - INFO - 127.0.0.1 - - [05/Dec/2024 14:05:55] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:06:06,140 - INFO - 127.0.0.1 - - [05/Dec/2024 14:06:06] "GET /producto/1/m HTTP/1.1" 200 -
+2024-12-05 14:06:06,206 - INFO - 127.0.0.1 - - [05/Dec/2024 14:06:06] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:06:08,757 - INFO - 127.0.0.1 - - [05/Dec/2024 14:06:08] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 14:06:08,868 - INFO - 127.0.0.1 - - [05/Dec/2024 14:06:08] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:07:11,079 - INFO - 127.0.0.1 - - [05/Dec/2024 14:07:11] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 14:07:11,143 - INFO - 127.0.0.1 - - [05/Dec/2024 14:07:11] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:07:44,039 - INFO - 127.0.0.1 - - [05/Dec/2024 14:07:44] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 14:07:44,127 - INFO - 127.0.0.1 - - [05/Dec/2024 14:07:44] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:07:49,391 - INFO - 127.0.0.1 - - [05/Dec/2024 14:07:49] "POST /producto/1/s HTTP/1.1" 200 -
+2024-12-05 14:07:49,465 - INFO - 127.0.0.1 - - [05/Dec/2024 14:07:49] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:07:50,609 - INFO - 127.0.0.1 - - [05/Dec/2024 14:07:50] "POST /producto/1/s HTTP/1.1" 200 -
+2024-12-05 14:07:50,695 - INFO - 127.0.0.1 - - [05/Dec/2024 14:07:50] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:08:08,323 - INFO - 127.0.0.1 - - [05/Dec/2024 14:08:08] "POST /producto/1/s HTTP/1.1" 200 -
+2024-12-05 14:08:08,401 - INFO - 127.0.0.1 - - [05/Dec/2024 14:08:08] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:08:57,478 - INFO - 127.0.0.1 - - [05/Dec/2024 14:08:57] "[32mPOST /producto/1/s HTTP/1.1[0m" 302 -
+2024-12-05 14:08:57,531 - INFO - 127.0.0.1 - - [05/Dec/2024 14:08:57] "GET / HTTP/1.1" 200 -
+2024-12-05 14:08:57,656 - INFO - 127.0.0.1 - - [05/Dec/2024 14:08:57] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:09:00,268 - INFO - 127.0.0.1 - - [05/Dec/2024 14:09:00] "[32mGET /producto/1 HTTP/1.1[0m" 302 -
+2024-12-05 14:09:00,296 - INFO - 127.0.0.1 - - [05/Dec/2024 14:09:00] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 14:09:00,379 - INFO - 127.0.0.1 - - [05/Dec/2024 14:09:00] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:09:04,931 - INFO - 127.0.0.1 - - [05/Dec/2024 14:09:04] "[32mPOST /producto/1/s HTTP/1.1[0m" 302 -
+2024-12-05 14:09:04,955 - INFO - 127.0.0.1 - - [05/Dec/2024 14:09:04] "GET / HTTP/1.1" 200 -
+2024-12-05 14:09:05,074 - INFO - 127.0.0.1 - - [05/Dec/2024 14:09:05] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:09:06,561 - INFO - 127.0.0.1 - - [05/Dec/2024 14:09:06] "[32mGET /producto/1 HTTP/1.1[0m" 302 -
+2024-12-05 14:09:06,583 - INFO - 127.0.0.1 - - [05/Dec/2024 14:09:06] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 14:09:06,674 - INFO - 127.0.0.1 - - [05/Dec/2024 14:09:06] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:09:13,924 - INFO - 127.0.0.1 - - [05/Dec/2024 14:09:13] "GET /producto/1/m HTTP/1.1" 200 -
+2024-12-05 14:09:14,059 - INFO - 127.0.0.1 - - [05/Dec/2024 14:09:14] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:09:18,216 - INFO - 127.0.0.1 - - [05/Dec/2024 14:09:18] "POST /producto/1/m HTTP/1.1" 200 -
+2024-12-05 14:09:18,296 - INFO - 127.0.0.1 - - [05/Dec/2024 14:09:18] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:09:19,220 - INFO - 127.0.0.1 - - [05/Dec/2024 14:09:19] "POST /producto/1/m HTTP/1.1" 200 -
+2024-12-05 14:09:19,315 - INFO - 127.0.0.1 - - [05/Dec/2024 14:09:19] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:09:19,912 - INFO - 127.0.0.1 - - [05/Dec/2024 14:09:19] "POST /producto/1/m HTTP/1.1" 200 -
+2024-12-05 14:09:19,984 - INFO - 127.0.0.1 - - [05/Dec/2024 14:09:19] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:09:20,351 - INFO - 127.0.0.1 - - [05/Dec/2024 14:09:20] "POST /producto/1/m HTTP/1.1" 200 -
+2024-12-05 14:09:20,447 - INFO - 127.0.0.1 - - [05/Dec/2024 14:09:20] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:09:49,522 - INFO - 127.0.0.1 - - [05/Dec/2024 14:09:49] "POST /producto/1/m HTTP/1.1" 200 -
+2024-12-05 14:09:49,567 - INFO - 127.0.0.1 - - [05/Dec/2024 14:09:49] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:10:03,935 - INFO - 127.0.0.1 - - [05/Dec/2024 14:10:03] "GET /producto/1/m HTTP/1.1" 200 -
+2024-12-05 14:10:04,005 - INFO - 127.0.0.1 - - [05/Dec/2024 14:10:04] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:10:06,985 - INFO - 127.0.0.1 - - [05/Dec/2024 14:10:06] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 14:10:07,064 - INFO - 127.0.0.1 - - [05/Dec/2024 14:10:07] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:10:22,518 - INFO - 127.0.0.1 - - [05/Dec/2024 14:10:22] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 14:10:22,626 - INFO - 127.0.0.1 - - [05/Dec/2024 14:10:22] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:12:17,937 - INFO - 127.0.0.1 - - [05/Dec/2024 14:12:17] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 14:12:18,024 - INFO - 127.0.0.1 - - [05/Dec/2024 14:12:18] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:13:32,670 - INFO - 127.0.0.1 - - [05/Dec/2024 14:13:32] "GET / HTTP/1.1" 200 -
+2024-12-05 14:13:32,811 - INFO - 127.0.0.1 - - [05/Dec/2024 14:13:32] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:13:33,826 - INFO - 127.0.0.1 - - [05/Dec/2024 14:13:33] "GET /producto/6 HTTP/1.1" 200 -
+2024-12-05 14:13:33,918 - INFO - 127.0.0.1 - - [05/Dec/2024 14:13:33] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:13:56,812 - INFO - 127.0.0.1 - - [05/Dec/2024 14:13:56] "GET / HTTP/1.1" 200 -
+2024-12-05 14:13:56,924 - INFO - 127.0.0.1 - - [05/Dec/2024 14:13:56] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:13:59,259 - INFO - 127.0.0.1 - - [05/Dec/2024 14:13:59] "[32mGET /producto/5 HTTP/1.1[0m" 302 -
+2024-12-05 14:13:59,283 - INFO - 127.0.0.1 - - [05/Dec/2024 14:13:59] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 14:13:59,365 - INFO - 127.0.0.1 - - [05/Dec/2024 14:13:59] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:15:28,611 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\productoRoute.py', reloading
+2024-12-05 14:15:28,985 - INFO -  * Restarting with stat
+2024-12-05 14:15:31,794 - WARNING -  * Debugger is active!
+2024-12-05 14:15:31,802 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 14:15:41,277 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\productoRoute.py', reloading
+2024-12-05 14:15:41,407 - INFO -  * Restarting with stat
+2024-12-05 14:15:43,849 - WARNING -  * Debugger is active!
+2024-12-05 14:15:43,856 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 14:15:43,965 - INFO - 127.0.0.1 - - [05/Dec/2024 14:15:43] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 14:15:44,139 - INFO - 127.0.0.1 - - [05/Dec/2024 14:15:44] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:20:35,315 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\productoRoute.py', reloading
+2024-12-05 14:20:35,422 - INFO -  * Restarting with stat
+2024-12-05 14:20:38,120 - WARNING -  * Debugger is active!
+2024-12-05 14:20:38,126 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 14:22:10,243 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\productoRoute.py', reloading
+2024-12-05 14:22:10,378 - INFO -  * Restarting with stat
+2024-12-05 14:22:12,553 - WARNING -  * Debugger is active!
+2024-12-05 14:22:12,560 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 14:22:12,660 - INFO - 127.0.0.1 - - [05/Dec/2024 14:22:12] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 14:22:12,869 - INFO - 127.0.0.1 - - [05/Dec/2024 14:22:12] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:23:06,662 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\productoRoute.py', reloading
+2024-12-05 14:23:06,777 - INFO -  * Restarting with stat
+2024-12-05 14:23:08,656 - WARNING -  * Debugger is active!
+2024-12-05 14:23:08,668 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 14:23:11,633 - INFO - 127.0.0.1 - - [05/Dec/2024 14:23:11] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 14:23:11,804 - INFO - 127.0.0.1 - - [05/Dec/2024 14:23:11] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:24:38,926 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\productoRoute.py', reloading
+2024-12-05 14:24:39,022 - INFO -  * Restarting with stat
+2024-12-05 14:24:40,867 - WARNING -  * Debugger is active!
+2024-12-05 14:24:40,875 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 14:27:35,133 - INFO - 127.0.0.1 - - [05/Dec/2024 14:27:35] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 14:27:35,303 - INFO - 127.0.0.1 - - [05/Dec/2024 14:27:35] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:30:08,553 - INFO - 127.0.0.1 - - [05/Dec/2024 14:30:08] "GET / HTTP/1.1" 200 -
+2024-12-05 14:30:08,673 - INFO - 127.0.0.1 - - [05/Dec/2024 14:30:08] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:30:10,556 - INFO - 127.0.0.1 - - [05/Dec/2024 14:30:10] "[35m[1mGET /producto/6 HTTP/1.1[0m" 500 -
+2024-12-05 14:30:10,634 - INFO - 127.0.0.1 - - [05/Dec/2024 14:30:10] "[36mGET /producto/6?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-05 14:30:10,634 - INFO - 127.0.0.1 - - [05/Dec/2024 14:30:10] "[36mGET /producto/6?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-05 14:30:10,654 - INFO - 127.0.0.1 - - [05/Dec/2024 14:30:10] "GET /producto/6?__debugger__=yes&cmd=resource&f=console.png&s=B1qQWPRTwcDPslBlHNSh HTTP/1.1" 200 -
+2024-12-05 14:30:10,785 - INFO - 127.0.0.1 - - [05/Dec/2024 14:30:10] "[36mGET /producto/6?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-05 14:32:42,433 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\productoRoute.py', reloading
+2024-12-05 14:32:42,546 - INFO -  * Restarting with stat
+2024-12-05 14:32:44,790 - WARNING -  * Debugger is active!
+2024-12-05 14:32:44,796 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 14:32:44,931 - INFO - 127.0.0.1 - - [05/Dec/2024 14:32:44] "[35m[1mGET /producto/6 HTTP/1.1[0m" 500 -
+2024-12-05 14:32:45,150 - INFO - 127.0.0.1 - - [05/Dec/2024 14:32:45] "[36mGET /producto/6?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-05 14:32:45,152 - INFO - 127.0.0.1 - - [05/Dec/2024 14:32:45] "[36mGET /producto/6?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-05 14:32:45,202 - INFO - 127.0.0.1 - - [05/Dec/2024 14:32:45] "GET /producto/6?__debugger__=yes&cmd=resource&f=console.png&s=fPe02NtiJ3hElq4Ohyzr HTTP/1.1" 200 -
+2024-12-05 14:32:45,300 - INFO - 127.0.0.1 - - [05/Dec/2024 14:32:45] "[36mGET /producto/6?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-05 14:33:44,853 - INFO - 127.0.0.1 - - [05/Dec/2024 14:33:44] "[32mGET /producto/5 HTTP/1.1[0m" 302 -
+2024-12-05 14:33:44,884 - INFO - 127.0.0.1 - - [05/Dec/2024 14:33:44] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 14:33:45,004 - INFO - 127.0.0.1 - - [05/Dec/2024 14:33:45] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:34:27,145 - INFO - 127.0.0.1 - - [05/Dec/2024 14:34:27] "GET /producto/6 HTTP/1.1" 200 -
+2024-12-05 14:34:27,239 - INFO - 127.0.0.1 - - [05/Dec/2024 14:34:27] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:34:38,982 - INFO - 127.0.0.1 - - [05/Dec/2024 14:34:38] "[32mGET /producto/5 HTTP/1.1[0m" 302 -
+2024-12-05 14:34:39,008 - INFO - 127.0.0.1 - - [05/Dec/2024 14:34:39] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 14:34:39,094 - INFO - 127.0.0.1 - - [05/Dec/2024 14:34:39] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:35:13,826 - INFO - 127.0.0.1 - - [05/Dec/2024 14:35:13] "[32mGET /producto/1 HTTP/1.1[0m" 302 -
+2024-12-05 14:35:13,856 - INFO - 127.0.0.1 - - [05/Dec/2024 14:35:13] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 14:35:13,955 - INFO - 127.0.0.1 - - [05/Dec/2024 14:35:13] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:35:27,529 - INFO - 127.0.0.1 - - [05/Dec/2024 14:35:27] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 14:35:27,590 - INFO - 127.0.0.1 - - [05/Dec/2024 14:35:27] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:35:36,279 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\productoRoute.py', reloading
+2024-12-05 14:35:36,398 - INFO -  * Restarting with stat
+2024-12-05 14:35:38,680 - WARNING -  * Debugger is active!
+2024-12-05 14:35:38,696 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 14:35:40,797 - INFO - 127.0.0.1 - - [05/Dec/2024 14:35:40] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 14:35:40,962 - INFO - 127.0.0.1 - - [05/Dec/2024 14:35:40] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:35:53,060 - INFO - 127.0.0.1 - - [05/Dec/2024 14:35:53] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 14:35:53,280 - INFO - 127.0.0.1 - - [05/Dec/2024 14:35:53] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:35:58,760 - INFO - 127.0.0.1 - - [05/Dec/2024 14:35:58] "GET / HTTP/1.1" 200 -
+2024-12-05 14:35:58,835 - INFO - 127.0.0.1 - - [05/Dec/2024 14:35:58] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:35:59,896 - INFO - 127.0.0.1 - - [05/Dec/2024 14:35:59] "GET /producto/6 HTTP/1.1" 200 -
+2024-12-05 14:35:59,998 - INFO - 127.0.0.1 - - [05/Dec/2024 14:35:59] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:36:01,997 - INFO - 127.0.0.1 - - [05/Dec/2024 14:36:01] "GET / HTTP/1.1" 200 -
+2024-12-05 14:36:02,073 - INFO - 127.0.0.1 - - [05/Dec/2024 14:36:02] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:36:03,216 - INFO - 127.0.0.1 - - [05/Dec/2024 14:36:03] "[32mGET /producto/5 HTTP/1.1[0m" 302 -
+2024-12-05 14:36:03,260 - INFO - 127.0.0.1 - - [05/Dec/2024 14:36:03] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 14:36:03,366 - INFO - 127.0.0.1 - - [05/Dec/2024 14:36:03] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:36:23,892 - INFO - 127.0.0.1 - - [05/Dec/2024 14:36:23] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 14:36:23,959 - INFO - 127.0.0.1 - - [05/Dec/2024 14:36:23] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:36:28,443 - INFO - 127.0.0.1 - - [05/Dec/2024 14:36:28] "GET / HTTP/1.1" 200 -
+2024-12-05 14:36:28,519 - INFO - 127.0.0.1 - - [05/Dec/2024 14:36:28] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:36:29,623 - INFO - 127.0.0.1 - - [05/Dec/2024 14:36:29] "GET /producto/6 HTTP/1.1" 200 -
+2024-12-05 14:36:29,727 - INFO - 127.0.0.1 - - [05/Dec/2024 14:36:29] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:36:33,260 - INFO - 127.0.0.1 - - [05/Dec/2024 14:36:33] "GET / HTTP/1.1" 200 -
+2024-12-05 14:36:33,342 - INFO - 127.0.0.1 - - [05/Dec/2024 14:36:33] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:36:34,388 - INFO - 127.0.0.1 - - [05/Dec/2024 14:36:34] "[32mGET /producto/5 HTTP/1.1[0m" 302 -
+2024-12-05 14:36:34,422 - INFO - 127.0.0.1 - - [05/Dec/2024 14:36:34] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 14:36:34,526 - INFO - 127.0.0.1 - - [05/Dec/2024 14:36:34] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:36:40,283 - INFO - 127.0.0.1 - - [05/Dec/2024 14:36:40] "GET / HTTP/1.1" 200 -
+2024-12-05 14:36:40,365 - INFO - 127.0.0.1 - - [05/Dec/2024 14:36:40] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:36:41,356 - INFO - 127.0.0.1 - - [05/Dec/2024 14:36:41] "[32mGET /producto/1 HTTP/1.1[0m" 302 -
+2024-12-05 14:36:41,388 - INFO - 127.0.0.1 - - [05/Dec/2024 14:36:41] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 14:36:41,505 - INFO - 127.0.0.1 - - [05/Dec/2024 14:36:41] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:36:45,386 - INFO - 127.0.0.1 - - [05/Dec/2024 14:36:45] "GET /producto/1/m HTTP/1.1" 200 -
+2024-12-05 14:36:45,470 - INFO - 127.0.0.1 - - [05/Dec/2024 14:36:45] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:36:54,291 - INFO - 127.0.0.1 - - [05/Dec/2024 14:36:54] "[32mPOST /producto/1/m HTTP/1.1[0m" 302 -
+2024-12-05 14:36:54,312 - INFO - 127.0.0.1 - - [05/Dec/2024 14:36:54] "GET / HTTP/1.1" 200 -
+2024-12-05 14:36:54,467 - INFO - 127.0.0.1 - - [05/Dec/2024 14:36:54] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:36:57,626 - INFO - 127.0.0.1 - - [05/Dec/2024 14:36:57] "[32mGET /producto/5 HTTP/1.1[0m" 302 -
+2024-12-05 14:36:57,656 - INFO - 127.0.0.1 - - [05/Dec/2024 14:36:57] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 14:36:57,741 - INFO - 127.0.0.1 - - [05/Dec/2024 14:36:57] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:37:09,573 - INFO - 127.0.0.1 - - [05/Dec/2024 14:37:09] "[32mPOST /producto/5/l HTTP/1.1[0m" 302 -
+2024-12-05 14:37:09,595 - INFO - 127.0.0.1 - - [05/Dec/2024 14:37:09] "GET / HTTP/1.1" 200 -
+2024-12-05 14:37:09,740 - INFO - 127.0.0.1 - - [05/Dec/2024 14:37:09] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:37:25,098 - INFO - 127.0.0.1 - - [05/Dec/2024 14:37:25] "GET /signIn/ HTTP/1.1" 200 -
+2024-12-05 14:37:33,134 - INFO - 127.0.0.1 - - [05/Dec/2024 14:37:33] "[32mPOST /signIn/ HTTP/1.1[0m" 302 -
+2024-12-05 14:37:33,166 - INFO - 127.0.0.1 - - [05/Dec/2024 14:37:33] "GET / HTTP/1.1" 200 -
+2024-12-05 14:37:33,304 - INFO - 127.0.0.1 - - [05/Dec/2024 14:37:33] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:48:10,219 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\productoRoute.py', reloading
+2024-12-05 14:48:10,376 - INFO -  * Restarting with stat
+2024-12-05 14:48:13,368 - WARNING -  * Debugger is active!
+2024-12-05 14:48:13,381 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 14:48:43,139 - INFO - 127.0.0.1 - - [05/Dec/2024 14:48:43] "GET / HTTP/1.1" 200 -
+2024-12-05 14:48:43,334 - INFO - 127.0.0.1 - - [05/Dec/2024 14:48:43] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:48:44,656 - INFO - 127.0.0.1 - - [05/Dec/2024 14:48:44] "[32mGET /producto/1 HTTP/1.1[0m" 302 -
+2024-12-05 14:48:44,737 - INFO - 127.0.0.1 - - [05/Dec/2024 14:48:44] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 14:48:44,827 - INFO - 127.0.0.1 - - [05/Dec/2024 14:48:44] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:48:57,755 - INFO - 127.0.0.1 - - [05/Dec/2024 14:48:57] "[32mGET /logOut/logout HTTP/1.1[0m" 302 -
+2024-12-05 14:48:57,774 - INFO - 127.0.0.1 - - [05/Dec/2024 14:48:57] "GET / HTTP/1.1" 200 -
+2024-12-05 14:48:58,092 - INFO - 127.0.0.1 - - [05/Dec/2024 14:48:58] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:49:33,497 - INFO - 127.0.0.1 - - [05/Dec/2024 14:49:33] "GET /producto/6 HTTP/1.1" 200 -
+2024-12-05 14:49:33,595 - INFO - 127.0.0.1 - - [05/Dec/2024 14:49:33] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:49:52,962 - INFO - 127.0.0.1 - - [05/Dec/2024 14:49:52] "GET / HTTP/1.1" 200 -
+2024-12-05 14:49:53,076 - INFO - 127.0.0.1 - - [05/Dec/2024 14:49:53] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:49:54,566 - INFO - 127.0.0.1 - - [05/Dec/2024 14:49:54] "[32mGET /producto/5 HTTP/1.1[0m" 302 -
+2024-12-05 14:49:54,595 - INFO - 127.0.0.1 - - [05/Dec/2024 14:49:54] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 14:49:54,686 - INFO - 127.0.0.1 - - [05/Dec/2024 14:49:54] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:50:12,443 - INFO - 127.0.0.1 - - [05/Dec/2024 14:50:12] "GET / HTTP/1.1" 200 -
+2024-12-05 14:50:12,557 - INFO - 127.0.0.1 - - [05/Dec/2024 14:50:12] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:50:16,280 - INFO - 127.0.0.1 - - [05/Dec/2024 14:50:16] "[32mGET /producto/5 HTTP/1.1[0m" 302 -
+2024-12-05 14:50:16,306 - INFO - 127.0.0.1 - - [05/Dec/2024 14:50:16] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 14:50:16,395 - INFO - 127.0.0.1 - - [05/Dec/2024 14:50:16] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:50:34,260 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\src\\forms\\selectProducto.py', reloading
+2024-12-05 14:50:34,349 - INFO -  * Restarting with stat
+2024-12-05 14:50:36,682 - WARNING -  * Debugger is active!
+2024-12-05 14:50:36,695 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 14:50:36,808 - INFO - 127.0.0.1 - - [05/Dec/2024 14:50:36] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 14:50:36,947 - INFO - 127.0.0.1 - - [05/Dec/2024 14:50:36] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:52:32,022 - INFO - 127.0.0.1 - - [05/Dec/2024 14:52:32] "[32mGET /producto/1 HTTP/1.1[0m" 302 -
+2024-12-05 14:52:32,056 - INFO - 127.0.0.1 - - [05/Dec/2024 14:52:32] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 14:52:32,182 - INFO - 127.0.0.1 - - [05/Dec/2024 14:52:32] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:54:15,093 - INFO - 127.0.0.1 - - [05/Dec/2024 14:54:15] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 14:54:15,201 - INFO - 127.0.0.1 - - [05/Dec/2024 14:54:15] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:55:37,548 - INFO - 127.0.0.1 - - [05/Dec/2024 14:55:37] "GET / HTTP/1.1" 200 -
+2024-12-05 14:55:37,651 - INFO - 127.0.0.1 - - [05/Dec/2024 14:55:37] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 14:55:38,652 - INFO - 127.0.0.1 - - [05/Dec/2024 14:55:38] "GET /producto/6 HTTP/1.1" 200 -
+2024-12-05 14:55:38,764 - INFO - 127.0.0.1 - - [05/Dec/2024 14:55:38] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 15:00:22,643 - INFO - 127.0.0.1 - - [05/Dec/2024 15:00:22] "GET / HTTP/1.1" 200 -
+2024-12-05 15:00:22,739 - INFO - 127.0.0.1 - - [05/Dec/2024 15:00:22] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 15:01:50,683 - INFO - 127.0.0.1 - - [05/Dec/2024 15:01:50] "GET / HTTP/1.1" 200 -
+2024-12-05 15:01:50,769 - INFO - 127.0.0.1 - - [05/Dec/2024 15:01:50] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 15:01:54,338 - INFO - 127.0.0.1 - - [05/Dec/2024 15:01:54] "[32mGET /producto/5 HTTP/1.1[0m" 302 -
+2024-12-05 15:01:54,374 - INFO - 127.0.0.1 - - [05/Dec/2024 15:01:54] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 15:01:54,503 - INFO - 127.0.0.1 - - [05/Dec/2024 15:01:54] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 15:02:15,922 - INFO - 127.0.0.1 - - [05/Dec/2024 15:02:15] "GET / HTTP/1.1" 200 -
+2024-12-05 15:02:16,041 - INFO - 127.0.0.1 - - [05/Dec/2024 15:02:16] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 15:02:18,061 - INFO - 127.0.0.1 - - [05/Dec/2024 15:02:18] "[32mGET /producto/5 HTTP/1.1[0m" 302 -
+2024-12-05 15:02:18,090 - INFO - 127.0.0.1 - - [05/Dec/2024 15:02:18] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 15:02:18,209 - INFO - 127.0.0.1 - - [05/Dec/2024 15:02:18] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 15:04:00,274 - INFO - 127.0.0.1 - - [05/Dec/2024 15:04:00] "GET / HTTP/1.1" 200 -
+2024-12-05 15:04:00,379 - INFO - 127.0.0.1 - - [05/Dec/2024 15:04:00] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 15:04:05,308 - INFO - 127.0.0.1 - - [05/Dec/2024 15:04:05] "[32mGET /producto/5 HTTP/1.1[0m" 302 -
+2024-12-05 15:04:05,334 - INFO - 127.0.0.1 - - [05/Dec/2024 15:04:05] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 15:04:05,453 - INFO - 127.0.0.1 - - [05/Dec/2024 15:04:05] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 15:04:36,326 - INFO - 127.0.0.1 - - [05/Dec/2024 15:04:36] "GET / HTTP/1.1" 200 -
+2024-12-05 15:04:36,428 - INFO - 127.0.0.1 - - [05/Dec/2024 15:04:36] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 15:04:43,791 - INFO - 127.0.0.1 - - [05/Dec/2024 15:04:43] "GET /producto/6 HTTP/1.1" 200 -
+2024-12-05 15:04:43,884 - INFO - 127.0.0.1 - - [05/Dec/2024 15:04:43] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 15:05:13,562 - INFO - 127.0.0.1 - - [05/Dec/2024 15:05:13] "GET /producto/6 HTTP/1.1" 200 -
+2024-12-05 15:05:13,627 - INFO - 127.0.0.1 - - [05/Dec/2024 15:05:13] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 15:05:29,910 - INFO - 127.0.0.1 - - [05/Dec/2024 15:05:29] "GET /producto/6 HTTP/1.1" 200 -
+2024-12-05 15:05:29,974 - INFO - 127.0.0.1 - - [05/Dec/2024 15:05:29] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 15:05:53,385 - INFO - 127.0.0.1 - - [05/Dec/2024 15:05:53] "GET /producto/6 HTTP/1.1" 200 -
+2024-12-05 15:05:53,457 - INFO - 127.0.0.1 - - [05/Dec/2024 15:05:53] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 15:06:07,102 - INFO - 127.0.0.1 - - [05/Dec/2024 15:06:07] "GET /producto/6 HTTP/1.1" 200 -
+2024-12-05 15:06:07,249 - INFO - 127.0.0.1 - - [05/Dec/2024 15:06:07] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 15:06:16,746 - INFO - 127.0.0.1 - - [05/Dec/2024 15:06:16] "GET / HTTP/1.1" 200 -
+2024-12-05 15:06:16,868 - INFO - 127.0.0.1 - - [05/Dec/2024 15:06:16] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 15:06:34,908 - INFO - 127.0.0.1 - - [05/Dec/2024 15:06:34] "GET / HTTP/1.1" 200 -
+2024-12-05 15:06:34,978 - INFO - 127.0.0.1 - - [05/Dec/2024 15:06:34] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 15:28:00,631 - INFO - 127.0.0.1 - - [05/Dec/2024 15:28:00] "[32mGET /producto/5 HTTP/1.1[0m" 302 -
+2024-12-05 15:28:00,685 - INFO - 127.0.0.1 - - [05/Dec/2024 15:28:00] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 15:28:00,895 - INFO - 127.0.0.1 - - [05/Dec/2024 15:28:00] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 15:30:03,631 - INFO - 127.0.0.1 - - [05/Dec/2024 15:30:03] "GET / HTTP/1.1" 200 -
+2024-12-05 15:30:03,703 - INFO - 127.0.0.1 - - [05/Dec/2024 15:30:03] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 15:31:39,063 - INFO - 127.0.0.1 - - [05/Dec/2024 15:31:39] "[32mGET /producto/5 HTTP/1.1[0m" 302 -
+2024-12-05 15:31:39,098 - INFO - 127.0.0.1 - - [05/Dec/2024 15:31:39] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 15:31:39,230 - INFO - 127.0.0.1 - - [05/Dec/2024 15:31:39] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 15:34:35,696 - INFO - 127.0.0.1 - - [05/Dec/2024 15:34:35] "GET / HTTP/1.1" 200 -
+2024-12-05 15:34:35,950 - INFO - 127.0.0.1 - - [05/Dec/2024 15:34:35] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2024-12-05 15:35:28,006 - INFO - 127.0.0.1 - - [05/Dec/2024 15:35:28] "[32mGET /producto/5 HTTP/1.1[0m" 302 -
+2024-12-05 15:35:28,037 - INFO - 127.0.0.1 - - [05/Dec/2024 15:35:28] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 15:35:28,122 - INFO - 127.0.0.1 - - [05/Dec/2024 15:35:28] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 15:39:05,004 - INFO - 127.0.0.1 - - [05/Dec/2024 15:39:05] "[35m[1mGET /producto/5/l HTTP/1.1[0m" 500 -
+2024-12-05 15:39:05,076 - INFO - 127.0.0.1 - - [05/Dec/2024 15:39:05] "[36mGET /producto/5/l?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-05 15:39:05,077 - INFO - 127.0.0.1 - - [05/Dec/2024 15:39:05] "[36mGET /producto/5/l?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-05 15:39:05,141 - INFO - 127.0.0.1 - - [05/Dec/2024 15:39:05] "GET /producto/5/l?__debugger__=yes&cmd=resource&f=console.png&s=rHsAGTmz57t5CiyjyAs5 HTTP/1.1" 200 -
+2024-12-05 15:39:05,289 - INFO - 127.0.0.1 - - [05/Dec/2024 15:39:05] "[36mGET /producto/5/l?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-05 15:39:14,474 - INFO - 127.0.0.1 - - [05/Dec/2024 15:39:14] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 15:39:14,558 - INFO - 127.0.0.1 - - [05/Dec/2024 15:39:14] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 15:42:12,923 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\carritoRoute.py', reloading
+2024-12-05 15:42:13,238 - INFO -  * Restarting with stat
+2024-12-05 15:42:15,802 - WARNING -  * Debugger is active!
+2024-12-05 15:42:15,802 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 15:43:05,278 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\carritoRoute.py', reloading
+2024-12-05 15:43:05,398 - INFO -  * Restarting with stat
+2024-12-05 15:43:08,030 - WARNING -  * Debugger is active!
+2024-12-05 15:43:08,048 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 15:48:10,683 - INFO - 127.0.0.1 - - [05/Dec/2024 15:48:10] "[35m[1mGET /producto/5/l HTTP/1.1[0m" 500 -
+2024-12-05 15:48:10,862 - INFO - 127.0.0.1 - - [05/Dec/2024 15:48:10] "[36mGET /producto/5/l?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-05 15:48:10,865 - INFO - 127.0.0.1 - - [05/Dec/2024 15:48:10] "[36mGET /producto/5/l?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-05 15:48:10,918 - INFO - 127.0.0.1 - - [05/Dec/2024 15:48:10] "GET /producto/5/l?__debugger__=yes&cmd=resource&f=console.png&s=Ln4RuZS9Y5O831sXyiRp HTTP/1.1" 200 -
+2024-12-05 15:48:11,032 - INFO - 127.0.0.1 - - [05/Dec/2024 15:48:11] "[36mGET /producto/5/l?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-05 15:48:37,449 - INFO - 127.0.0.1 - - [05/Dec/2024 15:48:37] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 15:48:37,518 - INFO - 127.0.0.1 - - [05/Dec/2024 15:48:37] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 15:48:39,994 - INFO - 127.0.0.1 - - [05/Dec/2024 15:48:39] "[35m[1mGET /carrito/?producto={'id':+5,+'nombre':+'Remera+Premium',+'precio':+10000.0} HTTP/1.1[0m" 500 -
+2024-12-05 15:48:40,149 - INFO - 127.0.0.1 - - [05/Dec/2024 15:48:40] "GET /carrito/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-12-05 15:48:40,152 - INFO - 127.0.0.1 - - [05/Dec/2024 15:48:40] "GET /carrito/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-12-05 15:48:40,169 - INFO - 127.0.0.1 - - [05/Dec/2024 15:48:40] "GET /carrito/?__debugger__=yes&cmd=resource&f=console.png&s=Ln4RuZS9Y5O831sXyiRp HTTP/1.1" 200 -
+2024-12-05 15:48:40,309 - INFO - 127.0.0.1 - - [05/Dec/2024 15:48:40] "GET /carrito/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-12-05 15:49:19,953 - INFO - 127.0.0.1 - - [05/Dec/2024 15:49:19] "[35m[1mGET /carrito/?producto={'id':+5,+'nombre':+'Remera+Premium',+'precio':+10000.0} HTTP/1.1[0m" 500 -
+2024-12-05 15:49:20,043 - INFO - 127.0.0.1 - - [05/Dec/2024 15:49:20] "[36mGET /carrito/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-05 15:49:20,047 - INFO - 127.0.0.1 - - [05/Dec/2024 15:49:20] "[36mGET /carrito/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-05 15:49:20,087 - INFO - 127.0.0.1 - - [05/Dec/2024 15:49:20] "[36mGET /carrito/?__debugger__=yes&cmd=resource&f=console.png&s=Ln4RuZS9Y5O831sXyiRp HTTP/1.1[0m" 304 -
+2024-12-05 15:49:20,210 - INFO - 127.0.0.1 - - [05/Dec/2024 15:49:20] "[36mGET /carrito/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-05 15:49:40,356 - INFO - 127.0.0.1 - - [05/Dec/2024 15:49:40] "[35m[1mGET /carrito/?producto={'id':+5,+'nombre':+'Remera+Premium',+'precio':+10000.0} HTTP/1.1[0m" 500 -
+2024-12-05 15:49:40,426 - INFO - 127.0.0.1 - - [05/Dec/2024 15:49:40] "[36mGET /carrito/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-05 15:49:40,427 - INFO - 127.0.0.1 - - [05/Dec/2024 15:49:40] "[36mGET /carrito/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-05 15:49:40,457 - INFO - 127.0.0.1 - - [05/Dec/2024 15:49:40] "[36mGET /carrito/?__debugger__=yes&cmd=resource&f=console.png&s=Ln4RuZS9Y5O831sXyiRp HTTP/1.1[0m" 304 -
+2024-12-05 15:49:40,600 - INFO - 127.0.0.1 - - [05/Dec/2024 15:49:40] "[36mGET /carrito/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-05 15:49:57,686 - INFO - 127.0.0.1 - - [05/Dec/2024 15:49:57] "[35m[1mGET /carrito/?producto={'id':+5,+'nombre':+'Remera+Premium',+'precio':+10000.0} HTTP/1.1[0m" 500 -
+2024-12-05 15:49:57,766 - INFO - 127.0.0.1 - - [05/Dec/2024 15:49:57] "[36mGET /carrito/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-05 15:49:57,773 - INFO - 127.0.0.1 - - [05/Dec/2024 15:49:57] "[36mGET /carrito/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-05 15:49:57,803 - INFO - 127.0.0.1 - - [05/Dec/2024 15:49:57] "[36mGET /carrito/?__debugger__=yes&cmd=resource&f=console.png&s=Ln4RuZS9Y5O831sXyiRp HTTP/1.1[0m" 304 -
+2024-12-05 15:49:57,900 - INFO - 127.0.0.1 - - [05/Dec/2024 15:49:57] "[36mGET /carrito/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-05 16:15:49,482 - INFO - 127.0.0.1 - - [05/Dec/2024 16:15:49] "[35m[1mGET /carrito/?producto={'id':+5,+'nombre':+'Remera+Premium',+'precio':+10000.0} HTTP/1.1[0m" 500 -
+2024-12-05 16:15:49,557 - INFO - 127.0.0.1 - - [05/Dec/2024 16:15:49] "[36mGET /carrito/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-05 16:15:49,558 - INFO - 127.0.0.1 - - [05/Dec/2024 16:15:49] "[36mGET /carrito/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-05 16:15:49,612 - INFO - 127.0.0.1 - - [05/Dec/2024 16:15:49] "[36mGET /carrito/?__debugger__=yes&cmd=resource&f=console.png&s=Ln4RuZS9Y5O831sXyiRp HTTP/1.1[0m" 304 -
+2024-12-05 16:15:49,747 - INFO - 127.0.0.1 - - [05/Dec/2024 16:15:49] "[36mGET /carrito/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-05 16:15:50,478 - INFO - 127.0.0.1 - - [05/Dec/2024 16:15:50] "[35m[1mGET /carrito/?producto={'id':+5,+'nombre':+'Remera+Premium',+'precio':+10000.0} HTTP/1.1[0m" 500 -
+2024-12-05 16:15:50,552 - INFO - 127.0.0.1 - - [05/Dec/2024 16:15:50] "[36mGET /carrito/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-05 16:15:50,570 - INFO - 127.0.0.1 - - [05/Dec/2024 16:15:50] "[36mGET /carrito/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-05 16:15:50,619 - INFO - 127.0.0.1 - - [05/Dec/2024 16:15:50] "[36mGET /carrito/?__debugger__=yes&cmd=resource&f=console.png&s=Ln4RuZS9Y5O831sXyiRp HTTP/1.1[0m" 304 -
+2024-12-05 16:15:50,718 - INFO - 127.0.0.1 - - [05/Dec/2024 16:15:50] "[36mGET /carrito/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-05 16:16:20,606 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\carritoRoute.py', reloading
+2024-12-05 16:16:20,795 - INFO -  * Restarting with stat
+2024-12-05 16:16:22,888 - WARNING -  * Debugger is active!
+2024-12-05 16:16:22,896 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 16:16:22,959 - INFO - 127.0.0.1 - - [05/Dec/2024 16:16:22] "[33mGET /carrito/?producto={'id':+5,+'nombre':+'Remera+Premium',+'precio':+10000.0} HTTP/1.1[0m" 404 -
+2024-12-05 16:16:33,508 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\carritoRoute.py', reloading
+2024-12-05 16:16:33,608 - INFO -  * Restarting with stat
+2024-12-05 16:16:35,498 - WARNING -  * Debugger is active!
+2024-12-05 16:16:35,504 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 16:23:26,530 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\carritoRoute.py', reloading
+2024-12-05 16:23:26,656 - INFO -  * Restarting with stat
+2024-12-05 16:24:14,517 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-05 16:24:14,517 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-05 16:24:14,517 - INFO -  * Restarting with stat
+2024-12-05 16:24:16,564 - WARNING -  * Debugger is active!
+2024-12-05 16:24:16,579 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 16:25:06,501 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\carritoRoute.py', reloading
+2024-12-05 16:25:06,591 - INFO -  * Restarting with stat
+2024-12-05 16:25:08,671 - WARNING -  * Debugger is active!
+2024-12-05 16:25:08,692 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 16:25:12,954 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\carritoRoute.py', reloading
+2024-12-05 16:25:13,116 - INFO -  * Restarting with stat
+2024-12-05 16:25:15,686 - WARNING -  * Debugger is active!
+2024-12-05 16:25:15,686 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 16:25:49,086 - INFO - 127.0.0.1 - - [05/Dec/2024 16:25:49] "[32mGET /carrito HTTP/1.1[0m" 308 -
+2024-12-05 16:25:49,109 - INFO - 127.0.0.1 - - [05/Dec/2024 16:25:49] "[35m[1mGET /carrito/ HTTP/1.1[0m" 500 -
+2024-12-05 16:25:49,314 - INFO - 127.0.0.1 - - [05/Dec/2024 16:25:49] "[36mGET /carrito/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-05 16:25:49,314 - INFO - 127.0.0.1 - - [05/Dec/2024 16:25:49] "[36mGET /carrito/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-05 16:25:49,424 - INFO - 127.0.0.1 - - [05/Dec/2024 16:25:49] "GET /carrito/?__debugger__=yes&cmd=resource&f=console.png&s=M8mxqRp9yumhxMNkKeOC HTTP/1.1" 200 -
+2024-12-05 16:25:49,532 - INFO - 127.0.0.1 - - [05/Dec/2024 16:25:49] "[36mGET /carrito/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-05 16:27:50,344 - INFO - 127.0.0.1 - - [05/Dec/2024 16:27:50] "[35m[1mGET /carrito/ HTTP/1.1[0m" 500 -
+2024-12-05 16:27:50,485 - INFO - 127.0.0.1 - - [05/Dec/2024 16:27:50] "[36mGET /carrito/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-05 16:27:50,489 - INFO - 127.0.0.1 - - [05/Dec/2024 16:27:50] "[36mGET /carrito/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-05 16:27:50,532 - INFO - 127.0.0.1 - - [05/Dec/2024 16:27:50] "[36mGET /carrito/?__debugger__=yes&cmd=resource&f=console.png&s=M8mxqRp9yumhxMNkKeOC HTTP/1.1[0m" 304 -
+2024-12-05 16:30:10,390 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\carritoRoute.py', reloading
+2024-12-05 16:30:10,507 - INFO -  * Restarting with stat
+2024-12-05 16:30:13,093 - WARNING -  * Debugger is active!
+2024-12-05 16:30:13,093 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 16:30:13,231 - INFO - 127.0.0.1 - - [05/Dec/2024 16:30:13] "GET /carrito/ HTTP/1.1" 200 -
+2024-12-05 16:30:13,396 - INFO - 127.0.0.1 - - [05/Dec/2024 16:30:13] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:30:36,086 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\carritoRoute.py', reloading
+2024-12-05 16:30:36,200 - INFO -  * Restarting with stat
+2024-12-05 16:30:38,325 - WARNING -  * Debugger is active!
+2024-12-05 16:30:38,344 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 16:31:42,885 - INFO - 127.0.0.1 - - [05/Dec/2024 16:31:42] "GET /carrito/ HTTP/1.1" 200 -
+2024-12-05 16:31:43,051 - INFO - 127.0.0.1 - - [05/Dec/2024 16:31:43] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:32:19,605 - INFO - 127.0.0.1 - - [05/Dec/2024 16:32:19] "GET /carrito/ HTTP/1.1" 200 -
+2024-12-05 16:32:19,683 - INFO - 127.0.0.1 - - [05/Dec/2024 16:32:19] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:32:35,790 - INFO - 127.0.0.1 - - [05/Dec/2024 16:32:35] "GET / HTTP/1.1" 200 -
+2024-12-05 16:32:35,887 - INFO - 127.0.0.1 - - [05/Dec/2024 16:32:35] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:32:38,419 - INFO - 127.0.0.1 - - [05/Dec/2024 16:32:38] "GET /producto/6 HTTP/1.1" 200 -
+2024-12-05 16:32:38,528 - INFO - 127.0.0.1 - - [05/Dec/2024 16:32:38] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:32:40,659 - INFO - 127.0.0.1 - - [05/Dec/2024 16:32:40] "GET / HTTP/1.1" 200 -
+2024-12-05 16:32:40,740 - INFO - 127.0.0.1 - - [05/Dec/2024 16:32:40] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:32:41,832 - INFO - 127.0.0.1 - - [05/Dec/2024 16:32:41] "[32mGET /producto/5 HTTP/1.1[0m" 302 -
+2024-12-05 16:32:41,864 - INFO - 127.0.0.1 - - [05/Dec/2024 16:32:41] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 16:32:41,972 - INFO - 127.0.0.1 - - [05/Dec/2024 16:32:41] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:32:48,031 - INFO - 127.0.0.1 - - [05/Dec/2024 16:32:48] "GET / HTTP/1.1" 200 -
+2024-12-05 16:32:48,113 - INFO - 127.0.0.1 - - [05/Dec/2024 16:32:48] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:32:49,217 - INFO - 127.0.0.1 - - [05/Dec/2024 16:32:49] "GET /producto/6 HTTP/1.1" 200 -
+2024-12-05 16:32:49,309 - INFO - 127.0.0.1 - - [05/Dec/2024 16:32:49] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:32:52,103 - INFO - 127.0.0.1 - - [05/Dec/2024 16:32:52] "GET / HTTP/1.1" 200 -
+2024-12-05 16:32:52,178 - INFO - 127.0.0.1 - - [05/Dec/2024 16:32:52] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:32:54,659 - INFO - 127.0.0.1 - - [05/Dec/2024 16:32:54] "GET /producto/6 HTTP/1.1" 200 -
+2024-12-05 16:32:54,770 - INFO - 127.0.0.1 - - [05/Dec/2024 16:32:54] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:33:19,335 - INFO - 127.0.0.1 - - [05/Dec/2024 16:33:19] "GET /producto/6 HTTP/1.1" 200 -
+2024-12-05 16:33:19,391 - INFO - 127.0.0.1 - - [05/Dec/2024 16:33:19] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:33:21,868 - INFO - 127.0.0.1 - - [05/Dec/2024 16:33:21] "GET /producto/6 HTTP/1.1" 200 -
+2024-12-05 16:33:21,929 - INFO - 127.0.0.1 - - [05/Dec/2024 16:33:21] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:33:22,122 - INFO - 127.0.0.1 - - [05/Dec/2024 16:33:22] "GET /producto/6 HTTP/1.1" 200 -
+2024-12-05 16:33:22,180 - INFO - 127.0.0.1 - - [05/Dec/2024 16:33:22] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:33:22,486 - INFO - 127.0.0.1 - - [05/Dec/2024 16:33:22] "GET /producto/6 HTTP/1.1" 200 -
+2024-12-05 16:33:22,534 - INFO - 127.0.0.1 - - [05/Dec/2024 16:33:22] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:33:22,675 - INFO - 127.0.0.1 - - [05/Dec/2024 16:33:22] "GET /producto/6 HTTP/1.1" 200 -
+2024-12-05 16:33:22,738 - INFO - 127.0.0.1 - - [05/Dec/2024 16:33:22] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:33:22,852 - INFO - 127.0.0.1 - - [05/Dec/2024 16:33:22] "GET /producto/6 HTTP/1.1" 200 -
+2024-12-05 16:33:22,920 - INFO - 127.0.0.1 - - [05/Dec/2024 16:33:22] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:33:23,046 - INFO - 127.0.0.1 - - [05/Dec/2024 16:33:23] "GET /producto/6 HTTP/1.1" 200 -
+2024-12-05 16:33:23,106 - INFO - 127.0.0.1 - - [05/Dec/2024 16:33:23] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:33:23,202 - INFO - 127.0.0.1 - - [05/Dec/2024 16:33:23] "GET /producto/6 HTTP/1.1" 200 -
+2024-12-05 16:33:23,269 - INFO - 127.0.0.1 - - [05/Dec/2024 16:33:23] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:33:25,680 - INFO - 127.0.0.1 - - [05/Dec/2024 16:33:25] "GET / HTTP/1.1" 200 -
+2024-12-05 16:33:25,765 - INFO - 127.0.0.1 - - [05/Dec/2024 16:33:25] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:33:26,963 - INFO - 127.0.0.1 - - [05/Dec/2024 16:33:26] "GET /producto/6 HTTP/1.1" 200 -
+2024-12-05 16:33:27,079 - INFO - 127.0.0.1 - - [05/Dec/2024 16:33:27] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:33:39,712 - INFO - 127.0.0.1 - - [05/Dec/2024 16:33:39] "GET /producto/6 HTTP/1.1" 200 -
+2024-12-05 16:33:39,770 - INFO - 127.0.0.1 - - [05/Dec/2024 16:33:39] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:33:41,876 - INFO - 127.0.0.1 - - [05/Dec/2024 16:33:41] "GET / HTTP/1.1" 200 -
+2024-12-05 16:33:41,953 - INFO - 127.0.0.1 - - [05/Dec/2024 16:33:41] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:33:43,509 - INFO - 127.0.0.1 - - [05/Dec/2024 16:33:43] "[32mGET /producto/5 HTTP/1.1[0m" 302 -
+2024-12-05 16:33:43,546 - INFO - 127.0.0.1 - - [05/Dec/2024 16:33:43] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 16:33:43,650 - INFO - 127.0.0.1 - - [05/Dec/2024 16:33:43] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:37:05,444 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\carritoRoute.py', reloading
+2024-12-05 16:37:05,554 - INFO -  * Restarting with stat
+2024-12-05 16:37:07,825 - WARNING -  * Debugger is active!
+2024-12-05 16:37:07,832 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 16:37:50,760 - INFO - 127.0.0.1 - - [05/Dec/2024 16:37:50] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 16:37:50,935 - INFO - 127.0.0.1 - - [05/Dec/2024 16:37:50] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:39:31,166 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\carritoRoute.py', reloading
+2024-12-05 16:39:31,268 - INFO -  * Restarting with stat
+2024-12-05 16:39:33,334 - WARNING -  * Debugger is active!
+2024-12-05 16:39:33,345 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 16:41:07,523 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\carritoRoute.py', reloading
+2024-12-05 16:41:07,616 - INFO -  * Restarting with stat
+2024-12-05 16:41:10,263 - WARNING -  * Debugger is active!
+2024-12-05 16:41:10,263 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 16:41:20,192 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\carritoRoute.py', reloading
+2024-12-05 16:41:20,481 - INFO -  * Restarting with stat
+2024-12-05 16:41:22,460 - WARNING -  * Debugger is active!
+2024-12-05 16:41:22,468 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 16:41:22,599 - INFO - 127.0.0.1 - - [05/Dec/2024 16:41:22] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 16:41:22,755 - INFO - 127.0.0.1 - - [05/Dec/2024 16:41:22] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:41:27,541 - INFO - 127.0.0.1 - - [05/Dec/2024 16:41:27] "[35m[1mGET /carrito/5/Remera%20Premium/l/10000 HTTP/1.1[0m" 500 -
+2024-12-05 16:41:27,618 - INFO - 127.0.0.1 - - [05/Dec/2024 16:41:27] "GET /carrito/5/Remera%20Premium/l/10000?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-12-05 16:41:27,619 - INFO - 127.0.0.1 - - [05/Dec/2024 16:41:27] "GET /carrito/5/Remera%20Premium/l/10000?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-12-05 16:41:27,655 - INFO - 127.0.0.1 - - [05/Dec/2024 16:41:27] "GET /carrito/5/Remera%20Premium/l/10000?__debugger__=yes&cmd=resource&f=console.png&s=QgFLsnD7hurp8bBen5CM HTTP/1.1" 200 -
+2024-12-05 16:41:27,799 - INFO - 127.0.0.1 - - [05/Dec/2024 16:41:27] "GET /carrito/5/Remera%20Premium/l/10000?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-12-05 16:42:01,152 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\carritoRoute.py', reloading
+2024-12-05 16:42:01,241 - INFO -  * Restarting with stat
+2024-12-05 16:42:03,540 - WARNING -  * Debugger is active!
+2024-12-05 16:42:03,546 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 16:42:03,603 - INFO - 127.0.0.1 - - [05/Dec/2024 16:42:03] "[32mGET /carrito/5/Remera%20Premium/l/10000 HTTP/1.1[0m" 302 -
+2024-12-05 16:42:03,666 - INFO - 127.0.0.1 - - [05/Dec/2024 16:42:03] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 16:42:03,847 - INFO - 127.0.0.1 - - [05/Dec/2024 16:42:03] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:42:13,862 - INFO - 127.0.0.1 - - [05/Dec/2024 16:42:13] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 16:42:13,930 - INFO - 127.0.0.1 - - [05/Dec/2024 16:42:13] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:42:24,132 - INFO - 127.0.0.1 - - [05/Dec/2024 16:42:24] "GET / HTTP/1.1" 200 -
+2024-12-05 16:42:24,240 - INFO - 127.0.0.1 - - [05/Dec/2024 16:42:24] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:42:25,380 - INFO - 127.0.0.1 - - [05/Dec/2024 16:42:25] "[32mGET /producto/5 HTTP/1.1[0m" 302 -
+2024-12-05 16:42:25,430 - INFO - 127.0.0.1 - - [05/Dec/2024 16:42:25] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 16:42:25,510 - INFO - 127.0.0.1 - - [05/Dec/2024 16:42:25] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:42:27,573 - INFO - 127.0.0.1 - - [05/Dec/2024 16:42:27] "[32mGET /carrito/5/Remera%20Premium/l/10000 HTTP/1.1[0m" 302 -
+2024-12-05 16:42:27,600 - INFO - 127.0.0.1 - - [05/Dec/2024 16:42:27] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 16:42:27,699 - INFO - 127.0.0.1 - - [05/Dec/2024 16:42:27] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:43:41,733 - INFO - 127.0.0.1 - - [05/Dec/2024 16:43:41] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 16:43:41,810 - INFO - 127.0.0.1 - - [05/Dec/2024 16:43:41] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:43:44,020 - INFO - 127.0.0.1 - - [05/Dec/2024 16:43:44] "GET /carrito/ HTTP/1.1" 200 -
+2024-12-05 16:43:44,105 - INFO - 127.0.0.1 - - [05/Dec/2024 16:43:44] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:43:47,516 - INFO - 127.0.0.1 - - [05/Dec/2024 16:43:47] "GET / HTTP/1.1" 200 -
+2024-12-05 16:43:47,618 - INFO - 127.0.0.1 - - [05/Dec/2024 16:43:47] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:43:48,943 - INFO - 127.0.0.1 - - [05/Dec/2024 16:43:48] "GET /producto/6 HTTP/1.1" 200 -
+2024-12-05 16:43:49,022 - INFO - 127.0.0.1 - - [05/Dec/2024 16:43:49] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:43:51,259 - INFO - 127.0.0.1 - - [05/Dec/2024 16:43:51] "GET / HTTP/1.1" 200 -
+2024-12-05 16:43:51,363 - INFO - 127.0.0.1 - - [05/Dec/2024 16:43:51] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:43:52,397 - INFO - 127.0.0.1 - - [05/Dec/2024 16:43:52] "[32mGET /producto/5 HTTP/1.1[0m" 302 -
+2024-12-05 16:43:52,427 - INFO - 127.0.0.1 - - [05/Dec/2024 16:43:52] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 16:43:52,507 - INFO - 127.0.0.1 - - [05/Dec/2024 16:43:52] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:43:54,210 - INFO - 127.0.0.1 - - [05/Dec/2024 16:43:54] "[32mGET /carrito/5/Remera%20Premium/l/10000 HTTP/1.1[0m" 302 -
+2024-12-05 16:43:54,251 - INFO - 127.0.0.1 - - [05/Dec/2024 16:43:54] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 16:43:54,351 - INFO - 127.0.0.1 - - [05/Dec/2024 16:43:54] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:43:55,943 - INFO - 127.0.0.1 - - [05/Dec/2024 16:43:55] "GET /carrito/ HTTP/1.1" 200 -
+2024-12-05 16:43:56,027 - INFO - 127.0.0.1 - - [05/Dec/2024 16:43:56] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:44:24,738 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\carritoRoute.py', reloading
+2024-12-05 16:44:24,850 - INFO -  * Restarting with stat
+2024-12-05 16:44:27,195 - WARNING -  * Debugger is active!
+2024-12-05 16:44:27,200 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 16:44:28,389 - INFO - 127.0.0.1 - - [05/Dec/2024 16:44:28] "GET /carrito/ HTTP/1.1" 200 -
+2024-12-05 16:44:28,561 - INFO - 127.0.0.1 - - [05/Dec/2024 16:44:28] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:44:51,702 - INFO - 127.0.0.1 - - [05/Dec/2024 16:44:51] "GET /carrito/ HTTP/1.1" 200 -
+2024-12-05 16:44:51,772 - INFO - 127.0.0.1 - - [05/Dec/2024 16:44:51] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:44:54,324 - INFO - 127.0.0.1 - - [05/Dec/2024 16:44:54] "GET / HTTP/1.1" 200 -
+2024-12-05 16:44:54,439 - INFO - 127.0.0.1 - - [05/Dec/2024 16:44:54] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:44:56,036 - INFO - 127.0.0.1 - - [05/Dec/2024 16:44:56] "[32mGET /producto/5 HTTP/1.1[0m" 302 -
+2024-12-05 16:44:56,093 - INFO - 127.0.0.1 - - [05/Dec/2024 16:44:56] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 16:44:56,179 - INFO - 127.0.0.1 - - [05/Dec/2024 16:44:56] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:44:58,051 - INFO - 127.0.0.1 - - [05/Dec/2024 16:44:58] "[32mGET /carrito/5/Remera%20Premium/l/10000 HTTP/1.1[0m" 302 -
+2024-12-05 16:44:58,090 - INFO - 127.0.0.1 - - [05/Dec/2024 16:44:58] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 16:44:58,192 - INFO - 127.0.0.1 - - [05/Dec/2024 16:44:58] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:44:59,575 - INFO - 127.0.0.1 - - [05/Dec/2024 16:44:59] "GET /carrito/ HTTP/1.1" 200 -
+2024-12-05 16:44:59,650 - INFO - 127.0.0.1 - - [05/Dec/2024 16:44:59] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:45:02,827 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:02] "GET / HTTP/1.1" 200 -
+2024-12-05 16:45:02,955 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:02] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:45:03,722 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:03] "[32mGET /producto/1 HTTP/1.1[0m" 302 -
+2024-12-05 16:45:03,751 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:03] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 16:45:03,829 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:03] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:45:06,335 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:06] "[32mGET /carrito/1/Remera/s/5000 HTTP/1.1[0m" 302 -
+2024-12-05 16:45:06,368 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:06] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 16:45:06,473 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:06] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:45:07,677 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:07] "GET /carrito/ HTTP/1.1" 200 -
+2024-12-05 16:45:07,763 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:07] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:45:16,232 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:16] "GET / HTTP/1.1" 200 -
+2024-12-05 16:45:16,347 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:16] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:45:17,231 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:17] "[32mGET /producto/1 HTTP/1.1[0m" 302 -
+2024-12-05 16:45:17,270 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:17] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 16:45:17,347 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:17] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:45:18,819 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:18] "[32mGET /carrito/1/Remera/s/5000 HTTP/1.1[0m" 302 -
+2024-12-05 16:45:18,848 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:18] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 16:45:18,937 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:18] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:45:22,303 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:22] "GET / HTTP/1.1" 200 -
+2024-12-05 16:45:22,388 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:22] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:45:23,562 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:23] "[32mGET /producto/5 HTTP/1.1[0m" 302 -
+2024-12-05 16:45:23,596 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:23] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 16:45:23,703 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:23] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:45:25,287 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:25] "[32mGET /carrito/5/Remera%20Premium/l/10000 HTTP/1.1[0m" 302 -
+2024-12-05 16:45:25,312 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:25] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 16:45:25,391 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:25] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:45:26,938 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:26] "GET /carrito/ HTTP/1.1" 200 -
+2024-12-05 16:45:27,068 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:27] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:45:44,957 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\carritoRoute.py', reloading
+2024-12-05 16:45:45,049 - INFO -  * Restarting with stat
+2024-12-05 16:45:47,203 - WARNING -  * Debugger is active!
+2024-12-05 16:45:47,219 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 16:45:49,053 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:49] "GET / HTTP/1.1" 200 -
+2024-12-05 16:45:49,202 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:49] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:45:50,449 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:50] "[32mGET /producto/1 HTTP/1.1[0m" 302 -
+2024-12-05 16:45:50,500 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:50] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 16:45:50,604 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:50] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:45:53,272 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:53] "[32mGET /carrito/1/Remera/s/5000 HTTP/1.1[0m" 302 -
+2024-12-05 16:45:53,299 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:53] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 16:45:53,382 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:53] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:45:55,131 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:55] "GET / HTTP/1.1" 200 -
+2024-12-05 16:45:55,231 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:55] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:45:56,154 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:56] "[32mGET /producto/5 HTTP/1.1[0m" 302 -
+2024-12-05 16:45:56,177 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:56] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 16:45:56,257 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:56] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:45:57,537 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:57] "[32mGET /carrito/5/Remera%20Premium/l/10000 HTTP/1.1[0m" 302 -
+2024-12-05 16:45:57,574 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:57] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 16:45:57,675 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:57] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:45:59,209 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:59] "GET /carrito/ HTTP/1.1" 200 -
+2024-12-05 16:45:59,294 - INFO - 127.0.0.1 - - [05/Dec/2024 16:45:59] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:47:56,596 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\carritoRoute.py', reloading
+2024-12-05 16:47:56,709 - INFO -  * Restarting with stat
+2024-12-05 16:47:58,938 - WARNING -  * Debugger is active!
+2024-12-05 16:47:58,938 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 16:47:59,442 - INFO - 127.0.0.1 - - [05/Dec/2024 16:47:59] "GET /carrito/ HTTP/1.1" 200 -
+2024-12-05 16:47:59,576 - INFO - 127.0.0.1 - - [05/Dec/2024 16:47:59] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:48:01,249 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:01] "GET / HTTP/1.1" 200 -
+2024-12-05 16:48:01,340 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:01] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:48:02,452 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:02] "[32mGET /producto/5 HTTP/1.1[0m" 302 -
+2024-12-05 16:48:02,512 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:02] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 16:48:02,592 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:02] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:48:04,409 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:04] "[32mGET /carrito/5/Remera%20Premium/l/10000 HTTP/1.1[0m" 302 -
+2024-12-05 16:48:04,435 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:04] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 16:48:04,527 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:04] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:48:05,969 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:05] "GET / HTTP/1.1" 200 -
+2024-12-05 16:48:06,045 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:06] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:48:07,921 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:07] "GET /producto/6 HTTP/1.1" 200 -
+2024-12-05 16:48:08,031 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:08] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:48:10,564 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:10] "GET / HTTP/1.1" 200 -
+2024-12-05 16:48:10,638 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:10] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:48:12,077 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:12] "GET /carrito/ HTTP/1.1" 200 -
+2024-12-05 16:48:12,178 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:12] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:48:14,482 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:14] "GET / HTTP/1.1" 200 -
+2024-12-05 16:48:14,563 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:14] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:48:15,418 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:15] "[32mGET /producto/1 HTTP/1.1[0m" 302 -
+2024-12-05 16:48:15,444 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:15] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 16:48:15,559 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:15] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:48:17,225 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:17] "[32mGET /carrito/1/Remera/s/5000 HTTP/1.1[0m" 302 -
+2024-12-05 16:48:17,253 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:17] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 16:48:17,335 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:17] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:48:18,683 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:18] "GET /carrito/ HTTP/1.1" 200 -
+2024-12-05 16:48:18,783 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:18] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:48:35,543 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\carritoRoute.py', reloading
+2024-12-05 16:48:35,643 - INFO -  * Restarting with stat
+2024-12-05 16:48:37,637 - WARNING -  * Debugger is active!
+2024-12-05 16:48:37,652 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 16:48:41,921 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:41] "GET /carrito/ HTTP/1.1" 200 -
+2024-12-05 16:48:42,057 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:42] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:48:44,065 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:44] "GET / HTTP/1.1" 200 -
+2024-12-05 16:48:44,151 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:44] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:48:45,396 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:45] "[32mGET /producto/5 HTTP/1.1[0m" 302 -
+2024-12-05 16:48:45,453 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:45] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 16:48:45,560 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:45] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:48:47,292 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:47] "[32mGET /carrito/5/Remera%20Premium/l/10000 HTTP/1.1[0m" 302 -
+2024-12-05 16:48:47,320 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:47] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 16:48:47,401 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:47] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:48:49,604 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:49] "GET / HTTP/1.1" 200 -
+2024-12-05 16:48:49,708 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:49] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:48:51,076 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:51] "[32mGET /producto/1 HTTP/1.1[0m" 302 -
+2024-12-05 16:48:51,103 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:51] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 16:48:51,182 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:51] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:48:52,718 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:52] "[32mGET /carrito/1/Remera/s/5000 HTTP/1.1[0m" 302 -
+2024-12-05 16:48:52,747 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:52] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 16:48:52,846 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:52] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:48:54,095 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:54] "GET /carrito/ HTTP/1.1" 200 -
+2024-12-05 16:48:54,180 - INFO - 127.0.0.1 - - [05/Dec/2024 16:48:54] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:50:00,206 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\carritoRoute.py', reloading
+2024-12-05 16:50:00,296 - INFO -  * Restarting with stat
+2024-12-05 16:50:02,596 - WARNING -  * Debugger is active!
+2024-12-05 16:50:02,614 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 16:50:10,992 - INFO - 127.0.0.1 - - [05/Dec/2024 16:50:10] "GET /carrito/ HTTP/1.1" 200 -
+2024-12-05 16:50:11,097 - INFO - 127.0.0.1 - - [05/Dec/2024 16:50:11] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:50:12,802 - INFO - 127.0.0.1 - - [05/Dec/2024 16:50:12] "GET / HTTP/1.1" 200 -
+2024-12-05 16:50:12,913 - INFO - 127.0.0.1 - - [05/Dec/2024 16:50:12] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:50:14,125 - INFO - 127.0.0.1 - - [05/Dec/2024 16:50:14] "[32mGET /producto/5 HTTP/1.1[0m" 302 -
+2024-12-05 16:50:14,176 - INFO - 127.0.0.1 - - [05/Dec/2024 16:50:14] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 16:50:14,293 - INFO - 127.0.0.1 - - [05/Dec/2024 16:50:14] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:50:17,748 - INFO - 127.0.0.1 - - [05/Dec/2024 16:50:17] "[32mGET /carrito/5/Remera%20Premium/l/10000 HTTP/1.1[0m" 302 -
+2024-12-05 16:50:17,779 - INFO - 127.0.0.1 - - [05/Dec/2024 16:50:17] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-05 16:50:17,882 - INFO - 127.0.0.1 - - [05/Dec/2024 16:50:17] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:50:19,817 - INFO - 127.0.0.1 - - [05/Dec/2024 16:50:19] "GET /carrito/ HTTP/1.1" 200 -
+2024-12-05 16:50:19,900 - INFO - 127.0.0.1 - - [05/Dec/2024 16:50:19] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:50:51,892 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\carritoRoute.py', reloading
+2024-12-05 16:50:52,022 - INFO -  * Restarting with stat
+2024-12-05 16:50:54,017 - WARNING -  * Debugger is active!
+2024-12-05 16:50:54,017 - INFO -  * Debugger PIN: 135-384-108
+2024-12-05 16:50:54,818 - INFO - 127.0.0.1 - - [05/Dec/2024 16:50:54] "GET / HTTP/1.1" 200 -
+2024-12-05 16:50:55,033 - INFO - 127.0.0.1 - - [05/Dec/2024 16:50:55] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:50:56,270 - INFO - 127.0.0.1 - - [05/Dec/2024 16:50:56] "GET /producto/6 HTTP/1.1" 200 -
+2024-12-05 16:50:56,353 - INFO - 127.0.0.1 - - [05/Dec/2024 16:50:56] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:50:58,646 - INFO - 127.0.0.1 - - [05/Dec/2024 16:50:58] "GET / HTTP/1.1" 200 -
+2024-12-05 16:50:58,737 - INFO - 127.0.0.1 - - [05/Dec/2024 16:50:58] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:51:00,369 - INFO - 127.0.0.1 - - [05/Dec/2024 16:51:00] "GET /carrito/ HTTP/1.1" 200 -
+2024-12-05 16:51:00,446 - INFO - 127.0.0.1 - - [05/Dec/2024 16:51:00] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:51:19,911 - INFO - 127.0.0.1 - - [05/Dec/2024 16:51:19] "GET / HTTP/1.1" 200 -
+2024-12-05 16:51:20,018 - INFO - 127.0.0.1 - - [05/Dec/2024 16:51:20] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:51:21,042 - INFO - 127.0.0.1 - - [05/Dec/2024 16:51:21] "GET /producto/6 HTTP/1.1" 200 -
+2024-12-05 16:51:21,119 - INFO - 127.0.0.1 - - [05/Dec/2024 16:51:21] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:51:23,671 - INFO - 127.0.0.1 - - [05/Dec/2024 16:51:23] "GET / HTTP/1.1" 200 -
+2024-12-05 16:51:23,765 - INFO - 127.0.0.1 - - [05/Dec/2024 16:51:23] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:51:24,873 - INFO - 127.0.0.1 - - [05/Dec/2024 16:51:24] "[32mGET /producto/1 HTTP/1.1[0m" 302 -
+2024-12-05 16:51:24,904 - INFO - 127.0.0.1 - - [05/Dec/2024 16:51:24] "GET /producto/1/s HTTP/1.1" 200 -
+2024-12-05 16:51:24,991 - INFO - 127.0.0.1 - - [05/Dec/2024 16:51:24] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-05 16:51:28,981 - INFO - 127.0.0.1 - - [05/Dec/2024 16:51:28] "GET /producto/1/m HTTP/1.1" 200 -
+2024-12-05 16:51:29,093 - INFO - 127.0.0.1 - - [05/Dec/2024 16:51:29] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 10:37:10,229 - INFO - 127.0.0.1 - - [06/Dec/2024 10:37:10] "GET /producto/1/m HTTP/1.1" 200 -
+2024-12-06 10:37:10,323 - INFO - 127.0.0.1 - - [06/Dec/2024 10:37:10] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 10:37:29,008 - INFO - 127.0.0.1 - - [06/Dec/2024 10:37:29] "GET / HTTP/1.1" 200 -
+2024-12-06 10:37:29,081 - INFO - 127.0.0.1 - - [06/Dec/2024 10:37:29] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 10:37:42,206 - INFO - 127.0.0.1 - - [06/Dec/2024 10:37:42] "GET /producto/6 HTTP/1.1" 200 -
+2024-12-06 10:37:42,323 - INFO - 127.0.0.1 - - [06/Dec/2024 10:37:42] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 10:37:47,223 - INFO - 127.0.0.1 - - [06/Dec/2024 10:37:47] "GET / HTTP/1.1" 200 -
+2024-12-06 10:37:47,305 - INFO - 127.0.0.1 - - [06/Dec/2024 10:37:47] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 10:37:56,938 - INFO - 127.0.0.1 - - [06/Dec/2024 10:37:56] "GET /carrito/ HTTP/1.1" 200 -
+2024-12-06 10:37:57,103 - INFO - 127.0.0.1 - - [06/Dec/2024 10:37:57] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 10:40:07,528 - INFO - 127.0.0.1 - - [06/Dec/2024 10:40:07] "GET /carrito/ HTTP/1.1" 200 -
+2024-12-06 10:40:07,601 - INFO - 127.0.0.1 - - [06/Dec/2024 10:40:07] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 10:41:23,635 - INFO - 127.0.0.1 - - [06/Dec/2024 10:41:23] "GET /carrito/ HTTP/1.1" 200 -
+2024-12-06 10:41:23,715 - INFO - 127.0.0.1 - - [06/Dec/2024 10:41:23] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 10:57:41,453 - INFO - 127.0.0.1 - - [06/Dec/2024 10:57:41] "GET /carrito/ HTTP/1.1" 200 -
+2024-12-06 10:57:41,530 - INFO - 127.0.0.1 - - [06/Dec/2024 10:57:41] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 10:57:54,081 - INFO - 127.0.0.1 - - [06/Dec/2024 10:57:54] "GET /carrito/ HTTP/1.1" 200 -
+2024-12-06 10:57:54,147 - INFO - 127.0.0.1 - - [06/Dec/2024 10:57:54] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 10:57:57,772 - INFO - 127.0.0.1 - - [06/Dec/2024 10:57:57] "[32mGET /producto/5?talle=l HTTP/1.1[0m" 302 -
+2024-12-06 10:57:57,834 - INFO - 127.0.0.1 - - [06/Dec/2024 10:57:57] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-06 10:57:57,939 - INFO - 127.0.0.1 - - [06/Dec/2024 10:57:57] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:02:04,206 - INFO - 127.0.0.1 - - [06/Dec/2024 11:02:04] "GET / HTTP/1.1" 200 -
+2024-12-06 11:02:04,384 - INFO - 127.0.0.1 - - [06/Dec/2024 11:02:04] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:02:47,450 - INFO - 127.0.0.1 - - [06/Dec/2024 11:02:47] "GET /signIn/ HTTP/1.1" 200 -
+2024-12-06 11:04:15,682 - INFO - 127.0.0.1 - - [06/Dec/2024 11:04:15] "GET /signIn/ HTTP/1.1" 200 -
+2024-12-06 11:04:36,336 - INFO - 127.0.0.1 - - [06/Dec/2024 11:04:36] "GET /signIn/ HTTP/1.1" 200 -
+2024-12-06 11:04:45,033 - INFO - 127.0.0.1 - - [06/Dec/2024 11:04:45] "GET /signIn/ HTTP/1.1" 200 -
+2024-12-06 11:05:05,569 - INFO - 127.0.0.1 - - [06/Dec/2024 11:05:05] "GET /signIn/ HTTP/1.1" 200 -
+2024-12-06 11:06:46,403 - INFO - 127.0.0.1 - - [06/Dec/2024 11:06:46] "GET /signIn/ HTTP/1.1" 200 -
+2024-12-06 11:07:10,942 - INFO - 127.0.0.1 - - [06/Dec/2024 11:07:10] "GET /signIn/ HTTP/1.1" 200 -
+2024-12-06 11:07:12,653 - INFO - 127.0.0.1 - - [06/Dec/2024 11:07:12] "GET / HTTP/1.1" 200 -
+2024-12-06 11:07:12,788 - INFO - 127.0.0.1 - - [06/Dec/2024 11:07:12] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:07:20,527 - INFO - 127.0.0.1 - - [06/Dec/2024 11:07:20] "GET /signIn/ HTTP/1.1" 200 -
+2024-12-06 11:07:42,915 - INFO - 127.0.0.1 - - [06/Dec/2024 11:07:42] "[32mPOST /signIn/ HTTP/1.1[0m" 302 -
+2024-12-06 11:07:42,948 - INFO - 127.0.0.1 - - [06/Dec/2024 11:07:42] "GET / HTTP/1.1" 200 -
+2024-12-06 11:07:43,076 - INFO - 127.0.0.1 - - [06/Dec/2024 11:07:43] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:08:04,782 - INFO - 127.0.0.1 - - [06/Dec/2024 11:08:04] "[32mGET /logOut/logout HTTP/1.1[0m" 302 -
+2024-12-06 11:08:04,808 - INFO - 127.0.0.1 - - [06/Dec/2024 11:08:04] "GET / HTTP/1.1" 200 -
+2024-12-06 11:08:04,878 - INFO - 127.0.0.1 - - [06/Dec/2024 11:08:04] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:08:44,543 - INFO - 127.0.0.1 - - [06/Dec/2024 11:08:44] "GET / HTTP/1.1" 200 -
+2024-12-06 11:08:44,623 - INFO - 127.0.0.1 - - [06/Dec/2024 11:08:44] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:08:48,150 - INFO - 127.0.0.1 - - [06/Dec/2024 11:08:48] "GET /signIn/ HTTP/1.1" 200 -
+2024-12-06 11:09:11,485 - INFO - 127.0.0.1 - - [06/Dec/2024 11:09:11] "GET /register/ HTTP/1.1" 200 -
+2024-12-06 11:12:31,290 - INFO - 127.0.0.1 - - [06/Dec/2024 11:12:31] "GET / HTTP/1.1" 200 -
+2024-12-06 11:12:31,351 - INFO - 127.0.0.1 - - [06/Dec/2024 11:12:31] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:13:44,106 - INFO - 127.0.0.1 - - [06/Dec/2024 11:13:44] "GET / HTTP/1.1" 200 -
+2024-12-06 11:13:44,170 - INFO - 127.0.0.1 - - [06/Dec/2024 11:13:44] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:17:35,649 - INFO - 127.0.0.1 - - [06/Dec/2024 11:17:35] "GET / HTTP/1.1" 200 -
+2024-12-06 11:17:35,715 - INFO - 127.0.0.1 - - [06/Dec/2024 11:17:35] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:18:28,109 - INFO - 127.0.0.1 - - [06/Dec/2024 11:18:28] "GET / HTTP/1.1" 200 -
+2024-12-06 11:18:28,188 - INFO - 127.0.0.1 - - [06/Dec/2024 11:18:28] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:18:28,876 - INFO - 127.0.0.1 - - [06/Dec/2024 11:18:28] "GET / HTTP/1.1" 200 -
+2024-12-06 11:18:28,941 - INFO - 127.0.0.1 - - [06/Dec/2024 11:18:28] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:18:49,263 - INFO - 127.0.0.1 - - [06/Dec/2024 11:18:49] "GET / HTTP/1.1" 200 -
+2024-12-06 11:18:49,333 - INFO - 127.0.0.1 - - [06/Dec/2024 11:18:49] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:24:56,028 - INFO - 127.0.0.1 - - [06/Dec/2024 11:24:56] "GET / HTTP/1.1" 200 -
+2024-12-06 11:24:56,181 - INFO - 127.0.0.1 - - [06/Dec/2024 11:24:56] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:27:53,073 - INFO - 127.0.0.1 - - [06/Dec/2024 11:27:53] "GET / HTTP/1.1" 200 -
+2024-12-06 11:27:53,131 - INFO - 127.0.0.1 - - [06/Dec/2024 11:27:53] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:30:09,358 - INFO - 127.0.0.1 - - [06/Dec/2024 11:30:09] "GET / HTTP/1.1" 200 -
+2024-12-06 11:30:09,610 - INFO - 127.0.0.1 - - [06/Dec/2024 11:30:09] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2024-12-06 11:32:10,352 - INFO - 127.0.0.1 - - [06/Dec/2024 11:32:10] "GET / HTTP/1.1" 200 -
+2024-12-06 11:32:10,423 - INFO - 127.0.0.1 - - [06/Dec/2024 11:32:10] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:32:25,356 - INFO - 127.0.0.1 - - [06/Dec/2024 11:32:25] "GET / HTTP/1.1" 200 -
+2024-12-06 11:32:25,420 - INFO - 127.0.0.1 - - [06/Dec/2024 11:32:25] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:33:43,635 - INFO - 127.0.0.1 - - [06/Dec/2024 11:33:43] "GET / HTTP/1.1" 200 -
+2024-12-06 11:33:43,705 - INFO - 127.0.0.1 - - [06/Dec/2024 11:33:43] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:33:50,441 - INFO - 127.0.0.1 - - [06/Dec/2024 11:33:50] "GET / HTTP/1.1" 200 -
+2024-12-06 11:33:50,533 - INFO - 127.0.0.1 - - [06/Dec/2024 11:33:50] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:36:21,772 - INFO - 127.0.0.1 - - [06/Dec/2024 11:36:21] "GET / HTTP/1.1" 200 -
+2024-12-06 11:36:21,836 - INFO - 127.0.0.1 - - [06/Dec/2024 11:36:21] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:38:17,924 - INFO - 127.0.0.1 - - [06/Dec/2024 11:38:17] "GET / HTTP/1.1" 200 -
+2024-12-06 11:38:17,983 - INFO - 127.0.0.1 - - [06/Dec/2024 11:38:17] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:38:50,910 - INFO - 127.0.0.1 - - [06/Dec/2024 11:38:50] "GET / HTTP/1.1" 200 -
+2024-12-06 11:38:50,989 - INFO - 127.0.0.1 - - [06/Dec/2024 11:38:50] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:43:07,909 - INFO - 127.0.0.1 - - [06/Dec/2024 11:43:07] "GET / HTTP/1.1" 200 -
+2024-12-06 11:43:08,002 - INFO - 127.0.0.1 - - [06/Dec/2024 11:43:08] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:43:55,658 - INFO - 127.0.0.1 - - [06/Dec/2024 11:43:55] "GET / HTTP/1.1" 200 -
+2024-12-06 11:43:55,744 - INFO - 127.0.0.1 - - [06/Dec/2024 11:43:55] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:44:22,627 - INFO - 127.0.0.1 - - [06/Dec/2024 11:44:22] "GET / HTTP/1.1" 200 -
+2024-12-06 11:44:22,700 - INFO - 127.0.0.1 - - [06/Dec/2024 11:44:22] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:45:25,651 - INFO - 127.0.0.1 - - [06/Dec/2024 11:45:25] "GET / HTTP/1.1" 200 -
+2024-12-06 11:45:25,735 - INFO - 127.0.0.1 - - [06/Dec/2024 11:45:25] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:48:35,796 - INFO - 127.0.0.1 - - [06/Dec/2024 11:48:35] "GET / HTTP/1.1" 200 -
+2024-12-06 11:48:35,870 - INFO - 127.0.0.1 - - [06/Dec/2024 11:48:35] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:49:07,057 - INFO - 127.0.0.1 - - [06/Dec/2024 11:49:07] "GET / HTTP/1.1" 200 -
+2024-12-06 11:49:07,145 - INFO - 127.0.0.1 - - [06/Dec/2024 11:49:07] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:50:03,722 - INFO - 127.0.0.1 - - [06/Dec/2024 11:50:03] "GET /signIn/ HTTP/1.1" 200 -
+2024-12-06 11:50:11,124 - INFO - 127.0.0.1 - - [06/Dec/2024 11:50:11] "[32mPOST /signIn/ HTTP/1.1[0m" 302 -
+2024-12-06 11:50:11,154 - INFO - 127.0.0.1 - - [06/Dec/2024 11:50:11] "GET / HTTP/1.1" 200 -
+2024-12-06 11:50:11,262 - INFO - 127.0.0.1 - - [06/Dec/2024 11:50:11] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:51:48,526 - INFO - 127.0.0.1 - - [06/Dec/2024 11:51:48] "GET / HTTP/1.1" 200 -
+2024-12-06 11:51:48,603 - INFO - 127.0.0.1 - - [06/Dec/2024 11:51:48] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:52:22,585 - INFO - 127.0.0.1 - - [06/Dec/2024 11:52:22] "GET /carrito/ HTTP/1.1" 200 -
+2024-12-06 11:52:22,708 - INFO - 127.0.0.1 - - [06/Dec/2024 11:52:22] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:52:24,640 - INFO - 127.0.0.1 - - [06/Dec/2024 11:52:24] "GET / HTTP/1.1" 200 -
+2024-12-06 11:52:24,750 - INFO - 127.0.0.1 - - [06/Dec/2024 11:52:24] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:52:29,193 - INFO - 127.0.0.1 - - [06/Dec/2024 11:52:29] "[32mGET /producto/5 HTTP/1.1[0m" 302 -
+2024-12-06 11:52:29,226 - INFO - 127.0.0.1 - - [06/Dec/2024 11:52:29] "GET /producto/5/l HTTP/1.1" 200 -
+2024-12-06 11:52:29,327 - INFO - 127.0.0.1 - - [06/Dec/2024 11:52:29] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:52:32,424 - INFO - 127.0.0.1 - - [06/Dec/2024 11:52:32] "GET / HTTP/1.1" 200 -
+2024-12-06 11:52:32,497 - INFO - 127.0.0.1 - - [06/Dec/2024 11:52:32] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-06 11:57:37,374 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\productoRoute.py', reloading
+2024-12-06 11:57:37,680 - INFO -  * Restarting with stat
+2024-12-06 11:57:40,414 - WARNING -  * Debugger is active!
+2024-12-06 11:57:40,428 - INFO -  * Debugger PIN: 135-384-108
+2024-12-06 11:58:16,234 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\routes\\productoRoute.py', reloading
+2024-12-06 11:58:16,354 - INFO -  * Restarting with stat
+2024-12-06 11:58:19,563 - WARNING -  * Debugger is active!
+2024-12-06 11:58:19,563 - INFO -  * Debugger PIN: 135-384-108
+2024-12-06 12:01:18,697 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\config\\configLogs.py', reloading
+2024-12-06 12:01:18,929 - INFO -  * Restarting with stat
+2024-12-06 12:01:21,839 - WARNING -  * Debugger is active!
+2024-12-06 12:01:21,875 - INFO -  * Debugger PIN: 135-384-108
+2024-12-06 12:02:06,774 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\config\\configLogs.py', reloading
+2024-12-06 12:02:06,901 - INFO -  * Restarting with stat
+2024-12-06 12:02:08,710 - WARNING -  * Debugger is active!
+2024-12-06 12:02:08,725 - INFO -  * Debugger PIN: 135-384-108
+2024-12-06 12:02:46,490 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\config\\configLogs.py', reloading
+2024-12-06 12:02:46,632 - INFO -  * Restarting with stat
+2024-12-06 12:02:49,452 - WARNING -  * Debugger is active!
+2024-12-06 12:02:49,468 - INFO -  * Debugger PIN: 135-384-108
+2024-12-06 12:04:03,202 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\config\\configLogs.py', reloading
+2024-12-06 12:04:03,576 - INFO -  * Restarting with stat
+2024-12-06 12:04:06,079 - WARNING -  * Debugger is active!
+2024-12-06 12:04:06,094 - INFO -  * Debugger PIN: 135-384-108
+2024-12-06 12:06:16,054 - INFO -  * Detected change in 'c:\\Users\\Kevin\\Desktop\\Kaminari\\app\\config\\configLogs.py', reloading
+2024-12-06 12:06:16,186 - INFO -  * Restarting with stat
+2024-12-06 12:08:53,636 - INFO -  * Restarting with stat
+2024-12-06 12:09:02,023 - INFO -  * Restarting with stat
+2024-12-06 12:09:31,752 - INFO -  * Restarting with stat
+2024-12-06 12:10:39,971 - INFO -  * Restarting with stat
+2024-12-06 12:11:26,069 - INFO -  * Restarting with stat
+2024-12-06 12:11:52,282 - INFO -  * Restarting with stat
+2024-12-06 12:12:23,689 - INFO -  * Restarting with stat
+2024-12-06 12:12:36,532 - INFO -  * Restarting with stat
+2024-12-06 12:14:36,909 - INFO -  * Restarting with stat
+2024-12-06 12:15:38,616 - INFO -  * Restarting with stat
+2024-12-06 12:59:57,949 - INFO -  * Restarting with stat
+2024-12-06 13:23:51,266 - INFO -  * Restarting with stat
+2024-12-06 13:24:50,507 - INFO -  * Restarting with stat
+2024-12-06 14:22:15,508 - INFO -  * Restarting with stat
+2024-12-06 14:41:42,674 - INFO -  * Restarting with stat
+2024-12-10 12:03:59,687 - INFO -  * Restarting with stat
+2024-12-10 12:04:29,787 - INFO -  * Restarting with stat
+2024-12-10 12:08:09,696 - INFO -  * Restarting with stat
+2024-12-10 12:09:33,591 - INFO -  * Restarting with stat
+2024-12-10 12:09:59,835 - INFO -  * Restarting with stat
+2024-12-10 12:14:45,335 - INFO -  * Restarting with stat
+2024-12-10 12:20:01,415 - INFO -  * Restarting with stat
+2024-12-10 12:34:28,867 - INFO -  * Restarting with stat
+2024-12-10 12:35:50,967 - INFO -  * Restarting with stat
+2024-12-10 12:39:24,507 - INFO -  * Restarting with stat
+2024-12-10 12:39:33,277 - INFO -  * Restarting with stat
+2024-12-10 12:43:43,469 - INFO -  * Restarting with stat
+2024-12-10 12:46:20,707 - INFO -  * Restarting with stat
+2024-12-10 12:54:30,111 - INFO -  * Restarting with stat
+2024-12-10 12:56:13,109 - INFO -  * Restarting with stat
+2024-12-10 13:03:26,812 - INFO -  * Restarting with stat
+2024-12-10 13:06:04,866 - INFO -  * Restarting with stat
+2024-12-10 13:20:34,414 - INFO -  * Restarting with stat
+2024-12-10 13:21:28,984 - INFO -  * Restarting with stat
+2024-12-10 13:23:46,031 - INFO -  * Restarting with stat
+2024-12-10 13:24:03,965 - INFO -  * Restarting with stat
+2024-12-10 13:24:59,464 - INFO -  * Restarting with stat
+2024-12-10 13:27:07,365 - INFO -  * Restarting with stat
+2024-12-10 13:27:32,759 - INFO -  * Restarting with stat
+2024-12-10 13:28:09,444 - INFO -  * Restarting with stat
+2024-12-10 13:29:17,467 - INFO -  * Restarting with stat
+2024-12-10 13:31:21,113 - INFO -  * Restarting with stat
+2024-12-10 13:32:00,039 - INFO -  * Restarting with stat
+2024-12-10 13:32:10,692 - INFO -  * Restarting with stat
+2024-12-10 13:34:46,193 - INFO -  * Restarting with stat
+2024-12-10 13:37:54,438 - INFO -  * Restarting with stat
+2024-12-10 13:38:22,642 - INFO -  * Restarting with stat
+2024-12-10 14:42:14,364 - INFO -  * Restarting with stat
+2024-12-10 14:42:25,266 - INFO -  * Restarting with stat
+2024-12-10 14:44:14,167 - INFO -  * Restarting with stat
+2024-12-10 15:11:43,489 - INFO -  * Restarting with stat
+2024-12-10 15:14:18,077 - INFO -  * Restarting with stat
+2024-12-10 15:22:36,707 - INFO -  * Restarting with stat
+2024-12-10 15:54:37,199 - INFO -  * Restarting with stat
