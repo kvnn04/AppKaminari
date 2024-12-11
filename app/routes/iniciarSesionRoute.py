@@ -3,6 +3,7 @@ from app.logs.capturaDeError import logException
 from app.src.forms.signInForm import SignInForm
 from app.src.token.auth import authenticate
 from app.src.token.peticionesProtegidas import protectedRequest
+from app.src.models.usuarioModels import Usuario
 
 signIn: Blueprint = Blueprint(name='signIn', import_name=__name__)
 
@@ -22,7 +23,7 @@ def iniciarSesion():
             logException(exception=Exception(dataUser['message']))
             error = 'Error al iniciar sesion'
             return render_template('signIn.html', form=formularioSignIn, error=error)
-        
+        print(dataUser)
         session['informationUsuario'] = dataUser['response']
         return redirect(url_for('home'))
 
