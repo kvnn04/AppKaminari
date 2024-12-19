@@ -1,25 +1,65 @@
-{% extends "base.html" %}
-
-{% block title %}
-Carrito Page
-{% endblock %}
+{% extends "base.html" %} {% block title %} Carrito Page {% endblock %} 
 
 {% block content %}
-<h2>Bienvenido a la Página del Carrito</h2>
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit maiores quibusdam dolor, porro perspiciatis ea. Ad, tenetur error maiores, harum veniam deleniti optio nam adipisci incidunt, ducimus nulla quo qui.</p>
-<p>
-
-</p>
 
 <div class="container-fluid">
-    {% if dataCarrito %}
-        {% for producto in dataCarrito%}
-            <div class="row">
-                <div class="col">
-                    <a href="{{ url_for('producto.productoPage', id=producto['id'], talle=producto['data']['talle'])}}">{{ producto }}</a>
+
+    {% if dataCarrito %} 
+    <div class="row mt-2">
+        <div class="col-md-8 d-flex flex-column">
+        <section>
+            {% for producto in dataCarrito %}
+            <div class="d-flex flex-row justify-content-between">
+                    <div>
+                        <h4>
+                        <a href="{{url_for('producto.productoPage', id=producto['id'], talleParams=producto['talle'], colorParams=producto['color'], cantidadPArams=producto['cantidad'] ) }}">{{producto['nombre']}}</a>
+                        </h4>
+                    </div>
+                    
+                    <div class="d-flex flex-row">
+                        <div class="me-2">
+                            <h5 style="color: gray;">Talle: {{producto['talle']}}</h5>
+                        </div>
+                        <div class="me-2">
+                            <h5 style="color: gray;">Color: {{producto['color']}}</h5>
+                        </div>
+                        <div class="me-2">
+                            <h5 style="color: gray;">Cantidad: {{producto['cantidad']}}</h5>
+                        </div>
+                        <div class="me-2">
+                            <h5 style="color: gray;">Cantidad: {{producto['precio']}}</h5>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="{{url_for('carrito.eliminarProductoInCarrito', id=producto['id'] ) }}">eliminar</a>
+                    </div>
                 </div>
+                {% endfor %}
+        </section>
+    </div>
+    <div class="col-md-4 d-flex flex-column">
+        <section id="carrito">
+            <div>
+                <p>Productos({{cantidadItemCarrito}})</p>
             </div>
-        {% endfor %}
-    {% endif %}
-</div>
+            <div class="d-flex flex-row justify-content-between">
+                <h3>Total</h3>
+                <h3>${{totalPriceCarrito}}</h3>
+            </div>
+
+            <div class="d-grid gap-2 mt-3">
+                <a href="{{ url_for('pagoCarrito.pagoCarrito') }}" 
+                   class="btn btn-primary">
+                    Comprar
+                </a>
+            </div>
+        </section>
+    </div>
+    </div>
+    {% else %}
+    <div>
+        <h3>No hay Productos agregados</h3>
+    </div>
+{% endif %} 
+</div> 
 {% endblock %}

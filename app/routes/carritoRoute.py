@@ -1,6 +1,7 @@
+from typing import List
 from flask import Blueprint, redirect, render_template, session, url_for
-from app.src.models.carritoModel import Carrito
-from app.src.models.productoModel import Producto
+
+
 carrito: Blueprint = Blueprint(name='carrito', import_name=__name__)
 
 
@@ -18,40 +19,38 @@ def carritoPage():
 
     carritoSession = session.get('carrito', [])
 
-    
-    carritoBest: Carrito = Carrito()
+
+    print(carritoSession)
 
     if carritoSession:
+        totalPriceCarrito: float = 0
+        cantidadItemCarrito: int = 0
 
         for i in carritoSession:
-            dataProducto: dict = i['data']
-            producto: Producto = Producto(id=i['id'], nombre=dataProducto['nombre'], precio=dataProducto['precio'], talle=dataProducto['talle'])
-            carritoBest.agregarProducto(producto=producto)
-        
-        print(carritoBest.producto)
 
-        return render_template('carrito.html', dataCarrito=carritoSession)
+            totalPriceCarrito += i['totalPrecio']
+            cantidadItemCarrito += 1
+
+        return render_template('carrito.html', dataCarrito=carritoSession, cantidadItemCarrito=cantidadItemCarrito, totalPriceCarrito=totalPriceCarrito)
     
     return render_template('carrito.html')
 
 
-@carrito.route('/<int:id>/<string:nombre>/<string:talle>/<string:color>/<int:precio>')
-def agregarProductoACarrito(id: int, nombre: str, talle: str, color: str, precio: int):
+@carrito.route('/<int:id>/<string:nombre>/<string:talle>/<string:color>/<int:cantidad>/<int:precio>')
+def agregarProductoACarrito(id: int, nombre: str, talle: str, color: str, cantidad: int, precio: float):
 
     inicializarCarrito()
 
-    dataProducto = {'id': id, 'data' : {
+    totalPrecio = precio*cantidad
+
+    dataProducto = { 'id': id,
         'nombre': nombre,
         'talle': talle,
+        'cantidad': cantidad,
         'color': color,
-        'precio': precio
-    }}
-
-
-
-    # if 'carrito' not in session.keys():
-    #     session['carrito'] = []
-
+        'precio': precio,
+        'totalPrecio': totalPrecio
+    }
     session['carrito'].append(dataProducto)
     session.modified = True
 
@@ -65,3 +64,18 @@ def limpiarCarrito():
     session['carrito'] = []
     session.modified = True
     return redirect(url_for('carrito.carritoPage'))
+
+@carrito.route('/eliminar/<int:id>')
+def eliminarProductoInCarrito(id: int):
+    if session['carrito'] is None:
+        return 'no existe carrito'
+    
+    listaProductosInCarrito = session['carrito']
+
+    for producto in listaProductosInCarrito:
+        if producto['id'] == id:
+            session['carrito'].remove(producto)  # Elimina el diccionario de la lista
+            session.modified = True  # Marca la sesión como modificada
+            return redirect(url_for('carrito.carritoPage'))
+
+    return redirect(url_for('home'))
