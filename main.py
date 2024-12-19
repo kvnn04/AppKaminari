@@ -6,11 +6,10 @@ from app.routes.productoRoute import producto
 from app.routes.registerRoute import signUp
 from app.routes.iniciarSesionRoute import signIn
 from app.routes.carritoRoute import carrito
+from app.routes.comprarProductoRoute import pagoProductoRoute
+from app.routes.comprarCarritoRoute import pagoCarritoRoute
 from flask_wtf.csrf import CSRFProtect
-
-
-from app.src.token.auth import authenticate
-from app.src.token.peticionesProtegidas import getRequest, protectedRequest
+from app.src.token.peticionesProtegidas import getRequest
 
 app: Flask = Flask(__name__)
 app.config['SECRET_KEY'] = 'MiClaveSuperSecreta'
@@ -22,6 +21,8 @@ app.register_blueprint(signUp, url_prefix='/register')
 app.register_blueprint(signIn, url_prefix='/signIn')
 app.register_blueprint(carrito, url_prefix='/carrito')
 app.register_blueprint(logOut, url_prefix='/logOut')
+app.register_blueprint(pagoProductoRoute, url_prefix='/pagoProducto')
+app.register_blueprint(pagoCarritoRoute, url_prefix='/pagoCarrito')
 
 
 @app.route('/')

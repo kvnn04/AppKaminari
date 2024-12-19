@@ -43,4 +43,24 @@ dia 11/12/2024:
 
     (Que dificiiiiiiil, creo que quiero morir o aunque sea darle un viaje a mi compu)
 
+dia 19/12/2024:
+
+    Problemas que arregle:
+        -filtros entre los diferentes productos por color, talle y cantidad( esto fue loo mas complicado de este proyecto). Lo que hice fue hacer que por cada item dentro de un dropdown de haga un nuevo renderizado con los filtros correspondientes, lo de formulario fue una cagada.
+    
+    Nuevas implementaciones:
+        -Integración con Mercado Pago
+        -Realizacion de Pagos atraves de la web
+        -Pago por productos
+        -Pago por carrito
+        -Mejora de validaciones en vista Producto, Carrito y sus funciones
+    
+    Problemas con los que me encontre con las nuevas implementaciones:
+        -Ni hay videos en youtube para conectar MP a python, tuve que leer la documentacion de MP
+        -La realizacion de pruebas con la cuenta de MP fue bastante complicado para mí
+        -No pasar el precio por url pq se puede cambiar si alguien sabe manipular la misma
+
+    Pendientes:
+        -Implementar formulario para obtener la direccion del usuario.
+        -Cuando se complete el pago que me llegue el mail con la informacion de la compra
     

@@ -44,11 +44,14 @@ Producto Page
                 <p>
                   {{producto}}
               </p>
+                <p>
+                  {{valoresDisponiblesDeProducto}}
+              </p>
               </section>
         </div>
 
-        <div class="col-md-4 d-flex">
-            <section class="container-fluid mt-4">
+        <div class="col-md-4 d-flex flex-column">
+            <section class="container-fluid d-flex flex-column mt-4">
                 <div>
                     <h2>{{producto['nombre']}}</h2>
                 </div>
@@ -62,76 +65,64 @@ Producto Page
                     </div>
                 </div>
 
-                <!-- <div class="mb-3">
-                    <label class="form-label">Talle</label>
-                    <select class="form-select" id="talle-select">
-                        {% if talleActual %}
-                            <option value="" disabled>{{talleActual['talleActual']}}</option>
-
-                        {% for variante in talleActual['opcionesTalle'] %}
-                            <option value="{{ url_for('producto.productoPage', id=producto['id'], talleParams=variante) }}">
-                                {{ variante }}
-                            </option>
-                        {% endfor %}
-                        {% else %}
-                            <option value="" selected disabled>Selecciona un talle</option>
-                        {% endif %}
-                    </select>
-                </div> -->
-
-                <!-- Example single danger button -->
-                <label class="form-label">Talle</label>
+                
+                {% if dataProducto %}
                 <div class="btn-group d-grid gap-2">
-                    {% if talleActual %}
+                    <label class="form-label">talle</label>
                     <button type="button" class="btn btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                        {{talleActual['talleActual']}}
+                        {{dataProducto['talleParams']}}
                     </button>
                     <ul class="dropdown-menu">
-
-                        {% for variante in talleActual['opcionesTalle'] %}
-                            <li><a class="dropdown-item" href="{{ url_for('producto.productoPage', id=producto['id'], talleParams=variante) }}">{{variante}}</a></li>
+                        {% for variante in dataProducto['colorYTalleDisponiblesByProductos']['talleDisponible'] %}
+                            <li><a class="dropdown-item" href="{{ url_for('producto.productoPage', id=dataProducto['id'], talleParams=variante, colorParams=None, cantidadParams=None) }}">{{variante}}</a></li>
                         {% endfor %}
-                        {% else %}
-                            <li><a class="dropdown-item" href="#">Selecciona un talle</a></li>
-
-                        {% endif %}
                     </ul>
                 </div>
-                <!-- Example single danger button -->
-                <label class="form-label">Color</label>
                 <div class="btn-group d-grid gap-2">
-                    {% if talleActual %}
+                    <label class="form-label">color</label>
                     <button type="button" class="btn btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                        {{colorParams}}
+                        {{ dataProducto['colorParams'] }}
                     </button>
                     <ul class="dropdown-menu">
-
-                        {% for variante in talleActual['coloresTalleActual'] %}
-                            <li><a class="dropdown-item" href="{{ url_for('producto.productoPage', id=producto['id'], talleParams=talleActual['talleActual'], colorParams=variante[0] ) }}">{{variante[0]}}</a></li>
+                        {% for variante in dataProducto['colorYTalleDisponiblesByProductos']['coloresTalleActual'] %}
+                            <li><a class="dropdown-item" href="{{ url_for('producto.productoPage', id=dataProducto['id'], talleParams = dataProducto['talleParams'], colorParams=variante, cantidadParams=1)}}">{{variante}}</a></li>
                         {% endfor %}
-                        
                     </ul>
                 </div>
-                <div>
-                    <p>
-                        stockDisponible: {{talleActual['stockFromTalleActual']}} 
-                    </p>
+                
+                <div class="btn-group d-grid gap-2">
+                    <label class="form-label">cantidad</label>
+                    <button type="button" class="btn btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        {{dataProducto['cantidadParams']}}
+                    </button>
+                    <ul class="dropdown-menu">
+                        {% for variante in dataProducto['cantidadDisponible'] %}
+                            <li><a class="dropdown-item" href="{{ url_for('producto.productoPage', id=dataProducto['id'], talleParams = dataProducto['talleParams'], colorParams=dataProducto['colorParams'], cantidadParams=variante)}}">{{variante}}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+
+                <div class="d-grid gap-2 mt-3">
+                    <a href="{{ url_for('carrito.agregarProductoACarrito', id=dataProducto['id'], nombre=dataProducto['nombreProducto'], talle=dataProducto['talleParams'], color=dataProducto['colorParams'], cantidad=dataProducto['cantidadParams'], precio=dataProducto['precio']) }}" 
+                       class="btn btn-primary">
+                        Agregar a carrito
+                    </a>
+                </div>
+                <div class="d-grid gap-2 mt-3">
+                    <a href="{{ url_for('pagoProducto.pagos', id=dataProducto['id'], cantidad=dataProducto['cantidadParams']) }}" 
+                       class="btn btn-primary">
+                        Comprar
+                    </a>
                 </div>
                 {% else %}
-                    <li><a class="dropdown-item" href="#">Selecciona un talle</a></li>
-
+                    No hay variantes disponibles
                 {% endif %}
 
 
 
                 
-                <div class="d-grid gap-2 mt-2">
-                    <a href="{{ url_for('carrito.agregarProductoACarrito', id=producto['id'], nombre=producto['nombre'],color=colorParams ,talle=talleActual['talleActual'], precio=producto['precio'])}}" class="btn btn-outline-primary">
-                        Agregar a carrito
-                    </a>
-                </div>
                 
-
+            
 
             </section>
         </div>
