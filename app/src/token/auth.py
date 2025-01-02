@@ -13,4 +13,5 @@ def authenticate(username, password) -> None|str:
       #  print(f'Error al obtener el token: {response.text}')
     token: str = response.json().get("access_token")
     return token
+   
 

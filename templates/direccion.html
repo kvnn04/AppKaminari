@@ -1,0 +1,71 @@
+{% extends "base.html" %} {% block title %} Carrito Page {% endblock %} 
+
+{% block content %}
+
+<div class="container">
+    <section class="d-flex mt-2">
+        {% if form %}
+        <form method="POST" class="form-floating mb-2 w-100">
+            {{form.hidden_tag()}}
+            
+            <div class="form-floating mb-2">
+                {{form.provincia(class="form-control", placeholder='')}}
+                <label for="inputUsername">{{form.provincia.label}}</label>
+                {% for error in form.provincia.errors %}
+                    <small style="color: red;">{{ error }}</small>
+                {% endfor %}
+            </div>
+    
+            <div class="form-floating mb-2">
+                {{form.localidad(class="form-control", placeholder='')}}
+                <label for="pwdInput">{{form.localidad.label}}</label>
+                {% for error in form.localidad.errors %}
+                    <small style="color: red;">{{ error }}</small>
+                {% endfor %}
+            </div>
+            <div class="form-floating mb-2">
+                {{form.calle(class="form-control", placeholder='')}}
+                <label for="pwdInput">{{form.calle.label}}</label>
+                {% for error in form.calle.errors %}
+                    <small style="color: red;">{{ error }}</small>
+                {% endfor %}
+            </div>
+            <div class="form-floating mb-2">
+                {{form.altura(class="form-control", placeholder='')}}
+                <label for="pwdInput">{{form.altura.label}}</label>
+                {% for error in form.altura.errors %}
+                    <small style="color: red;">{{ error }}</small>
+                {% endfor %}
+            </div>
+            <div class="form-floating mb-2">
+                {{form.departamento(class="form-control", placeholder='')}}
+                <label for="pwdInput">{{form.departamento.label}}</label>
+                {% for error in form.departamento.errors %}
+                    <small style="color: red;">{{ error }}</small>
+                {% endfor %}
+            </div>
+            <div class="form-floating mb-2">
+                {{form.piso(class="form-control", placeholder='')}}
+                <label for="pwdInput">{{form.piso.label}}</label>
+                {% for error in form.piso.errors %}
+                    <small style="color: red;">{{ error }}</small>
+                {% endfor %}
+            </div>
+            <div class="form-floating mb-2">
+                {{form.codigoPostal(class="form-control", placeholder='')}}
+                <label for="pwdInput">{{form.codigoPostal.label}}</label>
+                {% for error in form.codigoPostal.errors %}
+                    <small style="color: red;">{{ error }}</small>
+                {% endfor %}
+            </div>
+    
+            <div>
+                {{ form.submit(class="btn btn-outline-primary w-100") }}
+            </div>
+        </form>
+        
+        {% endif %}
+    </section>
+
+</div> 
+{% endblock %}

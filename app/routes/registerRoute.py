@@ -7,14 +7,6 @@ from app.src.token.auth import authenticate
 from app.src.token.peticionesProtegidas import postRequest, protectedRequest
 from pydantic import BaseModel, Field
 
-class UsuarioRegister(BaseModel):
-    nombre: None | str = Field(None, max_length=50)
-    apellido: None | str = Field(None, max_length=50)
-    username: str = Field(..., max_length=50)
-    email: str = Field(..., max_length=50)
-    pwd: str = Field(..., min_length=1)
-    verifyPwd: str = Field(...)
-
 signUp: Blueprint = Blueprint(name='signUp', import_name=__name__)
 
 @signUp.route('/', methods=['GET', 'POST'])

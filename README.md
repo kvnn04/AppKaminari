@@ -65,3 +65,11 @@ dia 19/12/2024:
         -Implementar formulario para obtener la direccion del usuario.
         -Cuando se complete el pago que me llegue el mail con la informacion de la compra
     
+dia 2/1/2025:
+    Termine mi proyecto Kaminari v0.1
+
+    Nuevas implementaciones:
+        -Redis: Esto me sirvio para manejar los datos de tipo cookie y mejorar la seguridad de los mismos
+        -Pago de carrito
+        -pago de producto
+        -mejora de seguridad

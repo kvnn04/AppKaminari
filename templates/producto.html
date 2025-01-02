@@ -12,31 +12,34 @@ Producto Page
         <div class="col-md-8 d-flex flex-column">
             <section class="container-fluid mt-3">
                 <div id="carouselExample" class="carousel slide">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <div class="carousel-inner">
+                      {% if producto['imagenes'] %}
+                      <div class="carousel-item active">
+                          <img src="{{producto['imagenes'][0]}}" class="d-block w-100" alt="..." style="height: 500px; object-fit: contain;">
+                      </div>
+                        {% for imagen in producto['imagenes'][1:] %}
+                            <div class="carousel-item">
+                                <img src="{{imagen}}" class="d-block w-100" alt="..." style="height: 500px; object-fit: contain;">
+                            </div>
+                        {% endfor %}
+                    {% else %}
+                            <div class="carousel-item active">
+                                <img src="https://via.placeholder.com/400x400" class="d-block w-100" alt="..." style="height: 500px; object-fit: contain;">
+                            </div>
+                    {% endif %}
                     </div>
-                  <div class="carousel-inner" style="height: 500px;">
-                    <div class="carousel-item active">
-                      <img src="https://via.placeholder.com/400x400" class="d-block w-100" alt="..." style="height: 500px; object-fit: cover;">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="https://via.placeholder.com/400x300" class="d-block w-100" alt="..." style="height: 500px; object-fit: cover;">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="https://via.placeholder.com/400x500" class="d-block w-100" alt="..." style="height: 500px; object-fit: cover;">
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: invert(50%) sepia(100%) saturate(500%) hue-rotate(200deg);"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true" style="filter: invert(50%) sepia(100%) saturate(500%) hue-rotate(200deg);"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
                   </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div>
+
+
+
               </section>
               <section class="container-fluid mt-3">
                 <h2>Descripcion</h2>
@@ -67,8 +70,7 @@ Producto Page
 
                 
                 {% if dataProducto %}
-                <div class="btn-group d-grid gap-2">
-                    <label class="form-label">talle</label>
+                <div class="btn-group d-grid gap-2 mt-2">
                     <button type="button" class="btn btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                         {{dataProducto['talleParams']}}
                     </button>
@@ -78,8 +80,7 @@ Producto Page
                         {% endfor %}
                     </ul>
                 </div>
-                <div class="btn-group d-grid gap-2">
-                    <label class="form-label">color</label>
+                <div class="btn-group d-grid gap-2 mt-2">
                     <button type="button" class="btn btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                         {{ dataProducto['colorParams'] }}
                     </button>
@@ -90,8 +91,7 @@ Producto Page
                     </ul>
                 </div>
                 
-                <div class="btn-group d-grid gap-2">
-                    <label class="form-label">cantidad</label>
+                <div class="btn-group d-grid gap-2 mt-2">
                     <button type="button" class="btn btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                         {{dataProducto['cantidadParams']}}
                     </button>
@@ -102,13 +102,13 @@ Producto Page
                     </ul>
                 </div>
 
-                <div class="d-grid gap-2 mt-3">
+                <div class="d-grid gap-2 mt-2">
                     <a href="{{ url_for('carrito.agregarProductoACarrito', id=dataProducto['id'], nombre=dataProducto['nombreProducto'], talle=dataProducto['talleParams'], color=dataProducto['colorParams'], cantidad=dataProducto['cantidadParams'], precio=dataProducto['precio']) }}" 
                        class="btn btn-primary">
                         Agregar a carrito
                     </a>
                 </div>
-                <div class="d-grid gap-2 mt-3">
+                <div class="d-grid gap-2 mt-2">
                     <a href="{{ url_for('pagoProducto.pagos', id=dataProducto['id'], cantidad=dataProducto['cantidadParams']) }}" 
                        class="btn btn-primary">
                         Comprar
@@ -117,13 +117,6 @@ Producto Page
                 {% else %}
                     No hay variantes disponibles
                 {% endif %}
-
-
-
-                
-                
-            
-
             </section>
         </div>
     </div>
