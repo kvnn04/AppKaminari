@@ -24,7 +24,7 @@ Inicio - Mi Aplicación
                 {% for producto in allproduct %}
                 <div class="col-md-3 d-flex mb-2">
                     <a href="{{ url_for('producto.productoPage', id=producto['id'])}}" class="card" style="width: 18rem;">
-                        <img src="https://via.placeholder.com/400x400" class="card-img-top" alt="...">
+                        <img src="{{ producto['imagenes'][0] if producto['imagenes'] else 'https://via.placeholder.com/400x400' }}" class="card-img-top" alt="Imagen del producto">
                         <div class="card-body">
                             <h4 class="card-text">${{producto['precio']}}</h4>
                             <p class="card-text">{{producto['descripcion']}}</p>
@@ -35,7 +35,7 @@ Inicio - Mi Aplicación
                 {% endfor %}
                 <div class="col-md-3 d-flex mb-2">
                     <a href="#" class="card" style="width: 18rem;">
-                        <img src="https://via.placeholder.com/400x400" class="card-img-top" alt="...">
+                        <img src="hola" class="card-img-top" alt="sin imagen disponible">                        
                         <div class="card-body">
                             <h4 class="card-text">sdafasd</h4>
                             <p class="card-text">dsfsd</p>
@@ -47,9 +47,9 @@ Inicio - Mi Aplicación
                     <a href="#" class="card" style="width: 18rem;">
                         <img src="https://via.placeholder.com/400x400" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h4 class="card-text">sdafasd</h4>
-                            <p class="card-text">dsfsd</p>
-                            <p class="card-text">sdfad</p>
+                            <h4 class="card-text text-truncate">aaaaaaaaaaaaaaaaa</h4>
+                            <p class="card-text text-truncate"  >eeeeeeeeeeeeeeee</p>
+                            <p class="card-text text-truncate">ssssssssssssssssssssssssssssssssssssssssssss</p>
                         </div>
                     </a>
                 </div>

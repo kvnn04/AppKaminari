@@ -28,7 +28,7 @@ Segundo:
 
         -Crear DB # hecho
         -APIRest a la DB hecho
-        -Logica BackEnd 
+        -Logica BackEnd # hecho
         -Diseñar FrontEnd
         -Desarrollar FrontEnd
         -Explorar y aprender patrones de diseño

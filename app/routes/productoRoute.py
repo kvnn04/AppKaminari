@@ -49,6 +49,7 @@ producto: Blueprint = Blueprint(name='producto', import_name=__name__)
 @producto.route('/<int:id>/<string:talleParams>', methods=['GET', 'POST'])
 @producto.route('/<int:id>/<string:talleParams>/<string:colorParams>/<int:cantidadParams>', methods=['GET', 'POST'])
 def productoPage(id: int, talleParams: Literal['xs','s','m','l','xl','xxl','xxxl']|None = None, colorParams: str|None = None, cantidadParams: int|None = None):
+
     respuesta = getRequest(endpoint="/producto/getProducto", params={'id': id})
 
         # if talleParams is None or colorParams is None or cantidadParams is None:
@@ -86,60 +87,8 @@ def productoPage(id: int, talleParams: Literal['xs','s','m','l','xl','xxl','xxxl
         
         cantidadDisponible = getCantidadByProducto(cantidad=stock)
         dataProducto = { 'id': id, 'nombreProducto': respuesta['response']['nombre'], 'precio': respuesta['response']['precio'] ,'talleParams': talleParams, 'colorParams' : colorParams, 'cantidadParams' : cantidadParams, 'stockVariante': stock ,'cantidadDisponible' : cantidadDisponible, 'colorYTalleDisponiblesByProductos': colorYTalleDisponiblesByProductos}
-        
+        print(respuesta['response'])
         return render_template('producto.html', producto=respuesta['response'], dataProducto=dataProducto)
     
 
     return render_template('producto.html', producto=respuesta['response'])
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    # if respuesta['response']['id'] == id:
-
-    #     if talleParams is None:
-    #         idProducto=respuesta['response']['id']
-    #         primerVarianteProducto = respuesta['response']['variantes']
-    #         stock = getStock(primerVarianteProducto, talle=primerVarianteProducto[0]['talle'], color=primerVarianteProducto[0]['color'])
-
-    #         return redirect(url_for('producto.productoPage', id=idProducto, talleParams=primerVarianteProducto[0]['talle'], colorParams=primerVarianteProducto[0]['color'], cantidadParams=1))
-
-    #     if talleParams is not None and colorParams is None or cantidadParams is None:
-    #         idProducto=respuesta['response']['id']
-    #         dataRespuestaOfProducto = respuesta['response']
-    #         variantesDataFromProducto = dataRespuestaOfProducto['variantes'] # Variantes seria ej: {'talle': 's', 'color': 'verde', 'stock': 5} , relacionado a un producto. Puede tener muchas "Variantes
-    #         dataFilterByTalle = filtrarPorTalle(talle=talleParams, listaVariantes=variantesDataFromProducto)
-    #         print(dataFilterByTalle, 'lpasfasdfbokaaaaaaaaaaaaaaa')
-
-    #         primerColor = dataFilterByTalle['coloresTalleActual'][0]
-    #         stock = getStock(variantesDataFromProducto, talle=talleParams, color=primerColor)
-    #         print(stock,'sdafa')
-    #         return redirect(url_for('producto.productoPage', id=idProducto, talleParams=dataFilterByTalle['talleActual'], colorParams=primerColor, cantidadParams=stock))
-        
-        
-    #     n = respuesta['response']['variantes']        
-
-    #     print('paso por aca')
-
-    #     dataFilterByTalle = filtrarPorTalle(talle=talleParams, listaVariantes=n)
-    #     print(dataFilterByTalle)
-
-    #     obtenerStockByTalleAndColor= getStock(listaVariantesProducto=n,talle=talleParams, color=colorParams)
-
-    #     cantidad = getCantidadByProducto(cantidad=obtenerStockByTalleAndColor)
-
-    #     print(cantidad,'sadfsdf')
-    #     print(colorParams,'sadfsdf')
-
-
-    #     return render_template('producto.html', producto=respuesta['response'], talleActual=dataFilterByTalle, colorParams=colorParams, cantidadDisponibles=cantidad, cantidadParams=cantidadParams)
-        

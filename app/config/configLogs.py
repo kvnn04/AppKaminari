@@ -24,11 +24,6 @@ que indica que el servidor se está reiniciando debido a cambios en los archivos
 de logging a ERROR, este tipo de mensajes se siguen mostrando porque son generados por el servidor de desarrollo
  y no están completamente controlados por el nivel de logging que configuraste.
 '''
-
-# # Deshabilitar el logging de Flask para que no se registre en el log de errores
-# log = logging.getLogger('werkzeug')  # El logger de Werkzeug maneja los logs de Flask
-# log.setLevel(logging.ERROR)  # No registrar nada por debajo de ERROR
-
 log = logging.getLogger('werkzeug')  # El logger de Werkzeug maneja los logs de Flask
 log.setLevel(logging.CRITICAL)  # Esto debería evitar que registre nada, incluyendo INFO
 log.handlers = []

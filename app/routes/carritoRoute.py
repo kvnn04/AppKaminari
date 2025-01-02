@@ -1,6 +1,8 @@
 from typing import List
 from flask import Blueprint, redirect, render_template, session, url_for
 
+from app.src.token.peticionesProtegidas import getRequest
+
 
 carrito: Blueprint = Blueprint(name='carrito', import_name=__name__)
 
@@ -11,7 +13,6 @@ def inicializarCarrito():
         session.modified = True
 
 
-
 @carrito.route('/')
 def carritoPage():
 
@@ -19,16 +20,13 @@ def carritoPage():
 
     carritoSession = session.get('carrito', [])
 
-
-    print(carritoSession)
-
     if carritoSession:
-        totalPriceCarrito: float = 0
+        totalPriceCarrito: float|int = 0
         cantidadItemCarrito: int = 0
 
         for i in carritoSession:
 
-            totalPriceCarrito += i['totalPrecio']
+            totalPriceCarrito += i.get('totalPrecio', 0)
             cantidadItemCarrito += 1
 
         return render_template('carrito.html', dataCarrito=carritoSession, cantidadItemCarrito=cantidadItemCarrito, totalPriceCarrito=totalPriceCarrito)
@@ -40,10 +38,15 @@ def carritoPage():
 def agregarProductoACarrito(id: int, nombre: str, talle: str, color: str, cantidad: int, precio: float):
 
     inicializarCarrito()
+    
+    productoPrecio = getRequest('/producto/verifyIdsProductos', params={'ids': [id]})
+
+    if not productoPrecio['response']:
+        return redirect(url_for('home'))
 
     totalPrecio = precio*cantidad
 
-    dataProducto = { 'id': id,
+    dataProducto = { 'id': productoPrecio['response'][0],
         'nombre': nombre,
         'talle': talle,
         'cantidad': cantidad,

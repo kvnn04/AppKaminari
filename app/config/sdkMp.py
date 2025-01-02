@@ -1,5 +1,9 @@
 import mercadopago
+from dotenv import load_dotenv
+from os import getenv
 
-sdk = mercadopago.SDK("APP_USR-5374057476100803-121812-96bbdcdb5c6edd0e664c9d592356c741-2163208142")
+load_dotenv(dotenv_path='dataSensible.env')
+
+sdk = mercadopago.SDK(getenv('SDKMP'))
 
 # aca va eso pero en variable de entorno
