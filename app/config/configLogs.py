@@ -18,12 +18,12 @@ logging.basicConfig(
     handlers=[console_handler, file_handler]  # Añadir ambos handlers
 )
 
-'''
-El mensaje "Restarting with stat" es generado por el servidor de desarrollo de Flask (utilizando werkzeug), 
-que indica que el servidor se está reiniciando debido a cambios en los archivos. Aunque ajustaste el nivel 
-de logging a ERROR, este tipo de mensajes se siguen mostrando porque son generados por el servidor de desarrollo
- y no están completamente controlados por el nivel de logging que configuraste.
-'''
-log = logging.getLogger('werkzeug')  # El logger de Werkzeug maneja los logs de Flask
-log.setLevel(logging.CRITICAL)  # Esto debería evitar que registre nada, incluyendo INFO
-log.handlers = []
+# '''
+# El mensaje "Restarting with stat" es generado por el servidor de desarrollo de Flask (utilizando werkzeug), 
+# que indica que el servidor se está reiniciando debido a cambios en los archivos. Aunque ajustaste el nivel 
+# de logging a ERROR, este tipo de mensajes se siguen mostrando porque son generados por el servidor de desarrollo
+#  y no están completamente controlados por el nivel de logging que configuraste.
+# '''
+# log = logging.getLogger('werkzeug')  # El logger de Werkzeug maneja los logs de Flask
+# log.setLevel(logging.CRITICAL)  # Esto debería evitar que registre nada, incluyendo INFO
+# log.handlers = []
