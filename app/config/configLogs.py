@@ -2,21 +2,21 @@ import logging
 from pathlib import Path
 
 
-log_path = Path("app/logs/appErrors.log")
+# log_path = Path("app/logs/appErrors.log")
 
-# Crear loggers separados para consola y archivo
-console_handler = logging.StreamHandler()
-console_handler.setLevel(logging.ERROR)  # Solo se mostrarán errores en consola
+# # Crear loggers separados para consola y archivo
+# console_handler = logging.StreamHandler()
+# console_handler.setLevel(logging.ERROR)  # Solo se mostrarán errores en consola
 
-file_handler = logging.FileHandler(log_path)
-file_handler.setLevel(logging.ERROR)  # Solo se guardarán errores en el archivo
+# file_handler = logging.FileHandler(log_path)
+# file_handler.setLevel(logging.ERROR)  # Solo se guardarán errores en el archivo
 
-# Configuración de logging
-logging.basicConfig(
-    level=logging.CRITICAL,  # Registra solo los errores a partir de este nivel
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    handlers=[console_handler, file_handler]  # Añadir ambos handlers
-)
+# # Configuración de logging
+# logging.basicConfig(
+#     level=logging.CRITICAL,  # Registra solo los errores a partir de este nivel
+#     format="%(asctime)s - %(levelname)s - %(message)s",
+#     handlers=[console_handler, file_handler]  # Añadir ambos handlers
+# )
 
 # '''
 # El mensaje "Restarting with stat" es generado por el servidor de desarrollo de Flask (utilizando werkzeug), 
