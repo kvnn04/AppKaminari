@@ -1,8 +1,6 @@
 import os
 from flask import Flask, flash, redirect, render_template, session, url_for
 # from requests import Session, session
-from flask_session import Session
-from redis import Redis
 from app.logs.capturaDeError import logException
 from app.routes.logOutRoute import logOut
 from app.routes.usuarioRoute import usuario
@@ -47,38 +45,38 @@ app.register_blueprint(direccionRoute, url_prefix='/direccion')
 # app.config["SESSION_COOKIE_HTTPONLY"] = True
 
 # # Configuración de sesiones
-# app.config["SESSION_PERMANENT"] = True
-# app.config["PERMANENT_SESSION_LIFETIME"] = timedelta(minutes=30)
-# app.config["SESSION_USE_SIGNER"] = True
-# app.config["SESSION_COOKIE_SECURE"] = True
-# app.config["SESSION_COOKIE_HTTPONLY"] = True
+app.config["SESSION_PERMANENT"] = True
+app.config["PERMANENT_SESSION_LIFETIME"] = timedelta(minutes=30)
+app.config["SESSION_USE_SIGNER"] = True
+app.config["SESSION_COOKIE_SECURE"] = True
+app.config["SESSION_COOKIE_HTTPONLY"] = True
 
 key = getenv('SECRET_KEY')
-# Configuración de Redis para almacenar las sesiones
-app.config["SESSION_TYPE"] = "redis"
-app.config["SESSION_PERMANENT"] = True
-app.config["PERMANENT_SESSION_LIFETIME"] = timedelta(seconds=30)  # Sesión expira después de 30 minutos
-app.config["SESSION_USE_SIGNER"] = True  # Firmar las claves de sesión para mayor seguridad
-app.config["SESSION_KEY_PREFIX"] = "session:"  # Prefijo para las claves de sesión
-app.config["SESSION_COOKIE_SECURE"] = True  # Hacer las cookies solo accesibles a través de HTTPS
-app.config["SESSION_COOKIE_HTTPONLY"] = True  # No accesible por JavaScript
-app.config["SESSION_COOKIE_SAMESITE"] = "Strict"  # Prevenir CSRF (Cross Site Request Forgery)
+# # Configuración de Redis para almacenar las sesiones
+# app.config["SESSION_TYPE"] = "redis"
+# app.config["SESSION_PERMANENT"] = True
+# app.config["PERMANENT_SESSION_LIFETIME"] = timedelta(seconds=30)  # Sesión expira después de 30 minutos
+# app.config["SESSION_USE_SIGNER"] = True  # Firmar las claves de sesión para mayor seguridad
+# app.config["SESSION_KEY_PREFIX"] = "session:"  # Prefijo para las claves de sesión
+# app.config["SESSION_COOKIE_SECURE"] = True  # Hacer las cookies solo accesibles a través de HTTPS
+# app.config["SESSION_COOKIE_HTTPONLY"] = True  # No accesible por JavaScript
+# app.config["SESSION_COOKIE_SAMESITE"] = "Strict"  # Prevenir CSRF (Cross Site Request Forgery)
 
-app.config["SECRET_KEY"] = key  # Clave secreta para firmar la sesión
-if key:
+# app.config["SECRET_KEY"] = key  # Clave secreta para firmar la sesión
+# if key:
 
-# try:
-#     redis_client = Redis(host="localhost", port=6378, password="MiClaveSuperSecreta")
-#     redis_client.ping()
-#     print("Conexión exitosa a Redis")
-# except Exception as e:
-#     print(f"Error conectando a Redis: {e}")
+# # try:
+# #     redis_client = Redis(host="localhost", port=6378, password="MiClaveSuperSecreta")
+# #     redis_client.ping()
+# #     print("Conexión exitosa a Redis")
+# # except Exception as e:
+# #     print(f"Error conectando a Redis: {e}")
 
-# Proveer una instancia de Redis
-    app.config["SESSION_REDIS"] = Redis(host="localhost", port=6379)
+# # Proveer una instancia de Redis
+#     app.config["SESSION_REDIS"] = Redis(host="localhost", port=6379)
 
 
-    Session(app=app)
+    # Session(app=app)
 
 @app.route('/')
 def home():
