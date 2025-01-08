@@ -96,3 +96,7 @@ def home():
     # Paso imagenes de mas del lado del front si hay mas de una imagen va ir igual, pero lo que hago es agarrar el primero, pero me molesta pasar informacion de mas
 
     return render_template('index.html', allproduct = respuesta['response'])
+
+
+if __name__ == '__main__':
+    app.run(port=5000)
