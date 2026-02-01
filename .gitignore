@@ -1,2 +1,22 @@
+# Entorno Virtual
+venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Variables de Entorno y Logs (Los que ya tienes)
 .env
-.log
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# Base de datos local
+instance/
+*.sqlite3
