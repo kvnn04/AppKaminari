@@ -18,7 +18,7 @@ def pagos(id: int, cantidad: int):
     PENDIENTE: tengo que avisarle al usuario, mostrar un tipo de mensaje
     '''
 
-    productoPrecio = getRequest('/producto/getPrecio', params={'id': id})
+    productoPrecio = getRequest('/producto/precios', params={'id': id})
 
 
     if not productoPrecio['response']:

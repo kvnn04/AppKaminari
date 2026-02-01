@@ -50,7 +50,7 @@ producto: Blueprint = Blueprint(name='producto', import_name=__name__)
 @producto.route('/<int:id>/<string:talleParams>/<string:colorParams>/<int:cantidadParams>', methods=['GET', 'POST'])
 def productoPage(id: int, talleParams: Literal['xs','s','m','l','xl','xxl','xxxl']|None = None, colorParams: str|None = None, cantidadParams: int|None = None):
 
-    respuesta = getRequest(endpoint="/producto/getProducto", params={'id': id})
+    respuesta = getRequest(endpoint=f"/producto/{id}", params={'id': id})
 
         # if talleParams is None or colorParams is None or cantidadParams is None:
     if not respuesta['response']:
@@ -87,7 +87,6 @@ def productoPage(id: int, talleParams: Literal['xs','s','m','l','xl','xxl','xxxl
         
         cantidadDisponible = getCantidadByProducto(cantidad=stock)
         dataProducto = { 'id': id, 'nombreProducto': respuesta['response']['nombre'], 'precio': respuesta['response']['precio'] ,'talleParams': talleParams, 'colorParams' : colorParams, 'cantidadParams' : cantidadParams, 'stockVariante': stock ,'cantidadDisponible' : cantidadDisponible, 'colorYTalleDisponiblesByProductos': colorYTalleDisponiblesByProductos}
-        print(respuesta['response'])
         return render_template('producto.html', producto=respuesta['response'], dataProducto=dataProducto)
     
 

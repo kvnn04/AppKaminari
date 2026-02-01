@@ -19,15 +19,12 @@ def iniciarSesion():
             flash(message=error)
             return redirect(url_for('signIn.iniciarSesion'))
         
-        dataUser: dict = getRequest('/usuario/getUsuario', token=usuarioToken)
+        dataUser: dict = getRequest('/usuario/', token=usuarioToken)
         if not dataUser['response']:
             logException(exception=Exception(dataUser['message']))
             error = 'Error al iniciar sesion'
             return render_template('signIn.html', form=formularioSignIn, error=error)
-        print(dataUser)
         session['informationUsuario'] = dataUser['response']
-
-        # print(session)
 
         if 'urlPrevio' in session:
             urlProducto = session.pop('urlPrevio', url_for('home'))

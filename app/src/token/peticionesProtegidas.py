@@ -5,7 +5,6 @@ import requests
 from app.config.urlMiApi import BASE_URL
 from app.logs.capturaDeError import logException
 
-
 def protectedRequest(endpoint, token: str|None= None, method = Literal['get', 'put', 'delete'], data=None) -> dict:
     url = f"{BASE_URL}{endpoint}"
     token = token

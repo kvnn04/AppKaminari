@@ -81,7 +81,7 @@ key = getenv('SECRET_KEY')
 @app.route('/')
 def home():
     # acordarme de session
-    respuesta = getRequest(endpoint="/producto/getAllProducto")
+    respuesta = getRequest(endpoint="/producto/AllProducto")
 
     print(session)
     
@@ -92,11 +92,11 @@ def home():
             logException(exception=Exception(respuesta['message']))
             flash(message=error)
             cont+=1
-        return redirect(url_for('home'))
+        return render_template('index.html', allproduct = respuesta['response'])
     # Paso imagenes de mas del lado del front si hay mas de una imagen va ir igual, pero lo que hago es agarrar el primero, pero me molesta pasar informacion de mas
 
     return render_template('index.html', allproduct = respuesta['response'])
 
 
-# if __name__ == '__main__':
-#     app.run(port=5000)
+if __name__ == '__main__':
+    app.run(port=8002)

@@ -39,7 +39,7 @@ def agregarProductoACarrito(id: int, nombre: str, talle: str, color: str, cantid
 
     inicializarCarrito()
     
-    productoPrecio = getRequest('/producto/verifyIdsProductos', params={'ids': [id]})
+    productoPrecio = getRequest('/producto/verificar', params={'ids': [id]})
 
     if not productoPrecio['response']:
         return redirect(url_for('home'))
