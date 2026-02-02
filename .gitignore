@@ -21,3 +21,6 @@ __pycache__/
 # Base de datos local
 instance/
 *.sqlite3
+
+run.py
+vercel.json
