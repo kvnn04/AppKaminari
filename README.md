@@ -1,75 +1,55 @@
-# AppKaminari
-Esta es la parte del front de mi web
+⚡ AppKaminari - Frontend E-commerce
 
-dia: 4/12/2024
-    Me cuesta una banda la parte del frontend, pero por ahora vamos muy bien, puntos fuertes resueltos:
-        -Registro_responsivo
-        -IniciarSesion_responsivo  
-        -Vista del main_responsivo
-        -Agregado de Productos a main dinamico
-        -Vista del productos_responsivo
-        -link a vista de producto en especifico de manera dinamica
-        -Carrusel agregado a vista de productos
-        -Filtro por talle en la vista productos
-        -Proteccion contra CSRF
-        -Creo que es bueno una cantidad reducida de peticiones a mi api
-        -Agregue una rama develop a mi git, esto me ayuda a siempre tener un codigo funcional en la parte main y poder desarrollar tranquilo en la rama develop
+Bienvenido al frontend de Kaminari, una plataforma de e-commerce de indumentaria diseñada para ser rápida, segura y totalmente responsiva. Este proyecto nació del desafío de conectar una lógica de negocio compleja con una interfaz de usuario intuitiva.
 
-        Puntos malos: 
-            -Estructura de proyecto esta mal para mi, creeo
-            -Nose mucho el como aplicar los patrones GRASP en la parte del front, eso no significa que no lo haya usado
-            -Me olvide de las imagenes de los productos, agregarlos en la base de datos
-        
-        Pendientes:
-            -Agregar una funcion js para que se actualize los colores por talle de manera automatica
-            -Agregar imagenes para mis productos
-            -Mejorar mi header
-            -Agregar para que personas puedan comentar mis productos
-            -Agregar MercadoPago
+🚀 Características Principales
+Interfaz Dinámica: Carga de productos y vistas de detalle generadas dinámicamente desde la API.
 
+Filtros Inteligentes: Sistema avanzado de filtrado por talle y color mediante persistencia en URL, optimizando la experiencia de usuario y el manejo de estados.
 
-dia 11/12/2024:
+Checkout Integrado: Pasarela de pagos funcional mediante Mercado Pago, permitiendo compras individuales y de carrito completo.
 
-    -Encontre con problemas con en la parte de filtrado de talle y color en la pagina de productos y los resolvi,
-    tenia pensado que los select esten adentro de un form, y cuando lo aprete me traiga lo filtrado osea agregarle un js que lo que haga sea un escuchador para cuando se aprete el select, pero esto lo que hacia era que si o si tenga que apretar el submit(btn) entonces para cuando quiero guardar un producto en carrito, ¿ como haria para obtener ese color? entonces lo que hice fue hacer no select sino hacer un dropdown con links, y le paso por parametro a la url el talle y el color, asi cuando quiera hacer cualquier cosa con esos datos los traigo ya de la url misma.
-    -trato de implementar POO en la parte esta que seria front, ( pq verga pensaba que en el front no se utilizaba POO, me hubiera resultado hacer todo mas sencillo)
-    -Queria que los registros en los logs solo sean de excepciones pero la mrd esa me tomaba el reload de la aplicacion como un log, y ahora tengo un archivo de 5000 lineas de logs alpedo, yo queria que eso fuera mi registro de recorrido, que si estoy haciendo el proyecto.
-    No lo pienso borrar, ya que ahi tiene las fechas de que yo le dedique mucho tiempo a esta basura.
+Seguridad: Protección contra ataques CSRF, manejo de sesiones seguras con Redis y validaciones de integridad de precios del lado del servidor.
 
-    pendientes:
-        -Agregar imagenes para mis productos
-        -Mejorar mi header
-        -Agregar para que personas puedan comentar mis productos
-        -Agregar MercadoPago
+Diseño Mobile-First: Registro, login y catálogo 100% responsivos.
 
-    (Que dificiiiiiiil, creo que quiero morir o aunque sea darle un viaje a mi compu)
+🛠️ Stack Tecnológico
+Frontend: HTML5, CSS3, JavaScript (ES6+).
 
-dia 19/12/2024:
+Backend de soporte: Flask (Python).
 
-    Problemas que arregle:
-        -filtros entre los diferentes productos por color, talle y cantidad( esto fue loo mas complicado de este proyecto). Lo que hice fue hacer que por cada item dentro de un dropdown de haga un nuevo renderizado con los filtros correspondientes, lo de formulario fue una cagada.
-    
-    Nuevas implementaciones:
-        -Integración con Mercado Pago
-        -Realizacion de Pagos atraves de la web
-        -Pago por productos
-        -Pago por carrito
-        -Mejora de validaciones en vista Producto, Carrito y sus funciones
-    
-    Problemas con los que me encontre con las nuevas implementaciones:
-        -Ni hay videos en youtube para conectar MP a python, tuve que leer la documentacion de MP
-        -La realizacion de pruebas con la cuenta de MP fue bastante complicado para mí
-        -No pasar el precio por url pq se puede cambiar si alguien sabe manipular la misma
+Pagos: Mercado Pago SDK.
 
-    Pendientes:
-        -Implementar formulario para obtener la direccion del usuario.
-        -Cuando se complete el pago que me llegue el mail con la informacion de la compra
-    
-dia 2/1/2025:
-    Termine mi proyecto Kaminari v0.1
+Arquitectura: Implementación de POO en el frontend para organizar la lógica de componentes.
 
-    Nuevas implementaciones:
-        -Redis: Esto me sirvio para manejar los datos de tipo cookie y mejorar la seguridad de los mismos
-        -Pago de carrito
-        -pago de producto
-        -mejora de seguridad
+🧠 Desafíos Técnicos y Aprendizajes
+Este proyecto fue una verdadera escuela. Aquí detallo los puntos más críticos que resolví:
+
+1. El Dilema de los Filtros (Dropdowns vs Forms)
+Inicialmente, los filtros de talle y color estaban dentro de formularios estándar. Esto generaba una fricción innecesaria (clics extra).
+
+Solución: Migré a un sistema de dropdowns con links dinámicos que inyectan parámetros en la URL. Esto permite capturar el estado del producto de forma inmediata para enviarlo al carrito sin recargas innecesarias.
+
+2. Integración de Mercado Pago "a pulmón"
+Ante la falta de tutoriales actualizados para la integración con Python/Flask, realicé el despliegue basándome puramente en la documentación oficial.
+
+Logro: Implementé el flujo completo de pago, manejo de credenciales de prueba y aseguré la integridad del precio (evitando que se manipule por URL).
+
+3. Optimización de Logs y Debugging
+Tras lidiar con archivos de log de más de 5000 líneas por el reloader de Flask, aprendí a configurar registros específicos para excepciones, permitiendo una trazabilidad real del desarrollo.
+
+📈 Roadmap (Próximas Mejoras)
+[ ] Feedback de Usuarios: Implementar sistema de comentarios y reseñas por producto.
+
+[ ] Logística: Agregar formulario de gestión de direcciones de envío.
+
+[ ] Notificaciones: Integrar envío de emails automáticos post-compra con la información del pedido.
+
+📂 Estructura y Metodología
+El proyecto se gestionó bajo una metodología de GitFlow simplificada:
+
+Rama main: Código estable y funcional.
+
+Rama develop: Desarrollo de nuevas funcionalidades y pruebas constantes.
+
+Nota del autor: Este proyecto fue un reto personal que me llevó a entender que el Frontend es mucho más que "diseño"; es arquitectura, seguridad y persistencia de datos.
