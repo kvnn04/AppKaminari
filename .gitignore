@@ -11,6 +11,7 @@ __pycache__/
 
 # Variables de Entorno y Logs (Los que ya tienes)
 .env
+*.env
 *.log
 
 # IDEs
