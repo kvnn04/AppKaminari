@@ -9,7 +9,7 @@ Filtros Inteligentes: Sistema avanzado de filtrado por talle y color mediante pe
 
 Checkout Integrado: Pasarela de pagos funcional mediante Mercado Pago, permitiendo compras individuales y de carrito completo.
 
-Seguridad: Protección contra ataques CSRF, manejo de sesiones seguras con Redis y validaciones de integridad de precios del lado del servidor.
+Seguridad: Protección contra ataques CSRF, manejo de sesiones seguras y validaciones de integridad de precios del lado del servidor.
 
 Diseño Mobile-First: Registro, login y catálogo 100% responsivos.
 
