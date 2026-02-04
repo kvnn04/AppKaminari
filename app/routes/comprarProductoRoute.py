@@ -1,5 +1,5 @@
 # SDK de Mercado Pago
-from flask import Blueprint, jsonify, redirect, request, url_for, session
+from flask import Blueprint, flash, jsonify, redirect, request, url_for, session
 from app.config.sdkMp import sdk
 from app.logs.capturaDeError import logException
 from app.src.token.peticionesProtegidas import getRequest
@@ -19,6 +19,7 @@ def pagos(id: int, cantidad: int):
     '''
     productoPrecio = getRequest(f'/producto/{id}/precio', params={'id': id})
     if not productoPrecio['response']:
+        flash("Hubo un error interno", "info") # UX: Avisar por qué rediriges
         return redirect(url_for('home'))
 
     user = session.get('informationUsuario', [])
@@ -26,12 +27,12 @@ def pagos(id: int, cantidad: int):
     if not user:
 
         session['urlPrevio'] = request.url
+        flash("Debes iniciar sesión para comprar", "warning")
         return redirect(url_for('signIn.iniciarSesion'))
     
     direccionUsuario: dict[str, str] = session.get('direccionUsuario', [])
 
     if not direccionUsuario:
-
         session['urlPrevio'] = request.url
         return redirect(url_for('direccion.direccionUsuario'))
 
@@ -61,8 +62,7 @@ def pagos(id: int, cantidad: int):
     except Exception as e:
         logException(Exception)
         # print(f"Error: {e}")
-    return redirect(preference_url)
-
+    return redirect(preference_url) # type: ignore
 
 
 

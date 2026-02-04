@@ -19,72 +19,115 @@
 
 {% block content %}
 
-<div class="container">
-    <section class="d-flex mt-2">
-        {% if form %}
-        <form method="POST" class="form-floating mb-2 w-100">
-            {{form.hidden_tag()}}
-            
-            <div class="form-floating mb-2">
-                {{form.provincia(class="form-control", placeholder='')}}
-                <label for="inputUsername">{{form.provincia.label}}</label>
-                {% for error in form.provincia.errors %}
-                    <small style="color: red;">{{ error }}</small>
-                {% endfor %}
-            </div>
-    
-            <div class="form-floating mb-2">
-                {{form.localidad(class="form-control", placeholder='')}}
-                <label for="pwdInput">{{form.localidad.label}}</label>
-                {% for error in form.localidad.errors %}
-                    <small style="color: red;">{{ error }}</small>
-                {% endfor %}
-            </div>
-            <div class="form-floating mb-2">
-                {{form.calle(class="form-control", placeholder='')}}
-                <label for="pwdInput">{{form.calle.label}}</label>
-                {% for error in form.calle.errors %}
-                    <small style="color: red;">{{ error }}</small>
-                {% endfor %}
-            </div>
-            <div class="form-floating mb-2">
-                {{form.altura(class="form-control", placeholder='')}}
-                <label for="pwdInput">{{form.altura.label}}</label>
-                {% for error in form.altura.errors %}
-                    <small style="color: red;">{{ error }}</small>
-                {% endfor %}
-            </div>
-            <div class="form-floating mb-2">
-                {{form.departamento(class="form-control", placeholder='')}}
-                <label for="pwdInput">{{form.departamento.label}}</label>
-                {% for error in form.departamento.errors %}
-                    <small style="color: red;">{{ error }}</small>
-                {% endfor %}
-            </div>
-            <div class="form-floating mb-2">
-                {{form.piso(class="form-control", placeholder='')}}
-                <label for="pwdInput">{{form.piso.label}}</label>
-                {% for error in form.piso.errors %}
-                    <small style="color: red;">{{ error }}</small>
-                {% endfor %}
-            </div>
-            <div class="form-floating mb-2">
-                {{form.codigoPostal(class="form-control", placeholder='')}}
-                <label for="pwdInput">{{form.codigoPostal.label}}</label>
-                {% for error in form.codigoPostal.errors %}
-                    <small style="color: red;">{{ error }}</small>
-                {% endfor %}
-            </div>
-    
-            <div>
-                {{ form.submit(class="btn btn-outline-primary w-100") }}
-            </div>
-        </form>
-        
-        {% endif %}
-    </section>
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <section class="card shadow-sm border-0 p-4 p-md-5 bg-white rounded-4">
+                
+                <div class="mb-4">
+                    <h2 class="fw-bold h4"><i class="bi bi-geo-alt text-primary me-2"></i>Datos de Envío</h2>
+                    <p class="text-muted small">Completá la información para recibir tu pedido de KHANTANI.</p>
+                </div>
 
-</div> 
+                {% if form %}
+                <form method="POST" class="needs-validation">
+                    {{form.hidden_tag()}}
+                    
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                {{form.provincia(class="form-control rounded-3", placeholder=' ')}}
+                                <label>{{form.provincia.label}}</label>
+                                {% for error in form.provincia.errors %}
+                                    <div class="text-danger x-small mt-1"><i class="bi bi-exclamation-circle me-1"></i>{{ error }}</div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                {{form.localidad(class="form-control rounded-3", placeholder=' ')}}
+                                <label>{{form.localidad.label}}</label>
+                                {% for error in form.localidad.errors %}
+                                    <div class="text-danger x-small mt-1">{{ error }}</div>
+                                {% endfor %}
+                            </div>
+                        </div>
+
+                        <div class="col-md-8">
+                            <div class="form-floating">
+                                {{form.calle(class="form-control rounded-3", placeholder=' ')}}
+                                <label>{{form.calle.label}}</label>
+                                {% for error in form.calle.errors %}
+                                    <div class="text-danger x-small mt-1">{{ error }}</div>
+                                {% endfor %}
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-floating">
+                                {{form.altura(class="form-control rounded-3", placeholder=' ')}}
+                                <label>{{form.altura.label}}</label>
+                                {% for error in form.altura.errors %}
+                                    <div class="text-danger x-small mt-1">{{ error }}</div>
+                                {% endfor %}
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-floating">
+                                {{form.piso(class="form-control rounded-3", placeholder=' ')}}
+                                <label>{{form.piso.label}}</label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-floating">
+                                {{form.departamento(class="form-control rounded-3", placeholder=' ')}}
+                                <label>{{form.departamento.label}}</label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-floating">
+                                {{form.codigoPostal(class="form-control rounded-3", placeholder=' ')}}
+                                <label>{{form.codigoPostal.label}}</label>
+                                {% for error in form.codigoPostal.errors %}
+                                    <div class="text-danger x-small mt-1">{{ error }}</div>
+                                {% endfor %}
+                            </div>
+                        </div>
+
+                        <div class="col-12 mt-4">
+                            {{ form.submit(class="btn btn-primary btn-lg w-100 py-3 fw-bold rounded-3 shadow-sm") }}
+                            <div class="text-center mt-3">
+                                <a href="{{ url_for('carrito.carritoPage') }}" class="text-decoration-none text-muted small">
+                                    <i class="bi bi-arrow-left me-1"></i> Volver al carrito
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                {% endif %}
+            </section>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Estilos extra para UX */
+    .form-floating > .form-control:focus {
+        border-color: #0d6efd;
+        box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+    }
+    .x-small {
+        font-size: 0.75rem;
+        font-weight: 500;
+    }
+    body {
+        background-color: #f4f7f9; /* Un gris muy suave para que resalte la card blanca */
+    }
+</style>
 {% endblock %}
 
 

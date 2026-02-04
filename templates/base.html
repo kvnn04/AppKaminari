@@ -7,7 +7,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body class="container-fluid">
-{% with messages = get_flashed_messages(with_categories=true) %}
+
+    <header class="mt-3">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                {% block header %} 
+    
+                {% endblock %}
+            </div>
+        </nav>
+    </header>
+    {% with messages = get_flashed_messages(with_categories=true) %}
   {% if messages %}
     <div class="container mt-3">
       {% for category, message in messages %}
@@ -38,15 +48,6 @@
   {% endif %}
 {% endwith %}
 
-    <header class="mt-3">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                {% block header %} 
-    
-                {% endblock %}
-            </div>
-        </nav>
-    </header>
     <main class="container">
         {% block content %}
 

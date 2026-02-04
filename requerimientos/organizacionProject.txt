@@ -6,8 +6,6 @@ Primero:
     -Que funcionalidad va a tener? Hecho -> esta en requerimientos.txt
     -Primero va los requerimientos? -> no, va la idea general del proyecto para despues el tecnico haga los requerimientos en base a la idea general del cliente
 
-
-
 Segundo:
     -por donde empiezo?
         -DB

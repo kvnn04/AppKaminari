@@ -22,17 +22,7 @@ logIn
 {% endblock %}
 
 {% block content %}
-    {% with messages = get_flashed_messages(with_categories=true) %}
-    {% if messages %}
-    <h2>
-        <ul>
-            {% for category, message in messages %}
-                <li class="{{ category }}">{{ message }}</li>
-            {% endfor %}
-        </ul>
-    </h2>
-    {% endif %}
-    {% endwith %}
+    
     <div class="container-fluid min-vh-100 d-flex justify-content-center align-items-center">
         <div class="row w-100 h-100">
             {% if error %}
