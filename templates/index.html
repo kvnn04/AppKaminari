@@ -43,22 +43,62 @@ Inicio - Mi Aplicación
 
 
 {% if allproduct %}
-        <section id="card_productos" class="container">
-            <div class="row mt-3">
-                {% for producto in allproduct %}
-                <div class="col-md-3 d-flex mb-2">
-                    <a href="{{ url_for('producto.productoPage', id=producto['id'])}}" class="card" style="width: 18rem; text-decoration: none; color: inherit;" style="width: 18rem;">
-                        <img src="{{ producto['imagenes'][0] if producto['imagenes'] else 'https://via.placeholder.com/400x400' }}" class="card-img-top" alt="Imagen del producto">
-                        <div class="card-body">
-                            <h4 class="card-text">${{producto['precio']}}</h4>
-                            <p class="card-text">{{ producto['descripcion'] | truncate(90, True, '...') }}</p>
-                            <h4 class="card-text">{{producto['nombre']}}</h4>
-                        </div>
-                    </a>
+<section id="card_productos" class="container py-5">
+    <div class="row mb-4">
+        <div class="col-12 text-center">
+            <h2 class="display-6 fw-bold text-uppercase">Nuestros Productos</h2>
+            <div class="bg-warning mx-auto" style="width: 60px; height: 4px;"></div>
+        </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+        {% for producto in allproduct %}
+        <div class="col d-flex">
+            <a href="{{ url_for('producto.productoPage', id=producto['id'])}}" 
+               class="card h-100 shadow-sm border-0 product-hover text-decoration-none color-inherit">
+                
+                <div class="ratio ratio-1x1 overflow-hidden">
+                    <img src="{{ producto['imagenes'][0] if producto['imagenes'] else 'https://via.placeholder.com/400x400' }}" 
+                         class="card-img p-2 object-fit-cover transition-img" 
+                         alt="{{ producto['nombre'] }}">
                 </div>
-                {% endfor %}
-            </div>
-        </section>
+
+                <div class="card-body d-flex flex-column text-center">
+                    <h5 class="card-title fw-bold text-dark mb-3">{{ producto['nombre'] }}</h5>
+                    
+                    <p class="card-text text-secondary small flex-grow-1">
+                        {{ producto['descripcion'] | truncate(65, True, '...') }}
+                    </p>
+
+                    <div class="mt-auto">
+                        <hr class="opacity-10">
+                        <p class="h5 fw-bold text-dark mb-0">${{ producto['precio'] }}</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<style>
+    .product-hover {
+        transition: all 0.3s ease-in-out;
+    }
+    .product-hover:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.12) !important;
+    }
+    .transition-img {
+        transition: transform 0.5s ease;
+    }
+    .product-hover:hover .transition-img {
+        transform: scale(1.08);
+    }
+    .color-inherit {
+        color: inherit !important;
+    }
+</style>
 {% endif %}
 
 

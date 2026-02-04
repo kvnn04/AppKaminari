@@ -53,85 +53,104 @@
         {% endblock %}
     </main>
 
-    {% block footer %}
-        <footer class="bg-light text-dark pt-5 pb-3 mt-5 border-top" id="footer">
-        <div class="container">
-            <div class="row gy-4">
+{% block footer %}
+<footer class="bg-white text-dark pt-5 pb-4 mt-5 border-top" id="footer">
+    <div class="container">
+        <div class="row gy-5">
             
-            <div class="col-lg-4 col-md-12">
-                <a class="navbar-brand fw-bold fs-4 text-primary" href="#">
-                <span class="p-2 bg-primary text-white rounded-3 me-2">K</span>KHANTANI
+            <div class="col-lg-5 col-md-12">
+                <a class="navbar-brand fw-bold fs-3 text-primary d-flex align-items-center" href="/">
+                    <span class="p-2 bg-primary text-white rounded-3 me-2 shadow-sm" style="width: 45px; height: 45px; display: flex; align-items: center; justify-content: center;">K</span>
+                    KHANTANI
                 </a>
-                <p class="mt-3 text-secondary" style="max-width: 300px;">
-                    Diseños auténticos para quienes visten su propia historia. Calidad premium garantizada.
+                <p class="mt-4 text-secondary lh-lg" style="max-width: 350px;">
+                    Diseños auténticos para quienes visten su propia historia. Calidad premium garantizada con envíos a todo el país.
                 </p>
-            </div>
-
-            <!-- <div class="col-lg-2 col-6 col-md-4">
-                <h6 class="fw-bold mb-3">Compañía</h6>
-                <ul class="list-unstyled">
-                <li class="mb-2"><a href="#" class="text-decoration-none text-secondary custom-link">Sobre nosotros</a></li>
-                <li class="mb-2"><a href="#" class="text-decoration-none text-secondary custom-link">Blog</a></li>
-                </ul>
-            </div> esto puede servir para mas adelante-->
-            <div class="col-lg-2 col-6 col-md-4">
-                <h6 class="fw-bold mb-3">Contacto</h6>
-                <ul class="list-unstyled">
-                <li class="mb-2"><a href="#" class="text-decoration-none text-secondary custom-link">kevin.herrera@khantani.com</a></li>
-                <li class="mb-2"><a href="#" class="text-decoration-none text-secondary custom-link">+54 1151351658</a></li> <!-- poner un tel de empresa supongo -->
-                </ul>
-            </div>
-
-            <div class="col-lg-4 col-md-4">
-                <h6 class="fw-bold mb-3">Suscríbete al boletín</h6>
-                <p class="small text-secondary">Recibe actualizaciones y noticias directamente.</p>
-                <div class="input-group mb-3 shadow-sm">
-                <input type="email" class="form-control border-0" placeholder="tu@email.com" aria-label="Email">
-                <button class="btn btn-primary px-4" type="button">Unirse</button>
+                <div class="d-flex gap-3 mt-4">
+                    <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="bi bi-whatsapp"></i></a>
                 </div>
             </div>
 
+            <div class="col-lg-3 col-sm-6">
+                <h6 class="fw-bold text-uppercase mb-4" style="letter-spacing: 1px;">Contacto</h6>
+                <ul class="list-unstyled">
+                    <li class="mb-3 d-flex align-items-center">
+                        <i class="bi bi-envelope text-primary me-2"></i>
+                        <a href="mailto:kevin.herrera@khantani.com" class="text-decoration-none text-secondary custom-link">kevin.herrera@khantani.com</a>
+                    </li>
+                    <li class="mb-3 d-flex align-items-center">
+                        <i class="bi bi-telephone text-primary me-2"></i>
+                        <a href="tel:+541151351658" class="text-decoration-none text-secondary custom-link">+54 11 5135-1658</a>
+                    </li>
+                    <li class="mb-3 d-flex align-items-center">
+                        <i class="bi bi-geo-alt text-primary me-2"></i>
+                        <span class="text-secondary">Buenos Aires, Argentina</span>
+                    </li>
+                </ul>
             </div>
 
-            <hr class="my-4 text-secondary opacity-25">
-
-            <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center small text-secondary">
-            <p class="mb-2 mb-sm-0">© 2026 Mi Aplicación. Todos los derechos reservados.</p>
-            <div class="d-flex gap-3">
-                <a href="#" class="text-secondary"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="text-secondary"><i class="bi bi-twitter-x"></i></a>
-                <a href="#" class="text-secondary"><i class="bi bi-instagram"></i></a>
+            <div class="col-lg-4 col-sm-6">
+                <h6 class="fw-bold text-uppercase mb-4" style="letter-spacing: 1px;">Newsletter</h6>
+                <p class="small text-secondary mb-4">Recibe lanzamientos exclusivos y beneficios para clientes KHANTANI.</p>
+                <form class="input-group shadow-sm">
+                    <input type="email" class="form-control border-secondary-subtle" placeholder="tu@email.com" style="padding: 12px;">
+                    <button class="btn btn-primary px-4 fw-bold" type="submit">UNIRSE</button>
+                </form>
             </div>
+
+        </div>
+
+        <hr class="my-5 opacity-25">
+
+        <div class="row">
+            <div class="col-md-6 text-center text-md-start">
+                <p class="small text-secondary mb-0">© 2026 <strong>KHANTANI Indumentaria</strong>. Todos los derechos reservados.</p>
+            </div>
+            <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                <img src="https://img.icons8.com/color/48/000000/visa.png" width="30" class="me-2" alt="Visa">
+                <img src="https://img.icons8.com/color/48/000000/mastercard.png" width="30" class="me-2" alt="Mastercard">
             </div>
         </div>
-        </footer>
+    </div>
+</footer>
 
-        <style>
-        .custom-link {
-            transition: all 0.3s ease;
-            display: inline-block;
-        }
-        .custom-link:hover {
-            color: #0d6efd !important; 
-            transform: translateX(5px);
-        }
-        
-        .btn-primary {
-            transition: transform 0.2s ease;
-        }
-        .btn-primary:active {
-            transform: scale(0.95);
-        }
-          /* Un toque de UI extra */
-        .alert {
-            border-radius: 12px; /* Bordes más suaves */
-            font-size: 0.95rem;
-        }
-        .alert i {
-            font-size: 1.2rem;
-        }
-        </style>
-    {% endblock %}
+<style>
+    /* Links con animación */
+    .custom-link {
+        transition: all 0.3s ease;
+    }
+    .custom-link:hover {
+        color: #0d6efd !important;
+        padding-left: 5px;
+    }
+    
+    /* Iconos sociales circulares */
+    .social-icon {
+        width: 38px;
+        height: 38px;
+        background-color: #f8f9fa;
+        color: #6c757d;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+    .social-icon:hover {
+        background-color: #0d6efd;
+        color: white;
+        transform: translateY(-3px);
+    }
+
+    /* Mejora del botón */
+    .btn-primary {
+        border-radius: 0 4px 4px 0;
+    }
+</style>
+{% endblock %}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
