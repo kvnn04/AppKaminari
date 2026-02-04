@@ -78,12 +78,13 @@ key = getenv('SECRET_KEY')
 
     # Session(app=app)
 
+
 @app.route('/')
 def home():
     # acordarme de session
     respuesta = getRequest(endpoint="/producto/AllProducto")
 
-    print(session)
+    # print(session)
     
     if respuesta['response'] is None:
         error = 'Error'

@@ -17,10 +17,7 @@ def pagos(id: int, cantidad: int):
 
     PENDIENTE: tengo que avisarle al usuario, mostrar un tipo de mensaje
     '''
-
-    productoPrecio = getRequest('/producto/precios', params={'id': id})
-
-
+    productoPrecio = getRequest(f'/producto/{id}/precio', params={'id': id})
     if not productoPrecio['response']:
         return redirect(url_for('home'))
 
@@ -63,7 +60,7 @@ def pagos(id: int, cantidad: int):
         preference_url = preference_response["response"]["init_point"]  # URL para redirigir al usuario
     except Exception as e:
         logException(Exception)
-        print(f"Error: {e}")
+        # print(f"Error: {e}")
     return redirect(preference_url)
 
 

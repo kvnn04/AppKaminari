@@ -7,51 +7,131 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body class="container-fluid">
+{% with messages = get_flashed_messages(with_categories=true) %}
+  {% if messages %}
+    <div class="container mt-3">
+      {% for category, message in messages %}
+        {# Mapeamos las categorías de Flask a las de Bootstrap #}
+        {% set alert_class = 'danger' if category == 'error' else category %}
+        
+        <div class="alert alert-{{ alert_class }} alert-dismissible fade show shadow-sm border-0 d-flex align-items-center" role="alert">
+          <div class="me-2">
+            {% if alert_class == 'success' %}
+              <i class="bi bi-check-circle-fill"></i>
+            {% elif alert_class == 'danger' %}
+              <i class="bi bi-exclamation-octagon-fill"></i>
+            {% elif alert_class == 'warning' %}
+              <i class="bi bi-exclamation-triangle-fill"></i>
+            {% else %}
+              <i class="bi bi-info-circle-fill"></i>
+            {% endif %}
+          </div>
+          
+          <div>
+            {{ message }}
+          </div>
+          
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endwith %}
+
     <header class="mt-3">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="{{ url_for('home') }}">Kaminari</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        
-                    </ul>
-                    <div class="d-flex">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                  Cuenta
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="{{ url_for('signUp.register') }}">Register</a></li>
-                                    
-                                    {% if session.get('informationUsuario') %}
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="{{ url_for('logOut.logout') }}">LogOut</a></li>
-                                    {% else %}
-
-                                    <li><a class="dropdown-item" href="{{ url_for('signIn.iniciarSesion') }}">SignIn</a></li>
-                                    {% endif %}
-                                </ul>
-                            </li>
-                            <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{ url_for('carrito.carritoPage')}}">Carrito</a></li>
-                        </ul>
-                    </div>
-                </div>
+                {% block header %} 
+    
+                {% endblock %}
             </div>
         </nav>
     </header>
     <main class="container">
         {% block content %}
-        <!-- Aquí va el contenido específico de cada página -->
+
         {% endblock %}
     </main>
-    <footer>
-        <p>© 2024 Mi Aplicación</p>
-    </footer>
+
+    {% block footer %}
+        <footer class="bg-light text-dark pt-5 pb-3 mt-5 border-top" id="footer">
+        <div class="container">
+            <div class="row gy-4">
+            
+            <div class="col-lg-4 col-md-12">
+                <a class="navbar-brand fw-bold fs-4 text-primary" href="#">
+                <span class="p-2 bg-primary text-white rounded-3 me-2">K</span>KHANTANI
+                </a>
+                <p class="mt-3 text-secondary" style="max-width: 300px;">
+                    Diseños auténticos para quienes visten su propia historia. Calidad premium garantizada.
+                </p>
+            </div>
+
+            <!-- <div class="col-lg-2 col-6 col-md-4">
+                <h6 class="fw-bold mb-3">Compañía</h6>
+                <ul class="list-unstyled">
+                <li class="mb-2"><a href="#" class="text-decoration-none text-secondary custom-link">Sobre nosotros</a></li>
+                <li class="mb-2"><a href="#" class="text-decoration-none text-secondary custom-link">Blog</a></li>
+                </ul>
+            </div> esto puede servir para mas adelante-->
+            <div class="col-lg-2 col-6 col-md-4">
+                <h6 class="fw-bold mb-3">Contacto</h6>
+                <ul class="list-unstyled">
+                <li class="mb-2"><a href="#" class="text-decoration-none text-secondary custom-link">kevin.herrera@khantani.com</a></li>
+                <li class="mb-2"><a href="#" class="text-decoration-none text-secondary custom-link">+54 1151351658</a></li> <!-- poner un tel de empresa supongo -->
+                </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-4">
+                <h6 class="fw-bold mb-3">Suscríbete al boletín</h6>
+                <p class="small text-secondary">Recibe actualizaciones y noticias directamente.</p>
+                <div class="input-group mb-3 shadow-sm">
+                <input type="email" class="form-control border-0" placeholder="tu@email.com" aria-label="Email">
+                <button class="btn btn-primary px-4" type="button">Unirse</button>
+                </div>
+            </div>
+
+            </div>
+
+            <hr class="my-4 text-secondary opacity-25">
+
+            <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center small text-secondary">
+            <p class="mb-2 mb-sm-0">© 2026 Mi Aplicación. Todos los derechos reservados.</p>
+            <div class="d-flex gap-3">
+                <a href="#" class="text-secondary"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-secondary"><i class="bi bi-twitter-x"></i></a>
+                <a href="#" class="text-secondary"><i class="bi bi-instagram"></i></a>
+            </div>
+            </div>
+        </div>
+        </footer>
+
+        <style>
+        .custom-link {
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+        .custom-link:hover {
+            color: #0d6efd !important; 
+            transform: translateX(5px);
+        }
+        
+        .btn-primary {
+            transition: transform 0.2s ease;
+        }
+        .btn-primary:active {
+            transform: scale(0.95);
+        }
+          /* Un toque de UI extra */
+        .alert {
+            border-radius: 12px; /* Bordes más suaves */
+            font-size: 0.95rem;
+        }
+        .alert i {
+            font-size: 1.2rem;
+        }
+        </style>
+    {% endblock %}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>

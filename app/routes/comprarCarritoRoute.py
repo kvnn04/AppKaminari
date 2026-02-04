@@ -1,6 +1,6 @@
 # SDK de Mercado Pago
 from typing import List
-from flask import Blueprint, jsonify, redirect, request, url_for, session
+from flask import Blueprint, flash, jsonify, redirect, request, url_for, session
 from app.config.sdkMp import sdk
 from app.logs.capturaDeError import logException
 from app.src.token.peticionesProtegidas import getRequest
@@ -9,82 +9,87 @@ pagoCarritoRoute = Blueprint('pagoCarrito', import_name=__name__)
 
 @pagoCarritoRoute.route('/', methods=['POST', 'GET'])
 def pagoCarrito():
-
-    '''
-    Tiene que existir:
-        -Usuario
-        -DireccionUsuario
-        -Productos
-    Sino existe esto lo que va a ser es redireccionar a home
-
-    PENDIENTE: tengo que avisarle al usuario, mostrar un tipo de mensaje
-    '''
-
-    productosInCarrito: List[dict]|None = session.get('carrito', [])
-
+    productosInCarrito = session.get('carrito', [])
 
     if not productosInCarrito:
+        flash("Tu carrito está vacío", "info") # UX: Avisar por qué rediriges
         return redirect(url_for('carrito.carritoPage'))
     
-    user: dict[str,str] = session.get('informationUsuario', [])
-
+    user = session.get('informationUsuario')
     if not user:
-        print(request.url)
         session['urlPrevio'] = request.url
+        flash("Debes iniciar sesión para comprar", "warning")
         return redirect(url_for('signIn.iniciarSesion'))
     
-    direccionUsuario: dict[str, str] = session.get('direccionUsuario', [])
-
+    direccionUsuario = session.get('direccionUsuario')
     if not direccionUsuario:
-        print(request.url)
         session['urlPrevio'] = request.url
+        # flash("Por favor, completa tu dirección de envío", "warning")
         return redirect(url_for('direccion.direccionUsuario'))
 
-    
-    # idsProductosInCarrito = [id['id'] for id in productosInCarrito] # mio
-    idsProductosInCarrito: List[int] = [id.get('id', None) for id in productosInCarrito if 'id' in id] # de la IA  
-
-    productoPrecio: dict[str, str] = getRequest('/producto/getPriceByListIdProducto', params={'ids': idsProductosInCarrito})
-    print(productoPrecio)
-    productoPrecio: dict[str, int|str] = productoPrecio['response']
-
-    preciosPorId: dict[str, int|float] = {item['id']: item['precio'] for item in productoPrecio}
-
-    for item in productosInCarrito:
-        if item['id'] in preciosPorId:
-            item['precio'] = preciosPorId[item['id']]
-
+    idsProductosInCarrito = [item.get('id') for item in productosInCarrito if 'id' in item]
+        
     try:
+        response_api = getRequest('/producto/precios', params={'ids': idsProductosInCarrito})
+        productoPrecio = response_api.get('response', [])
+        
+        preciosPorId = {str(item['id']): item['precio'] for item in productoPrecio}
         preference_data = {
             "items": [],
             "back_urls": {
-                "success": url_for('pagoCarrito.paymentSuccessCarrito', _external=True),
-                "failure": url_for('pagoCarrito.paymentFailedCarrito', _external=True),
-                "pending": url_for('pagoCarrito.paymentPendingCarrito', _external=True)
+                "success": str(url_for('pagoCarrito.paymentSuccessCarrito', _external=True)),
+                "failure": str(url_for('pagoCarrito.paymentFailedCarrito', _external=True)),
+                "pending": str(url_for('pagoCarrito.paymentPendingCarrito', _external=True))
             },
             "payer": {
-                "name": user['nombre'],
-                "email": user['email']
+                "name": str(user.get('username')),
+                "email": str(user.get('email')) 
             },
-            # "notification_url": "http://localhost:5000/pago/notificationss"
+            # Es una buena práctica agregar una referencia externa para tu control
+            "external_reference": "PEDIDO_12345", 
         }
 
         for i in productosInCarrito:
+            # Buscamos el precio en la respuesta de la API usando el ID
+            id_actual = str(i.get('id'))
+            precio_valido = preciosPorId.get(id_actual)
+
+            # Si el precio no vino en la API, usamos el de la sesión o fallamos por seguridad
+            if precio_valido is None:
+                precio_valido = i.get('precio', 0)
+
             data = {
-                    "title": i['nombre'],
-                    "quantity": float(i['precio']),
-                    "currency_id": "ARS",  # Moneda
-                    "unit_price": int(i['cantidad'])    # Precio unitario
-                    }
-            preference_data['items'].append(data)
+                "title": str(i.get('nombre', 'Producto KHANTANI')),
+                "quantity": int(i.get('cantidad', 1)),       # Forzamos a entero
+                "currency_id": "ARS",
+                "unit_price": float(precio_valido)           # Forzamos a float
+            }
+            
+            # UX/UI Preventiva: No enviamos ítems con precio 0 o cantidad 0
+            if data['quantity'] > 0 and data['unit_price'] > 0:
+                preference_data['items'].append(data)
         
+        # Crear preferencia
         preference_response = sdk.preference().create(preference_data)
-        preference_url = preference_response["response"]["init_point"]
+        
+        if preference_response["status"] == 201 or preference_response["status"] == 200:
+            if 'direccionUsuario' in session:
+                session.pop('direccionUsuario')
+                session.modified = True
+            return redirect(preference_response["response"]["init_point"])
+        else:
+            # Aquí verás el error real en tu consola
+            print("Detalle de error de MP:", preference_response["response"])
+            raise Exception(f"Mercado Pago falló con status {preference_response['status']}")
 
     except Exception as e:
-        logException(Exception)
-        print(f"Error: {e}")
-    return redirect(preference_url)
+        print(f"Error en el proceso de pago: {e}")
+        flash("No pudimos conectar con la pasarela de pago. Reintenta en unos minutos.", "danger")
+
+        if 'direccionUsuario' in session:
+            session.pop('direccionUsuario')
+            session.modified = True
+        return redirect(url_for('carrito.carritoPage'))
 
 
 @pagoCarritoRoute.route('/paymentSuccess', methods=['GET'])

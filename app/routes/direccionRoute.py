@@ -41,9 +41,6 @@ def direccionUsuario():
         }
 
         session['direccionUsuario'] = dataDireccion
-
-
-        print(dataDireccion)
         
         if 'urlPrevio' in session:
             urlProducto = session.pop('urlPrevio', url_for('home'))

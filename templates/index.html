@@ -4,18 +4,42 @@
 Inicio - Mi Aplicación
 {% endblock %}
 
+{% block header %}
+    <a class="navbar-brand" href="{{ url_for('home') }}">KHANTANI</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
+        </ul>
+        <div class="d-flex">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Cuenta
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="{{ url_for('signUp.register') }}">Register</a></li>
+                        
+                        {% if session.get('informationUsuario') %}
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="{{ url_for('logOut.logout') }}">LogOut</a></li>
+                        {% else %}
+
+                        <li><a class="dropdown-item" href="{{ url_for('signIn.iniciarSesion') }}">SignIn</a></li>
+                        {% endif %}
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#footer">Contacto</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('carrito.carritoPage')}}">Carrito</a></li>
+            </ul>
+        </div>
+    </div>
+{% endblock %}
+
+
 {% block content %}
-{% with messages = get_flashed_messages(with_categories=true) %}
-{% if messages %}
-<h2>
-    <ul>
-        {% for category, message in messages %}
-            <li class="{{ category }}">{{ message }}</li>
-        {% endfor %}
-    </ul>
-</h2>
-{% endif %}
-{% endwith %}
 
 
 {% if allproduct %}
@@ -23,39 +47,20 @@ Inicio - Mi Aplicación
             <div class="row mt-3">
                 {% for producto in allproduct %}
                 <div class="col-md-3 d-flex mb-2">
-                    <a href="{{ url_for('producto.productoPage', id=producto['id'])}}" class="card" style="width: 18rem;">
+                    <a href="{{ url_for('producto.productoPage', id=producto['id'])}}" class="card" style="width: 18rem; text-decoration: none; color: inherit;" style="width: 18rem;">
                         <img src="{{ producto['imagenes'][0] if producto['imagenes'] else 'https://via.placeholder.com/400x400' }}" class="card-img-top" alt="Imagen del producto">
                         <div class="card-body">
                             <h4 class="card-text">${{producto['precio']}}</h4>
-                            <p class="card-text">{{producto['descripcion']}}</p>
-                            <p class="card-text">{{producto['nombre']}}</p>
+                            <p class="card-text">{{ producto['descripcion'] | truncate(90, True, '...') }}</p>
+                            <h4 class="card-text">{{producto['nombre']}}</h4>
                         </div>
                     </a>
                 </div>
                 {% endfor %}
-                <div class="col-md-3 d-flex mb-2">
-                    <a href="#" class="card" style="width: 18rem;">
-                        <img src="hola" class="card-img-top" alt="sin imagen disponible">                        
-                        <div class="card-body">
-                            <h4 class="card-text">sdafasd</h4>
-                            <p class="card-text">dsfsd</p>
-                            <p class="card-text">sdfad</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3 d-flex mb-2">
-                    <a href="#" class="card" style="width: 18rem;">
-                        <img src="https://via.placeholder.com/400x400" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h4 class="card-text text-truncate">aaaaaaaaaaaaaaaaa</h4>
-                            <p class="card-text text-truncate"  >eeeeeeeeeeeeeeee</p>
-                            <p class="card-text text-truncate">ssssssssssssssssssssssssssssssssssssssssssss</p>
-                        </div>
-                    </a>
-                </div>
             </div>
         </section>
 {% endif %}
+
 
 
 {% endblock %}

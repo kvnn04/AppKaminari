@@ -4,8 +4,41 @@
 Producto Page
 {% endblock %}
 
-{% block content %}
+{% block header %}
+    <a class="navbar-brand" href="{{ url_for('home') }}">KHANTANI</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
+        </ul>
+        <div class="d-flex">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Cuenta
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="{{ url_for('signUp.register') }}">Register</a></li>
+                        
+                        {% if session.get('informationUsuario') %}
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="{{ url_for('logOut.logout') }}">LogOut</a></li>
+                        {% else %}
 
+                        <li><a class="dropdown-item" href="{{ url_for('signIn.iniciarSesion') }}">SignIn</a></li>
+                        {% endif %}
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#footer">Contacto</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('carrito.carritoPage')}}">Carrito</a></li>
+            </ul>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
 {% if producto %}
 <div class="container-fluid">
     <div class="row">
@@ -53,14 +86,13 @@ Producto Page
                 <div>
                     <h2>{{producto['nombre']}}</h2>
                 </div>
-                <div><s>${{producto['precio']}}</s></div>
                 <div class="d-flex">
                     <div>
                         <h1>${{producto['precio']}}</h1>
                     </div>
-                    <div>
+                    <!-- <div>
                         <h2>-25%</h2>
-                    </div>
+                    </div> -->
                 </div>
 
                 
