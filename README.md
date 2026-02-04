@@ -30,11 +30,10 @@
 
 ---
 
-## 🛠️ Instalación y Configuración
+## 📖 Documentación Detallada
 
-Sigue estos pasos para correr el proyecto localmente:
+¿Quieres profundizar en la arquitectura del proyecto, el diagrama de base de datos o la lógica de negocio?
 
-1. **Clonar el repositorio:**
-   ```bash
-   git clone [https://github.com/tu-usuario/khantani-ecommerce.git](https://github.com/tu-usuario/khantani-ecommerce.git)
-   cd khantani-ecommerce
+> 💡 **Si querés conocer más:** Accede a nuestra [Documentación Completa del Proyecto](https://docs.google.com/document/d/17nWm1f5oAoxKf2vJK8UgGyVYW585SaMd8P7E5ueLkLE/edit?usp=sharing).
+
+---
