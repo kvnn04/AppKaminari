@@ -1,55 +1,40 @@
-⚡ AppKaminari - Frontend E-commerce
+# ⚡ KHANTANI Indumentaria - E-commerce
 
-Bienvenido al frontend de Kaminari, una plataforma de e-commerce de indumentaria diseñada para ser rápida, segura y totalmente responsiva. Este proyecto nació del desafío de conectar una lógica de negocio compleja con una interfaz de usuario intuitiva.
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
+![Mercado Pago](https://img.shields.io/badge/Mercado%20Pago-009EE3?style=for-the-badge&logo=mercadopago&logoColor=white)
 
-🚀 Características Principales
-Interfaz Dinámica: Carga de productos y vistas de detalle generadas dinámicamente desde la API.
+**KHANTANI** es una plataforma de e-commerce moderna diseñada para ofrecer una experiencia de compra fluida y segura. El proyecto se centra en la comercialización de indumentaria premium con un fuerte enfoque en la usabilidad y la arquitectura escalable.
 
-Filtros Inteligentes: Sistema avanzado de filtrado por talle y color mediante persistencia en URL, optimizando la experiencia de usuario y el manejo de estados.
+---
 
-Checkout Integrado: Pasarela de pagos funcional mediante Mercado Pago, permitiendo compras individuales y de carrito completo.
+## 🚀 Funcionalidades Principales
 
-Seguridad: Protección contra ataques CSRF, manejo de sesiones seguras y validaciones de integridad de precios del lado del servidor.
+### 🛒 Experiencia de Compra (UX/UI)
+- **Diseño Responsivo:** Interfaz adaptativa optimizada para dispositivos móviles, tablets y desktop utilizando **Bootstrap 5.3.3**.
+- **Carrito de Compras:** Sistema dinámico para añadir, eliminar y gestionar cantidades de productos antes de finalizar la compra.
+- **Ficha de Producto Avanzada:** Selección de variantes por **talle y color** con actualización de stock en tiempo real.
 
-Diseño Mobile-First: Registro, login y catálogo 100% responsivos.
+### 🔐 Seguridad y Autenticación
+- **Manejo de Sesiones JWT:** Autenticación robusta basada en JSON Web Tokens para asegurar las rutas y la identidad del usuario.
+- **Registro y Login:** Sistema completo de gestión de usuarios con validación de datos.
 
-🛠️ Stack Tecnológico
-Frontend: HTML5, CSS3, JavaScript (ES6+).
+### 💳 Integración de Pagos
+- **Mercado Pago:** Integración nativa para procesar pagos de forma segura, permitiendo transacciones con tarjetas de crédito, débito y otros medios locales.
 
-Backend de soporte: Flask (Python).
+### 🛠️ Robustez Técnica (Backend)
+- **Registros de Logs:** Sistema de logging detallado para monitorear eventos críticos del servidor, errores de base de datos y flujos de pago.
+- **Arquitectura Handler-Route:** Separación clara de responsabilidades para un mantenimiento sencillo del código.
 
-Pagos: Mercado Pago SDK.
+---
 
-Arquitectura: Implementación de POO en el frontend para organizar la lógica de componentes.
+## 🛠️ Instalación y Configuración
 
-🧠 Desafíos Técnicos y Aprendizajes
-Este proyecto fue una verdadera escuela. Aquí detallo los puntos más críticos que resolví:
+Sigue estos pasos para correr el proyecto localmente:
 
-1. El Dilema de los Filtros (Dropdowns vs Forms)
-Inicialmente, los filtros de talle y color estaban dentro de formularios estándar. Esto generaba una fricción innecesaria (clics extra).
-
-Solución: Migré a un sistema de dropdowns con links dinámicos que inyectan parámetros en la URL. Esto permite capturar el estado del producto de forma inmediata para enviarlo al carrito sin recargas innecesarias.
-
-2. Integración de Mercado Pago "a pulmón"
-Ante la falta de tutoriales actualizados para la integración con Python/Flask, realicé el despliegue basándome puramente en la documentación oficial.
-
-Logro: Implementé el flujo completo de pago, manejo de credenciales de prueba y aseguré la integridad del precio (evitando que se manipule por URL).
-
-3. Optimización de Logs y Debugging
-Tras lidiar con archivos de log de más de 5000 líneas por el reloader de Flask, aprendí a configurar registros específicos para excepciones, permitiendo una trazabilidad real del desarrollo.
-
-📈 Roadmap (Próximas Mejoras)
-[ ] Feedback de Usuarios: Implementar sistema de comentarios y reseñas por producto.
-
-[ ] Logística: Agregar formulario de gestión de direcciones de envío.
-
-[ ] Notificaciones: Integrar envío de emails automáticos post-compra con la información del pedido.
-
-📂 Estructura y Metodología
-El proyecto se gestionó bajo una metodología de GitFlow simplificada:
-
-Rama main: Código estable y funcional.
-
-Rama develop: Desarrollo de nuevas funcionalidades y pruebas constantes.
-
-Nota del autor: Este proyecto fue un reto personal que me llevó a entender que el Frontend es mucho más que "diseño"; es arquitectura, seguridad y persistencia de datos.
+1. **Clonar el repositorio:**
+   ```bash
+   git clone [https://github.com/tu-usuario/khantani-ecommerce.git](https://github.com/tu-usuario/khantani-ecommerce.git)
+   cd khantani-ecommerce
